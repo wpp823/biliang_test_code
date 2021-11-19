@@ -1,0 +1,17 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Loop in template</title>
+    </head>
+    <body>
+    <p>There is a list, it is <b>{{info}}</b></p>
+    <p>I will print the elements of this list in order.</p>
+    {% for element in info %}    <!-- 循环开始，注意写法类似python中的for，但是最后没有冒号 -->
+        <p>{{element}}</p>       <!-- 显示element的内容 -->
+    {% end %}                    <!-- 结束标志 -->
+    <br>
+    {% for index,element in enumerate(info) %}
+        <p>info[{{index}}] is {{element}}
+    {% end %}
+    </body>
+</html>
