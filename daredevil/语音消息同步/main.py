@@ -9,7 +9,7 @@ from daredevil.语音消息同步.baidu_asr_tool import BaiduAsrTool
 
 
 def test(file_upload_url, from_username):
-    file_upload_url = r"https:\\allmark.oss-cn-shenzhen.aliyuncs.com\scarlet\temp\deeppupil\2021-12-07\1638842868_cFsLQDTg_voice_0_2.zip"
+    # file_upload_url = r"https:\\allmark.oss-cn-shenzhen.aliyuncs.com\scarlet\temp\deeppupil\2021-12-07\1638842868_cFsLQDTg_voice_0_2.zip"
     temp_dir = tempfile.gettempdir()
     # 解压文件目录
     file_path = "{}/{}_{}".format(temp_dir, int(arrow.now().datetime.timestamp()), shortuuid.random(8))
@@ -67,29 +67,37 @@ def test(file_upload_url, from_username):
             # fixme 测试
             # '/Users/wyy/Desktop/codes/mytest/daredevil/语音消息同步/silk_client'
             path_current = os.path.abspath(r".") + "/silk_client"
-            commod = "sh  {}/converter.sh {} {}".format(path_current, f_path, "pcm")
+            commod = "sh  {}/converter.sh {} {}".format(path_current, f_path, "mp3")
+
             print("cmd :{}".format(commod))
             # commod = "sh converter.sh {} {}".format(amr_file, "pcm")
             os.system(commod)
             # 转换完成后的pcm文件名
             # 转换后对文件重命名
-            pcm_file_name = os.path.join(root, msgSvrId) + ".pcm"
-            new_file_name = '{}_{}_{}.{}'.format(from_username, msgSvrId, shortuuid.random(8), "pcm")
+            pcm_file_name = os.path.join(root, msgSvrId) + ".mp3"
+            new_file_name = '{}_{}_{}.{}'.format(from_username, msgSvrId, shortuuid.random(8), "mp3")
+            new_pcm_name = new_file_name.replace("mp3","pcm")
             # 文件全路径
-            new_pcm_file_name = '{}/{}'.format(root, new_file_name)
+            new_mp3_file_name = '{}/{}'.format(root, new_file_name)
 
             # new_pcm_file_name = '{}/{}_{}_{}.{}'.format(root,from_username, msgSvrId, shortuuid.random(8), "pcm")
-            os.rename(pcm_file_name, new_pcm_file_name)
-            print("new_pcm_file_name :{}".format(new_pcm_file_name))
+            os.rename(pcm_file_name, new_mp3_file_name)
+            print("new_pcm_file_name :{}".format(new_mp3_file_name))
+            # mp3_to_pcm_cmd = "ffmpeg -y -i {} -acodec pcm_s16le -f s16le -ac 1 -ar 16000 {}/{}".format(
+            #     new_mp3_file_name, root, new_pcm_name)
+            mp3_to_pcm_cmd = "ffmpeg -y -i {} -acodec pcm_s16le -f s16le -ac 1 -ar 16000 {}/{}".format(
+                new_mp3_file_name, root, new_pcm_name)
+            print(mp3_to_pcm_cmd)
+            os.system(mp3_to_pcm_cmd)
             # 将转换完的数据上传到oss
             # upload_url, upload_id = oss_upload_obj.update_path_image(file_path=f_path,
             #                                                          file_name=new_pcm_file_name)
             # old_upload_id = wx_msg_obj.msg_content.upload_id
             # 语音识别
             baidu_client = BaiduAsrTool()
-            voice_text_res = baidu_client.get_voice_text(voice_file_path=root,voice_file_name=new_file_name)
+            voice_text_res = baidu_client.get_voice_text(voice_file_path=root,voice_file_name=new_pcm_name)
             # # 删除源amr文件
-            os.remove(f_path)
+            # os.remove(f_path)
             if voice_text_res:
                 voice_text = ' '.join(voice_text_res)
                 print(voice_text)

@@ -1,3 +1,5 @@
+import os
+
 from aip import AipSpeech
 
 BAIDU_APP_ID = '25157501'
@@ -22,7 +24,7 @@ class BaiduAsrTool:
         file = "{}/{}".format(voice_file_path, voice_file_name)
         with open(file, "rb") as ff:
             voice_file = ff.read()
-        res = self._client.asr(voice_file, 'pcm', 8000, {
+        res = self._client.asr(voice_file, 'pcm', 16000, {
             'dev_pid': 1537,
         })
         if res.get("err_no") == 0:
@@ -32,3 +34,10 @@ class BaiduAsrTool:
             voice_text = ""
 
         return voice_text
+
+
+if __name__=="__main__":
+    tool = BaiduAsrTool()
+    voice_file_path = os.path.abspath(r"./")
+    voice_file_name = "silk_client/source.pcm"
+    tool.get_voice_text(voice_file_path,voice_file_name)
