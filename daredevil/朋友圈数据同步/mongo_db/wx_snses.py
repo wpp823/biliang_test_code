@@ -2,7 +2,7 @@ from typing import List
 import shortuuid
 import arrow
 
-from daredevil.朋友圈数据同步.mongo_db.wx_sns import WxSnsModel
+from daredevil.朋友圈数据同步.mongo_db.wx_sns import WxSnsModel, PraiseObj
 
 
 class WxChatSnsDao():
@@ -46,8 +46,25 @@ class WxChatSnsDao():
         """
         fit = {
             WxSnsModel.from_username.name: from_username,
-            WxSnsModel.snsId.name: str(snsId)
+            WxSnsModel.snsId.name: snsId
         }
 
         res = WxSnsModel.objects(__raw__=fit).only(*fields).first()
+        return res
+
+
+    def update_praise(self, from_username: str, snsId: str, content: List[PraiseObj]):
+        """
+        更新点赞好友列表
+        """
+        fit = {
+            WxSnsModel.from_username.name: from_username,
+            WxSnsModel.snsId.name: str(snsId)
+        }
+        update_info = {
+            "$set": {
+                WxSnsModel.praise.name: content,
+            }
+        }
+        res = WxSnsModel.objects(__raw__=fit).update(__raw__=update_info)
         return res

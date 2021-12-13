@@ -46,7 +46,7 @@ class WxSnsModel(DynamicDocument):
     content = StringField(help_text='内容')
     praise = EmbeddedDocumentListField(PraiseObj, help_text='点赞好友列表')
     comment = EmbeddedDocumentListField(CommentObj, help_text='评论列表')
-    url = EmbeddedDocumentListField(UploadUrlObj,help_text='链接列表')
+    url = ListField(help_text='链接列表')
     contentBuf = StringField(help_text='微信原始数据内容，二进制数据')
     attrBuf = StringField(help_text='微信原始数据评论点赞，二进制数组')
     create_at = StringField(help_text='入库时间')
