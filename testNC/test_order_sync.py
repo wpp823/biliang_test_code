@@ -59,7 +59,7 @@ def get_order_id_list(start_pay_time, end_pay_time, status, page, page_size, sou
 
 def sync_order_data(order_id):
     # 更新数据
-    order_id = 1400163859726766
+    # order_id = 1720907448087645
     sync_url = 'http://127.0.0.1:18851/in/mnc/api/v1/order/sync'
     data = {
         "order_id": order_id
@@ -91,8 +91,8 @@ if __name__ == "__main__":
     end_update_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     print(end_update_time)
     for order_status in STATUS_LIST:
-        start_update_time = "2021-11-01 00:00:00"
-        end_update_time = "2021-12-11 00:00:00"
+        start_update_time = "2021-12-24 10:00:00"
+        end_update_time = "2021-12-25 00:00:00"
         status = order_status
         page = 1
         page_size = "10"
