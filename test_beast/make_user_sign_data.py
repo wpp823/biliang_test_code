@@ -67,11 +67,11 @@ if __name__ == "__main__":
     # log = get_logger(name='tes_beast.log', log_path='./', )
 
     test_user_id = 'u_4rB4zX6Fag'
-    test_coin_type = 'sign_in'
+    test_coin_type = 'timing'
     test_coin = COIN_SIGN_IN_CONFIG
     test_from_at = 'test_python'
-    now = arrow.now(tz='+08:00').shift(days=-33).format('YYYY-MM-DD HH:mm:ss')
-    add_test_coin(user_id=test_user_id, coin_type=test_coin_type, coin=test_coin[2].get("coin"), from_at=test_from_at, now_date=now)
-    # for i in range(31):
-    #     now = arrow.now(tz='+08:00').shift(days=-i).format('YYYY-MM-DD HH:mm:ss')
-    #     add_test_coin(user_id=test_user_id, coin_type=test_coin_type, coin=test_coin[i].get("coin"), from_at=test_from_at, now_date=now)
+    # now = arrow.now(tz='+08:00').shift(days=-33).format('YYYY-MM-DD HH:mm:ss')
+    # add_test_coin(user_id=test_user_id, coin_type=test_coin_type, coin=test_coin[2].get("coin"), from_at=test_from_at, now_date=now)
+    for i in range(6):
+        now = arrow.now(tz='+08:00').format('YYYY-MM-DD HH:mm:ss')
+        add_test_coin(user_id=test_user_id, coin_type=test_coin_type, coin=300, from_at=test_from_at, now_date=now)
