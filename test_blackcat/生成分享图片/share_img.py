@@ -22,11 +22,20 @@ def header_img_author(header_img_url, width, height):
     else:
         x = y = r = int(width / 2)
     mask = np.zeros(img.shape[:2], dtype=np.uint8)
-    mask = cv2.circle(mask, (x, y), r, (255, 0, 255), thickness=-1)
+    mask = cv2.circle(mask, (x, y), r, (255, 255, 255), thickness=-1)
+    mask2 = cv2.circle(mask, (x, y), r, (255, 255, 255), thickness=2)
 
+    cv2.imshow("mask2",mat=mask2)
     image_array = cv2.add(img, np.zeros(np.shape(img), dtype=np.uint8), mask=mask)
+
+    img2 = Image.fromarray(image_array)
+    img2 = cv2.imdecode(img2)
+
+    image_array2 = cv2.add(img2, np.zeros(np.shape(img), dtype=np.uint8), mask=mask2)
+
+
     # 转化颜色
-    image_array = cv2.cvtColor(image_array, cv2.COLOR_BGR2RGB)
+    image_array = cv2.cvtColor(image_array2, cv2.COLOR_BGR2RGB)
 
     return image_array
 
