@@ -5,11 +5,12 @@ from typing import Tuple
 import requests
 from PIL import ImageFont, Image, ImageDraw
 
-from app.conf.setting import DOC_NAME_FONT_TYPE, COVER_IMG_DOC_NAME_FONT_TYPE
-from app.conf.setting_base import ART_FONT_TYPE
-from app.util.logger import get_logger
+# from app.conf.setting import DOC_NAME_FONT_TYPE, COVER_IMG_DOC_NAME_FONT_TYPE
+# from app.conf.setting_base import ART_FONT_TYPE
+# from app.util.logger import get_logger
 
 # 背景配置
+from utils.logger import get_logger
 
 B_WIDTH = 420  # 背景宽度
 B_HEIGHT = 336  # 背景高度
@@ -18,7 +19,7 @@ B_HEIGHT = 336  # 背景高度
 ART_FONT_SIZE = 20  # 文章字体大小
 ART_POSITION_X = 4  # # 文章内容坐标x
 ART_POSITION_Y = 336 - 59  # # 文章内容坐标y
-# ART_FONT_TYPE = '/System/Library/Fonts/PingFang.ttc'  # 字体类型
+ART_FONT_TYPE = '/System/Library/Fonts/PingFang.ttc'  # 字体类型
 ART_LINE = 20  # 行间距
 ART_FONT_COLOR = "#333333"  # 文章字体颜色
 ART_FONT_OBJ = ImageFont.truetype(ART_FONT_TYPE, ART_FONT_SIZE)  # 文章字体对象
@@ -31,7 +32,7 @@ DOC_HEADER_PIC_BOX = (4, 4, 4 + DOC_HEADER_PIC_SIZE[0], 4 + DOC_HEADER_PIC_SIZE[
 # 医生姓名区域配置
 DOC_NAME_POSITION_X = 54  # 医生姓名坐标x
 DOC_NAME_POSITION_Y = 15  # 医生姓名坐标y
-# DOC_NAME_FONT_TYPE = '/System/Library/Fonts/PingFang.ttc'  # 医生姓名字体
+DOC_NAME_FONT_TYPE = '/System/Library/Fonts/PingFang.ttc'  # 医生姓名字体
 DOC_NAME_FONT_COLOR = "#333333"  # 医生姓名字体颜色
 DOC_NAME_FONT_SIZE = 17  # 医生姓名字体大小
 DOC_NAME_FONT_OBJ = ImageFont.truetype(DOC_NAME_FONT_TYPE, DOC_NAME_FONT_SIZE)
@@ -41,7 +42,7 @@ DOC_NAME_FONT_OBJ = ImageFont.truetype(DOC_NAME_FONT_TYPE, DOC_NAME_FONT_SIZE)
 COVER_IMG_DOC_POSITION_X = 53
 COVER_IMG_DOC_POSITION_Y = 310
 
-# COVER_IMG_DOC_NAME_FONT_TYPE = '/System/Library/Fonts/PingFang.ttc'
+COVER_IMG_DOC_NAME_FONT_TYPE = '/System/Library/Fonts/PingFang.ttc'
 COVER_IMG_DOC_NAME_FONT_COLOR = "#333333"
 COVER_IMG_DOC_NAME_FONT_SIZE = 17  # 医生姓名字体大小
 COVER_IMG_DOC_NAME_FONT_OBJ = ImageFont.truetype(COVER_IMG_DOC_NAME_FONT_TYPE, COVER_IMG_DOC_NAME_FONT_SIZE)
@@ -235,16 +236,18 @@ class BuildShareImgTools():
 
 
 if __name__ == "__main__":
-    log= get_logger("blackcat_build_share_img.log")
-    build_tool = BuildShareImgTools(log=log)
+    # log = get_logger("blackcat_build_share_img.log")
+    build_tool = BuildShareImgTools(log=None)
     doc_avatar_url_s = "https://allmark.oss-cn-shenzhen.aliyuncs.com/xlkk/%E7%94%B72-100.jpg"
     doc_name_s = "张大仙"
     article_text_s = "擅长 : 银屑病、皮肤红斑狼疮、皮肌炎、大疱性疾病、血管炎、湿疹等免疫及过敏性疾病；面部美容性疾病；性传播疾病；皮肤病理。中国医疗保健国际交流促进会皮肤科分会主任委员、中国医师协会皮肤科分会副会长、中华医学会皮肤科分会病理学组副组长、北京医学会皮肤科分会副主任委员、北京医师协会皮肤科分会副会长、北京医师协会医疗美容专业副会长、中国医师协会住院医师规范化培训皮肤科专科委员会副主任委员等促进会皮肤科分会主任委员、中国医师协会皮肤科分会副会长、中华医学会皮肤科分会病理学组副组长、北京医学会皮肤科分会副主任委员、北京医师协会皮肤科分会副会长、北京医师协会医疗美容专业副会长、中国医师协会住院医师规范化培训皮肤科专科委员会副主任委员等"
     cover_url_s = "https://allmark.oss-cn-shenzhen.aliyuncs.com/scarlet/limit/xlkk/2021-12-30/1640852220_AwVWGaPr_1.png"
     # 文字内容分享图片
-    # build_tool.build_content_img(doc_avatar_url=doc_avatar_url_s, doc_name=doc_name_s, article_text=article_text_s)
+    img = build_tool.build_content_img(doc_avatar_url=doc_avatar_url_s, doc_name=doc_name_s, article_text=article_text_s)
     # 封面图内容分享图片
 
-    img = build_tool.build_cover_content_img(doc_avatar_url=doc_avatar_url_s, doc_name=doc_name_s, cover_url=cover_url_s)
+    # img = build_tool.build_cover_content_img(doc_avatar_url=doc_avatar_url_s, doc_name=doc_name_s, cover_url=cover_url_s)
+
+
     img_obj = Image.open(BytesIO(img))
     img_obj.show("ddd")
