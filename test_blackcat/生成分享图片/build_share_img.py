@@ -16,7 +16,7 @@ B_WIDTH = 420  # 背景宽度
 B_HEIGHT = 336  # 背景高度
 
 # 文章区域配置
-ART_FONT_SIZE = 20  # 文章字体大小
+ART_FONT_SIZE = 21  # 文章字体大小
 ART_POSITION_X = 4  # # 文章内容坐标x
 ART_POSITION_Y = 336 - 59  # # 文章内容坐标y
 ART_FONT_TYPE = '/System/Library/Fonts/PingFang.ttc'  # 字体类型
@@ -167,18 +167,20 @@ class BuildShareImgTools():
 
             # 添加文字内容
             # 处理文章过长，多余内容省略
-            article_position_list = textwrap.wrap(article_text,ART_LINE_WORDS)
-            # for i in range(0, len(article_text), ART_LINE_WORDS):
-            #     row_num = int((i / ART_FONT_SIZE)) + 1
-            #     if row_num >= ART_ROWS:  # 超出显示时，多余的内容显示省略符合
-            #         article_position_list.append(article_text[i:i + ART_LINE_WORDS - 3] + "  ......")
-            #         break
-            #     article_position_list.append(article_text[i:i + ART_LINE_WORDS])
+
+            article_position_list = self.get_duanluo(article_text).split('\n')
+            if len(article_position_list) >= ART_ROWS:
+                article_position_list = article_position_list[:ART_ROWS]
+                article_position_list[-1] = article_position_list[-1][:-3]+ " ......"
 
             # 将文字画上画布
             for num, text_content in enumerate(article_position_list):
+                w, h = background_draw.textsize(text_content, font=ART_FONT_OBJ)
                 y = ART_POSITION_Y - num * ART_LINE
-                background_draw.text((ART_POSITION_X, B_HEIGHT - y), text_content, ART_FONT_COLOR, font=ART_FONT_OBJ, spacing=0, align='center')
+                if num == len(article_position_list)-1:
+                    background_draw.text((ART_POSITION_X, B_HEIGHT - y), text_content, ART_FONT_COLOR, font=ART_FONT_OBJ, spacing=0)
+                else:
+                    background_draw.text(((B_WIDTH - w) / 2, B_HEIGHT - y), text_content, ART_FONT_COLOR, font=ART_FONT_OBJ, spacing=0)
 
             # background_img.show("完成图片")
             bytes_io = BytesIO()
@@ -190,6 +192,33 @@ class BuildShareImgTools():
                                .format(article_text, doc_name, doc_avatar_url))
 
         return img_content
+
+    def get_duanluo(self, text):
+        """
+        获取段落排版
+
+        :param text:
+        :return:
+        """
+        txt = Image.new('RGBA', (100, 100), (255, 255, 255, 0))
+        txt_draw = ImageDraw.Draw(txt)
+        # 所有文字的段落
+        duanluo = ""
+        # 宽度总和
+        sum_width = 0
+        # 几行
+        line_count = 1
+        for char in text:
+            width, height = txt_draw.textsize(char, ART_FONT_OBJ)
+            sum_width += width
+            if sum_width > B_WIDTH-20:  # 超过预设宽度就修改段落 以及当前行数
+                line_count += 1
+                sum_width = 0
+                duanluo += '\n'
+            duanluo += char
+            if line_count > int(B_HEIGHT/25):
+                break
+        return duanluo
 
     def build_cover_content_img(self, doc_avatar_url, doc_name, cover_url):
         """
@@ -240,14 +269,13 @@ if __name__ == "__main__":
     build_tool = BuildShareImgTools(log=None)
     doc_avatar_url_s = "https://allmark.oss-cn-shenzhen.aliyuncs.com/xlkk/%E7%94%B72-100.jpg"
     doc_name_s = "张大仙"
-    article_text_s = "擅长 : 银屑病、皮肤红斑狼疮、皮肌炎、大疱性疾病、血管炎、湿疹等免疫及过敏性疾病；面部美容性疾病；性传播疾病；皮肤病理。中国医疗保健国际交流促进会皮肤科分会主任委员、中国医师协会皮肤科分会副会长、中华医学会皮肤科分会病理学组副组长、北京医学会皮肤科分会副主任委员、北京医师协会皮肤科分会副会长、北京医师协会医疗美容专业副会长、中国医师协会住院医师规范化培训皮肤科专科委员会副主任委员等促进会皮肤科分会主任委员、中国医师协会皮肤科分会副会长、中华医学会皮肤科分会病理学组副组长、北京医学会皮肤科分会副主任委员、北京医师协会皮肤科分会副会长、北京医师协会医疗美容专业副会长、中国医师协会住院医师规范化培训皮肤科专科委员会副主任委员等"
+    article_text_s = "血脂包括甘油三酯、胆固醇、低密度脂蛋白与高密度脂蛋白。血脂6.8mmol/L较为笼统，对于甘油三酯在1.7mmol/L以上，称之为高血脂症，血脂6.8mmol/L则为较高数值，存在诱发胰腺炎的危险。胆固醇的上限在5.0mmol/L，6.8mmol/L则属于轻度升高。 "
     cover_url_s = "https://allmark.oss-cn-shenzhen.aliyuncs.com/scarlet/limit/xlkk/2021-12-30/1640852220_AwVWGaPr_1.png"
     # 文字内容分享图片
     img = build_tool.build_content_img(doc_avatar_url=doc_avatar_url_s, doc_name=doc_name_s, article_text=article_text_s)
     # 封面图内容分享图片
 
     # img = build_tool.build_cover_content_img(doc_avatar_url=doc_avatar_url_s, doc_name=doc_name_s, cover_url=cover_url_s)
-
 
     img_obj = Image.open(BytesIO(img))
     img_obj.show("ddd")
