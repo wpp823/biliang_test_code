@@ -67,6 +67,6 @@ class Tools:
 if __name__ == "__main__":
     tools = Tools()
     # tools.expect_data_to_files()
-    data =  tools.get_cates()
+    data = tools.get_cates()
 
     print(data)
