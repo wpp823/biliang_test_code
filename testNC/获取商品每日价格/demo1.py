@@ -1,11 +1,10 @@
-from selenium import webdriver
 import logging
 import time
-from selenium.common.exceptions import NoSuchElementException, WebDriverException
-from retrying import retry
-from selenium.webdriver import ActionChains
 
 import pyautogui
+from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException, WebDriverException
+from selenium.webdriver import ActionChains, ChromeOptions
 
 pyautogui.PAUSE = 0.5
 
@@ -20,14 +19,21 @@ logger = logging.getLogger(__name__)
 
 class taobao():
     def __init__(self):
-        self.browser = webdriver.Chrome("./chromedriver")
+
+        option = ChromeOptions()
+        # 此步骤很重要，设置为开发者模式，防止被各大网站识别出来使用了Selenium
+        option.add_experimental_option('excludeSwitches', ['enable-automation'])
+        option.add_argument("--disable-blink-features")
+        option.add_argument("--disable-blink-features=AutomationControlled")
+
+        self.domain = 'https://tmall.com/'
+        self.browser = webdriver.Chrome("./chromedriver", options=option)
         # 最大化窗口
         self.browser.maximize_window()
         self.browser.implicitly_wait(5)
-        self.domain = 'https://tmall.com/'
         self.action_chains = ActionChains(self.browser)
 
-    def get_product_url(self,url):
+    def get_product_url(self, url):
         username = "化羽而蒙"
         password = "w836289789"
         self.browser.get(url)
@@ -40,33 +46,33 @@ class taobao():
         try:
             # 出现验证码，滑动验证
             slider = self.browser.find_element_by_class_name("nc-lang-cnt")
-            if slider.is_displayed(): #<span class="nc-lang-cnt" data-nc-lang="_startTEXT">请按住滑块，拖动到最右边</span>
-                print("wwwwwww")
-                # 拖拽滑块
-            self.action_chains.drag_and_drop_by_offset(slider, 258, 0).perform()
-            time.sleep(0.5)
-            # 释放滑块，相当于点击拖拽之后的释放鼠标
-            self.action_chains.release().perform()
+            if slider.is_displayed():  # <span class="nc-lang-cnt" data-nc-lang="_startTEXT">请按住滑块，拖动到最右边</span>
+                    # 拖拽滑块
+                self.action_chains.drag_and_drop_by_offset(slider, 258, 0).perform()
+                time.sleep(0.5)
+                # 释放滑块，相当于点击拖拽之后的释放鼠标
+                self.action_chains.release().perform()
         except (NoSuchElementException, WebDriverException):
             logger.info('未出现登录验证码')
 
         # 会xpath可以简化点击登陆按钮，但都无法登录，需要使用 pyautogui 完成点击事件
         self.browser.find_element_by_class_name('password-login').click()
         self.browser.find_element_by_xpath('//*[@id="login-form"]/div[4]/button').click()
-            # 图片地址
-        coords = pyautogui.locateOnScreen('./1.png')
-        x, y = pyautogui.center(coords)
-        pyautogui.leftClick(x, y)
-
-        nickname = self.get_nickname()
-        if nickname:
-            logger.info('登录成功，呢称为:' + nickname)
-
-        logger.debug('登录出错，5s后继续登录')
+        # 图片地址
+        # coords = pyautogui.locateOnScreen('./1.png')
+        # x, y = pyautogui.center(coords)
+        # pyautogui.leftClick(x, y)
+        #
+        # nickname = self.get_nickname()
+        # if nickname:
+        #     logger.info('登录成功，呢称为:' + nickname)
+        #
+        # logger.debug('登录出错，5s后继续登录')
         time.sleep(5)
+        # 获取价格
+        product_price_ele =  self.browser.find_element_by_xpath('//*[@id="J_PromoPrice"]/dd/div/span')
+        print(product_price_ele.text)
 
-
-        time.sleep(1)
 
 
     def login(self, username, password):
