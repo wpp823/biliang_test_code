@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <img src="this.picSrc" width="400" height="300"><br/>
+        <input type="file" ref ="inputer"><br/>
+        <input type="button" value="上传" @click = "uploadFile()"><br>
+    </div>
+    <script>
+        Vue.prototype.$axios = axios;
+        var vm = new Vue({
+            el:"#app",
+            data:{
+                picSrc:'',
+                filem:'',
+            },
+            methods:{
+              uploadFile(){
+                let inputDOM = this.$refs.inputer;
+                this.filem  = inputDOM.files[0];
+                var formData = new FormData();
+                formData.append("file",this.filem);
+                this.$axios({
+                    method:"post",
+                    url:"",
+                    data:formData,
+                    headers:{'Content-Type':undefined}
+                })
+                    .then(successResponse=>{
+                        this.picSrc = successResponse.data.message;
+                    })
+              }
+            },
+        });
+
+    </script>
+</body>
+</html>
