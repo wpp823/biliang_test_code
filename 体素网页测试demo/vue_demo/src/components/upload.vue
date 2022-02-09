@@ -2,9 +2,7 @@
   <el-upload
     ref="imgUpload"
     :on-success="imgSuccess"
-    :on-remove="imgRemove"
     accept="image/gif,image/jpeg,image/jpg,image/png,image/svg"
-    :headers="headerMsg"
     :action="upLoadUrl"
     multiple>
     <el-button type="primary">上传图片</el-button>
