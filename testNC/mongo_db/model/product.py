@@ -215,7 +215,7 @@ class ProductModel(DynamicDocument):
     function = EmbeddedDocumentListField(CategoryObj, help_text="功效")
     disease = EmbeddedDocumentListField(CategoryObj, help_text="病症")
 
-    brand = EmbeddedDocumentField(CategoryObj, help_text="品牌名称")
+    brand = EmbeddedDocumentListField(CategoryObj, help_text="品牌名称")
     sales_volume = IntField(help_text="销量")
     is_test_product = BooleanField(default=False, help_text="是否测试商品")
 

@@ -782,6 +782,25 @@ class ProductDao():
 
         return res
 
+    def update_brand_type(self,product_id,new_data):
+        """
+        更新品牌类型
+        :param product_id:
+        :param new_data:
+        :return:
+        """
+        fit = {
+            f"{ProductModel.product_id.name}": product_id
+        }
+        update_info = {
+            "$set": {
+                f"{ProductModel.brand.name}": new_data
+            }
+        }
+        res = ProductModel.objects(__raw__=fit).update(__raw__=update_info)
+
+        return res
+
 class ProductActionModelDao:
     def __init__(self, log):
         self.log = log
@@ -879,4 +898,7 @@ class ProductActionModelDao:
                 "[get_referrer_doctor_id][no_referrer][user_id:{}, product_id:{}".format(user_id, product_id))
 
         return doc_id
+
+
+
 
