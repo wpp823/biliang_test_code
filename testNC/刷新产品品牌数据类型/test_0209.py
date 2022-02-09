@@ -28,6 +28,7 @@ if __name__ == "__main__":
 
     for product in data:
         brand = product.get("brand")
+        log.info(brand)
         product_id = product.get("product_id")
         if type(brand) is dict:
             log.info(brand)
