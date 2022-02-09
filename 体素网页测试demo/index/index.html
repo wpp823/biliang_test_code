@@ -1,44 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+
     <title>Title</title>
 </head>
 <body>
-    <div id="app">
-        <img src="this.picSrc" width="400" height="300"><br/>
-        <input type="file" ref ="inputer"><br/>
-        <input type="button" value="上传" @click = "uploadFile()"><br>
-    </div>
-    <script>
-        Vue.prototype.$axios = axios;
-        var vm = new Vue({
-            el:"#app",
-            data:{
-                picSrc:'',
-                filem:'',
-            },
-            methods:{
-              uploadFile(){
-                let inputDOM = this.$refs.inputer;
-                this.filem  = inputDOM.files[0];
-                var formData = new FormData();
-                formData.append("file",this.filem);
-                this.$axios({
-                    method:"post",
-                    url:"",
-                    data:formData,
-                    headers:{'Content-Type':undefined}
-                })
-                    .then(successResponse=>{
-                        this.picSrc = successResponse.data.message;
-                    })
-              }
-            },
-        });
+<div id="app">
+    <form id="form1" enctype="multipart/form-data">
+        <input type="file" id="file" name="imgfile" onchange="uploadpic()">
+        <input type="button" name="dianziQianming" id="dianziqianmingPath"/>
+    </form>
+    <!--    &lt;!&ndash;    <img src="this.picSrc" width="400" height="300"/><br/>&ndash;&gt;-->
+    <!--    <input type="file" ref="inputer"/><br/>-->
+    <!--    <input type="button" value="上传" @click="uploadpic()"/><br/>-->
+    <!--    <div style="background: darkgray ;width:400px ;height:300px">-->
+    <!--        <p>{{ message }}</p>-->
+    <!--    </div>-->
 
-    </script>
+</div>
+<script>
+    function uploadpic() {
+        var formData = new FormData();
+        var file = document.getElementById('file').files[0];
+        // var id_token = $('#id_token').val();
+        formData.append("file", file);
+        // formData.append("id_token", id_token);
+        $.ajax({
+            url: "${path }/user/uploadESignatureImg",
+            type: "post",
+            data: formData,
+            dataType: "json",
+            // cache: false,//上传文件无需缓存
+            processData: false,//用于对data参数进行序列化处理 这里必须false
+            contentType: false, //必须*/
+            success: function (data) {
+                // console.log(data);
+                $("#dianziqianmingImg").attr('src', '${path }' + data.msg).removeAttr('style').attr('style', 'width: 100px;height: 100px');
+                $("#dianziqianmingPath").val(data.msg)
+            }
+        });
+    }
+</script>
+
+
+<!--<script>-->
+<!--    Vue.prototype.$axios = axios;-->
+<!--    var vm = new Vue({-->
+<!--        el: "#app",-->
+<!--        data: {-->
+<!--            picSrc: '',-->
+<!--            filem: '',-->
+<!--            message: '返回内容',-->
+<!--        },-->
+<!--        methods: {-->
+<!--            uploadFile() {-->
+<!--                let inputDOM = this.$refs.inputer;-->
+<!--                this.filem = inputDOM.files[0];-->
+<!--                var formData = new FormData();-->
+<!--                formData.append("file", this.filem);-->
+
+<!--                this.$axios({-->
+<!--                    method: "post",-->
+<!--                    url: "http://localhost:8888/test",-->
+<!--                    data: formData,-->
+<!--                    headers: {'Content-Type': undefined, 'Access-Control-Allow-Origin': '*'}-->
+<!--                })-->
+<!--                    .then(successResponse => {-->
+<!--                        this.message = successResponse.data.message;-->
+<!--                    })-->
+<!--            }-->
+<!--        },-->
+<!--    });-->
+
+<!--</script>-->
 </body>
 </html>
