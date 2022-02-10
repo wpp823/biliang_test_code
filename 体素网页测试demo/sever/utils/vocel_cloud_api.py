@@ -1,3 +1,4 @@
+import json
 from typing import Dict
 
 import requests
@@ -13,7 +14,7 @@ class VocelCloudApi():
         self.access_key = access_key
         self.secret_key = secret_key
         self._log = log
-        self._host = "https://skin-api.voxelcloud.net.cn/api/"
+        self._host = "https://skin-api.voxelcloud.net.cn/api"
 
     def _post(self, url, data: Dict):
         """
@@ -26,8 +27,10 @@ class VocelCloudApi():
 
         target_url = f'{self._host}{url}'
         res = {}
+        js_data = json.dumps(data)
         try:
-            res = requests.post(url=target_url, data=data)
+            res = requests.post(url=target_url, data=js_data)
+            res = eval(res.content.decode())
             self._log.info("[VocelCloudApi.post][target_url:{}][params:{}][res:{}]".format(target_url, data, res))
         except:
             self._log.exception("[VocelCloudApi.post_fail][target_url:{}][params:{}]".format(target_url, data))

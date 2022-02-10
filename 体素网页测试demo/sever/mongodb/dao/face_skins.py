@@ -49,7 +49,7 @@ class FaceSkinsDao():
                     problem_score=face_skin_data.hyperpigmentations.get("problem_score", None),
                     dx_list=[InflammationDxObj(**item) for item in face_skin_data.hyperpigmentations.get("dx_list", [])]
                 ),
-                problem_bubbles=ProblemBubblesObj(**face_skin_data.problem_bubbles),
+                problem_bubbles=[ProblemBubblesObj(**item) for item in face_skin_data.problem_bubbles],
                 acne=AcneObj(
                     problem_score=face_skin_data.acne.get("problem_score"),
                     tips=face_skin_data.acne.get("problem_score"),
@@ -70,13 +70,10 @@ class FaceSkinsDao():
 
         return res
 
-    def update(self,face_skin_data: FaceSkinItem):
+    def update(self, face_skin_data: FaceSkinItem):
         """
         更新测肤结果
 
         @param face_skin_data:
         @return:
         """
-
-
-

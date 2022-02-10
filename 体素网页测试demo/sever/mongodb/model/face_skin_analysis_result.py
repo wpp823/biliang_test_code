@@ -21,6 +21,7 @@ class ClassificationObj(DynamicEmbeddedDocument):
 
 
 class FaceBoxObj(DynamicEmbeddedDocument):
+    meta = {'strict': False}
     """
     脸部区域位置
     """
@@ -31,6 +32,7 @@ class FaceBoxObj(DynamicEmbeddedDocument):
 
 
 class CategoryObj(DynamicEmbeddedDocument):
+    meta = {'strict': False}
     """
     mid（中性）
     dry（干性）
@@ -43,6 +45,7 @@ class CategoryObj(DynamicEmbeddedDocument):
 
 
 class SkinTypeObj(DynamicEmbeddedDocument):
+    meta = {'strict': False}
     """
     面部区域
     forehead（额头）
@@ -63,6 +66,7 @@ class SkinTypeObj(DynamicEmbeddedDocument):
 
 
 class ColorObj(DynamicEmbeddedDocument):
+    meta = {'strict': False}
     """
     肤色结果
 
@@ -79,35 +83,40 @@ class ColorObj(DynamicEmbeddedDocument):
 
 
 class SensitiveObj(DynamicEmbeddedDocument):
+    meta = {'strict': False}
     """
     sensitive（敏感）
     tolerance（耐受）
     normal（中性）
     """
 
-    score = StringField(help_text="分数")
+    score = IntField(help_text="分数")
     type = StringField(help_text="类型")
     tips = StringField(help_text="提示")
     wiki = StringField(help_text="通用描述")
 
 
 class ProblemBubblesObj(DynamicEmbeddedDocument):
+    meta = {'strict': False,"allow_inheritance":True}
     name = StringField(help_text="气泡名称")
     score = IntField(help_text="气泡分数，越低越好 ")
 
 
 class ProblemObj(DynamicEmbeddedDocument):
+    meta = {'strict': False,"allow_inheritance":True}
     problem_score = IntField(help_test="问题评分,越低越好")
     tips = StringField(help_text="提示")
     wiki = StringField(help_text="通用描述")
 
 
 class WrinkleCarteObj(DynamicEmbeddedDocument):
+    meta = {'strict': False}
     cls = StringField(help_text="皱纹区域")
     problem_score = IntField(help_text="问题评分，越低越好 ")
 
 
 class WrinkleObj(DynamicEmbeddedDocument):
+    meta = {'strict': False,"allow_inheritance":True}
     problem_score = IntField(help_test="问题评分,越低越好")
     tips = StringField(help_text="提示")
     wiki = StringField(help_text="通用描述")
@@ -116,6 +125,7 @@ class WrinkleObj(DynamicEmbeddedDocument):
 
 
 class RoughnessObj(ProblemObj):
+    meta = {'strict': False}
     score = IntField(help_test="整体问题得分,越低越好")
     # problem_score = IntField(help_test="问题评分,越低越好")
     # tips = StringField(help_text="提示")
@@ -123,6 +133,7 @@ class RoughnessObj(ProblemObj):
 
 
 class InflammationDxObj(DynamicEmbeddedDocument):
+    meta = {'strict': False}
     problem_score = IntField(help_test="问题评分,越低越好")
     cn_dx = StringField(help_text="名称")
     formal_dx = StringField(help_text="医生提供的dx名称，选择oen显示 ")
@@ -132,15 +143,17 @@ class InflammationDxObj(DynamicEmbeddedDocument):
 
 
 class InflammationObj(DynamicEmbeddedDocument):
+    meta = {'strict': False}
     problem_score = IntField(help_test="问题评分,越低越好")
     dx_list = EmbeddedDocumentListField(InflammationDxObj, help_text="按问题分数降序排列的面部状况列表")
 
 
 class AcneObj(WrinkleObj):
+    meta = {'strict': False}
     stage = IntField(help_test="阶段")  # 0: 轻度, 1: 中度, 2: 重度
 
 
-class SkinTestDataResult(DynamicEmbeddedDocument):
+class SkinTestDataResult(DynamicDocument):
     meta = {
         'strict': False,
         "collection": "skin_test_result",
@@ -171,7 +184,7 @@ class SkinTestDataResult(DynamicEmbeddedDocument):
     blackhead = EmbeddedDocumentField(ProblemObj, help_text="黑头")
     roughness = EmbeddedDocumentField(RoughnessObj, help_text="粗糙度")
     hyperpigmentations = EmbeddedDocumentField(InflammationObj, help_text="色素沉着过度")
-    problem_bubbles = EmbeddedDocumentField(ProblemBubblesObj, help_text="肤质问题气泡")
+    problem_bubbles = EmbeddedDocumentListField(ProblemBubblesObj, help_text="肤质问题气泡")
     acne = EmbeddedDocumentField(AcneObj, help_text="粉刺")
     inflammations = EmbeddedDocumentField(InflammationObj, help_text="面部炎症")
 

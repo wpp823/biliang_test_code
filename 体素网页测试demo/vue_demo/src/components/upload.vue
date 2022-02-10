@@ -16,7 +16,7 @@ export default {
   data() {
     return {
       // headerMsg: {Token: 'XXXXXX'},
-      upLoadUrl: 'http://127.0.0.1:8888/test'
+      upLoadUrl: 'http://localhost:8888/test'
     }
   },
   methods: {

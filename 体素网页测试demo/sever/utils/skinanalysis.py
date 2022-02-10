@@ -90,7 +90,7 @@ class SkinAnalysis(VocelCloudApi):
         """
 
         url = "/derms/v1/skinanalysis"
-        media_type = "Image_URL"
+        media_type = "URL"
         data = {
             "access_key": self.access_key,
             "secret_key": self.secret_key,
@@ -120,7 +120,7 @@ class SkinAnalysis(VocelCloudApi):
         @return:
         """
         url = "/derms/v1/skinanalysis"
-        media_type = "Image_Base64_String"
+        media_type = "BASE64"
 
         data = {
             "access_key": self.access_key,
@@ -132,13 +132,14 @@ class SkinAnalysis(VocelCloudApi):
         try:
             response = self._post(url=url, data=data)
             if response:
-                code = response.get("code")
+                code = response.get("code",None)
+                msg = response.get("msg",None)
                 if code == 200:
                     self._log.info("[SkinAnalysis.post_base64_img_ok][img_base64:{},data:{}][response:{}]".format(img_base64, data, response))
                     res_data = response.get("data")
-                    ret_data = FaceSkinItem(*res_data)
+                    ret_data = FaceSkinItem(**res_data)
                 else:
-                    self._log.error("[SkinAnalysis.post_base64_img_ok][img_base64:{},data:{}][response:{}]".format(img_base64, data, response))
+                    self._log.error("[SkinAnalysis.post_base64_img_ok][img_base64:{},data:{}][response:{}]".format(img_base64, data, msg))
         except:
             self._log.exception("[SkinAnalysis.post_base64_img_ok][img_base64:{},data:{}]".format(img_base64, data))
         return ret_data

@@ -14,42 +14,15 @@
 </head>
 <body>
 <div id="app">
-    <!--    <form id="form1" enctype="multipart/form-data">-->
-    <!--        <input type="file" id="file" name="imgfile" onchange="uploadpic()">-->
-    <!--        <input type="button" name="dianziQianming" id="dianziqianmingPath"/>-->
-    <!--    </form>-->
-    <img src="this.picSrc" width="400" height="300"/><br/>
+
+    <!--    <img src="this.picSrc" width="400" height="300"/><br/>-->
     <input type="file" ref="inputer"/><br/>
     <input type="button" value="上传" @click="uploadpic()"/><br/>
     <div style="background: darkgray ;width:400px ;height:300px">
-        <p>{{ message }}</p>
+        <p>{{message}}</p>
     </div>
 
 </div>
-<!--<script>-->
-<!--    function uploadpic() {-->
-<!--        var formData = new FormData();-->
-<!--        var file = document.getElementById('file').files[0];-->
-<!--        // var id_token = $('#id_token').val();-->
-<!--        formData.append("file", file);-->
-<!--        // formData.append("id_token", id_token);-->
-<!--        $.ajax({-->
-<!--            url: "${path }/user/uploadESignatureImg",-->
-<!--            type: "post",-->
-<!--            data: formData,-->
-<!--            dataType: "json",-->
-<!--            // cache: false,//上传文件无需缓存-->
-<!--            processData: false,//用于对data参数进行序列化处理 这里必须false-->
-<!--            contentType: false, //必须*/-->
-<!--            success: function (data) {-->
-<!--                // console.log(data);-->
-<!--                $("#dianziqianmingImg").attr('src', '${path }' + data.msg).removeAttr('style').attr('style', 'width: 100px;height: 100px');-->
-<!--                $("#dianziqianmingPath").val(data.msg)-->
-<!--            }-->
-<!--        });-->
-<!--    }-->
-<!--</script>-->
-
 
 <script>
     Vue.prototype.$axios = axios;
@@ -68,13 +41,14 @@
                     formData.append("file", this.filem);
 
                     this.$axios({
-                        method: "get",
-                        url: "http://localhost:8888/test",
+                        method: "post",
+                        url: "http://localhost:8888/upload",
                         data: formData,
-                        headers: {'Content-Type': undefined, 'Access-Control-Allow-Origin': '*'}
+                        headers: {'Content-Type': undefined}
                     })
                         .then(successResponse => {
-                            this.message = successResponse.data.message;
+                            // console.log( successResponse.data.message);
+                            this.message = JSON.stringify(successResponse.data, null, "\t");
                         })
                 }
             },
