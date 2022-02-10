@@ -139,7 +139,7 @@ class InflammationDxObj(DynamicEmbeddedDocument):
     formal_dx = StringField(help_text="医生提供的dx名称，选择oen显示 ")
     wiki = StringField(help_text="通用描述")
     treatment = ListField(help_text="治疗清单")
-    reference_image = ListField(help_text="参考图像")
+    reference_image = StringField(help_text="参考图像")
 
 
 class InflammationObj(DynamicEmbeddedDocument):

@@ -136,7 +136,7 @@ class SkinAnalysis(VocelCloudApi):
                 msg = response.get("msg",None)
                 if code == 200:
                     self._log.info("[SkinAnalysis.post_base64_img_ok][img_base64:{},data:{}][response:{}]".format(img_base64, data, response))
-                    res_data = response.get("data")
+                    res_data = response.get("data",None)
                     ret_data = FaceSkinItem(**res_data)
                 else:
                     self._log.error("[SkinAnalysis.post_base64_img_ok][img_base64:{},data:{}][response:{}]".format(img_base64, data, msg))
