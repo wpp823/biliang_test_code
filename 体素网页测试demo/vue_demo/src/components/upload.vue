@@ -23,13 +23,11 @@ export default {
       let inputDOM = this.$refs.inputer;
       this.filem = inputDOM.files[0];
       let formData = new FormData();
-      let url = ''
       // console.log(this.filem)
       // url = this.result.substring(this.result.indexOf(",") + 1);
-
       formData.append("file", this.filem);
 
-      this.imgUrl = formData.url
+      // this.imgUrl = formData.url
         this.$axios({
           method: "post",
           url: "http://localhost:8888/upload",
