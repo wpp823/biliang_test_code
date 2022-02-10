@@ -8,8 +8,10 @@ import 'element-ui/lib/theme-chalk/index.css';
 import Axios from 'axios'
 
 
-Vue.use(ElementUI);
+import JsonViewer from 'vue-json-viewer'
 
+Vue.use(JsonViewer)
+Vue.use(ElementUI);
 Vue.config.productionTip = false
 Vue.prototype.$axios = Axios
 

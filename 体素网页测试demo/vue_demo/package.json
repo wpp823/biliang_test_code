@@ -12,7 +12,10 @@
   "dependencies": {
     "axios": "^0.25.0",
     "element-ui": "^2.15.6",
+    "jquery": "^3.6.0",
+    "mint-ui": "^2.2.13",
     "vue": "^2.5.2",
+    "vue-json-viewer": "^2.2.21",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

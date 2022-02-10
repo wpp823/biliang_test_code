@@ -1,31 +1,46 @@
 <template>
-  <el-upload
-    ref="imgUpload"
-    :on-success="imgSuccess"
-    accept="image/gif,image/jpeg,image/jpg,image/png,image/svg"
-    :action="upLoadUrl"
-    multiple>
-    <el-button type="primary">上传图片</el-button>
-  </el-upload>
+  <div id="app">
+    <img :src="imgUrl" width="400" height="300"/><br/>
+    <input type="file" ref="inputer" accept="image/jpeg,image/jpg"/><br/>
+    <input type="button" value="上传" @click="uploadpic()"/><br/>
+    <json-viewer :value="showtext" :expand-depth=4 copyable sort></json-viewer>
+  </div>
 </template>
 
 <script>
-
 export default {
-  name: 'imgUpload',
+  // el: '#app',
   data() {
     return {
-      // headerMsg: {Token: 'XXXXXX'},
-      upLoadUrl: 'http://localhost:8888/test'
+      imgUrl: '',
+      filem: '',
+      showtext: '返回内容',
     }
   },
   methods: {
     // 上传图片成功
-    imgSuccess(res, file, fileList) {
-      console.log(res)
-      console.log(file)
-      console.log(fileList)  // 这里可以获得上传成功的相关信息
-    }
+    uploadpic() {
+      let inputDOM = this.$refs.inputer;
+      this.filem = inputDOM.files[0];
+      let formData = new FormData();
+      let url = ''
+      // console.log(this.filem)
+      // url = this.result.substring(this.result.indexOf(",") + 1);
+
+      formData.append("file", this.filem);
+
+      this.imgUrl = formData.url
+        this.$axios({
+          method: "post",
+          url: "http://localhost:8888/upload",
+          data: formData,
+          headers: {'Content-Type': undefined}
+        })
+          .then(successResponse => {
+            // console.log( successResponse.data.message);
+            this.showtext = JSON.stringify(successResponse.data, null, "\t");
+          })
+      }
   }
 }
 </script>
