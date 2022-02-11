@@ -91,7 +91,7 @@ class IndexHandler(tornado.web.RequestHandler):
             img_files = self.request.files.get("file", [])
             img_buf = img_files[0].get("body")
             img_base64 = "data:image/jpg;base64," + base64.b64encode(img_buf).decode()
-            # res_data = tisu_api.post_base64_img(img_base64=img_base64)
+            res_data = tisu_api.post_base64_img(img_base64=img_base64)
             if res_data:
                 # res_data = FaceSkinItem(**data) # fixme
                 log.info("[IndexHandler.post][get_img_ret_data_ok][res_data:{}]".format(res_data))

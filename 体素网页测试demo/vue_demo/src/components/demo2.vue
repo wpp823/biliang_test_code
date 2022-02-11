@@ -25,7 +25,7 @@ export default {
 
 
       url = reader.readAsDataURL(file);
-      console.log(url)
+      console.log(28,url)
       let that = this;
       // console.log(this.result.indexOf(",") + 1)
       reader.onload = function (e) {
