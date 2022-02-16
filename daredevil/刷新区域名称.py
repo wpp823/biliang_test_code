@@ -43,6 +43,12 @@ if __name__ == "__main__":
                 province = region_data[1]  # 省份
             elif len(region_data) == 1:
                 country = region_data[0]  # 国家
+
+            if country in ["中国香港", "中国澳门", "中国台湾","香港","澳门","台湾"]:
+                city = province  # 城市
+                province = country  # 省份
+                country = ""  # 国家
+
             region_msg = {
                 "country": country,
                 "province": province,
