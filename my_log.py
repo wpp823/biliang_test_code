@@ -11,8 +11,8 @@ def get_logger():
     #     os.mkdir(f'{os.getcwd()}\\bin')
 
     # 日志文件夹
-    if not os.path.exists(f'{os.getcwd()}\\bin\\logs'): os.mkdir(f'{os.getcwd()}\\bin\\logs')
-    log_path = os.getcwd() + '\\bin\\logs\\'
+    if not os.path.exists(f'{os.getcwd()}/logs/'): os.mkdir(f'{os.getcwd()}/logs/')
+    log_path = os.getcwd() + '/logs/'
 
     # # 日志格式
     formatter = '%(asctime)s-%(filename)s-[line]: %(lineno)d-%(levelname)s-%(message)s'

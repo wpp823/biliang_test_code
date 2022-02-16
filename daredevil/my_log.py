@@ -1,4 +1,3 @@
-
 import logging
 import os
 from logging.handlers import TimedRotatingFileHandler
@@ -10,9 +9,9 @@ logger.setLevel(level=logging.INFO)
 #     os.mkdir(f'{os.getcwd()}\\bin')
 
 # 日志文件夹
-if not os.path.exists(f'{os.getcwd()}\\bin\\logs'): os.mkdir(f'{os.getcwd()}\\bin\\logs')
-log_path = os.getcwd() + '\\bin\\logs\\'
-
+if not os.path.exists(f'{os.getcwd()}/logs/'): os.mkdir(f'{os.getcwd()}/logs/')
+log_path = os.getcwd() + '/logs'
+print(f"log_path：{log_path}")
 # # 日志格式
 formatter = '%(asctime)s-%(filename)s-[line]: %(lineno)d-%(levelname)s-%(message)s'
 

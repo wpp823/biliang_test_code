@@ -1,7 +1,6 @@
-import re
-from mongoengine import DynamicDocument, StringField, IntField, ListField, EmbeddedDocumentListField, \
-    DynamicEmbeddedDocument
 
+import re
+from mongoengine import DynamicDocument, StringField,  IntField, ListField
 
 class WxContactsModel(DynamicDocument):
     meta = {
@@ -28,6 +27,8 @@ class WxContactsModel(DynamicDocument):
     lastupdatetime = IntField(help_text='头像最后更新时间')
     contactLabel = ListField(help_text='标签列表')
     regionCode = StringField(help_text='地区码')
+    regionName = StringField(help_text='地区名称')
+    signature = StringField(help_text='个性签名')
     sex = IntField()
     country = StringField()  # 国家
     province = StringField()  # 省份
@@ -40,11 +41,13 @@ class WxContactsModel(DynamicDocument):
     last_chat_at = StringField(help_text='最近聊天时间')
     add_friend_at = StringField(help_text='添加好友时间，无则使用首次聊天时间')
 
+
     @property
     def show_name(self):
         if self.conRemark:
             return self.conRemark
         return self.nickname
+
 
     @property
     def tag_telephone(self):
@@ -60,21 +63,3 @@ class WxContactsModel(DynamicDocument):
                     telephone = find_data[0]
                     break
         return telephone
-
-
-class WxCityCodeModel(DynamicEmbeddedDocument):
-    city_code = StringField(help_text='城市地区编码')
-    city_name = StringField(help_text='城市地名称')
-
-
-class WxProvinceCodeModel(DynamicEmbeddedDocument):
-    province_code = StringField(help_text='省份地区编码')
-    province_name = StringField(help_text='省份地名称')
-    province_cities = EmbeddedDocumentListField(WxCityCodeModel, help_text='省份地区码')
-
-
-class WxCountryCodeModel(DynamicDocument):
-
-    country_code = StringField(help_text ='国家地区编码')
-    country_name = StringField(help_text ='国家地名称')
-    country_provinces = EmbeddedDocumentListField(WxProvinceCodeModel, help_text='国家地区码')
