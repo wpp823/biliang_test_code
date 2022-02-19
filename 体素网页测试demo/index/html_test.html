@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf-8">
+    </header>
+    <body>
+        <div>
+            <img id="preview">
+        </div>
+        <form id="form" method="POST" enctype="multipart/form-data"
+        action="upload" onsubmit="return check();">
+            <input type="file" accept="image/*" name="file" id="file"/>
+            <input type="submit" value="提交"/>
+        </form>
+
+        <script>
+            var fileDom = document.getElementById("file");
+            var previewDom = document.getElementById("preview");
+            fileDom.addEventListener("change", e=>{
+                var file = fileDom.files[0];
+                // check if input contains a valid image file
+                if (!file || file.type.indexOf("image/") < 0) {
+                    fileDom.value = "";
+                    previewDom.src = "";
+                    return;
+                }
+
+                // use FileReader to load image and show preview of the image
+                var fileReader = new FileReader();
+                fileReader.onload = e=>{
+                    previewDom.src = e.target.result;
+                };
+                fileReader.readAsDataURL(file);
+            });
+
+            var formDom = document.getElementById("form");
+            function check() {
+                var file = fileDom.files[0];
+                // check if input contains a valid image file
+                if (!file || file.type.indexOf("image/") < 0) {
+                    return false;
+                }
+                return true;
+            }
+        </script>
+    </body>
+</html>

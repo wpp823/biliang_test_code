@@ -12,8 +12,8 @@ from daredevil.mongodb.model.wx_message import WxMessageModel
 class WxContactsDao():
     # 微信联系人
 
-    def __init__(self):
-        # self.log = log
+    def __init__(self,log):
+        self.log = log
         self.collection = 'wx_contacts'
 
     def add_contact(self, from_username: str, type: int, alis: str, username: str, nickname: str, conRemark: str,
@@ -389,12 +389,15 @@ class WxContactsDao():
         }
 
         update_info = {
-            "$set":
-                region_msg
-                # WxContactsModel.country.name: region_msg.get('country',None),
-                # WxContactsModel.province.name: region_msg.get('province',None),
-                # WxContactsModel.city.name: region_msg.get('city',None),
-
+            "$set":{
+                WxContactsModel.country.name: region_msg.get('country', ''),
+                WxContactsModel.province.name: region_msg.get('province', ''),
+                WxContactsModel.city.name: region_msg.get('city', ''),
+            }
         }
         return WxContactsModel.objects(__raw__=fit).update(__raw__=update_info)
 
+    def get_all_list(self):
+        fit = {}
+        fields = [WxContactsModel.regionName.name,WxContactsModel.contact_id.name]
+        return WxContactsModel.objects(__raw__=fit).only(*fields)
