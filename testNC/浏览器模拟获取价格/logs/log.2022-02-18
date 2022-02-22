@@ -1,0 +1,1292 @@
+2022-02-17 10:29-get_price_by_chrome.py-[line]: 37-INFO-Tmall init 
+2022-02-17 10:38-get_price_by_chrome.py-[line]: 37-INFO-Tmall init 
+2022-02-17 10:38-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="fm-login-id"]
+2022-02-17 10:38-get_price_by_chrome.py-[line]: 98-INFO-登录页未打开
+2022-02-17 10:38-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="fm-login-id"]
+2022-02-17 10:38-get_price_by_chrome.py-[line]: 98-INFO-登录页未打开
+2022-02-17 10:38-get_price_by_chrome.py-[line]: 103-ERROR-登录报错 
+2022-02-17 10:38-get_price_by_chrome.py-[line]: 103-ERROR-登录报错 
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 37-INFO-Tmall init 
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 71-INFO-get_product_url.login.input.user_name
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 73-INFO-get_product_url.login.input.user_pwd
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 89-INFO-login in click
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:41-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:42-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 52-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 93-INFO-等待手机端确认
+2022-02-17 10:43-get_price_by_chrome.py-[line]: 103-ERROR-登录报错 
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 48-INFO-Tmall init 
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 82-INFO-get_product_url.login.input.user_name
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 84-INFO-get_product_url.login.input.user_pwd
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 100-INFO-login in click
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:13-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 11:14-get_price_by_chrome.py-[line]: 114-ERROR-登录报错 
+2022-02-17 11:15-get_price_by_chrome.py-[line]: 48-INFO-Tmall init 
+2022-02-17 11:15-get_price_by_chrome.py-[line]: 82-INFO-get_product_url.login.input.user_name
+2022-02-17 11:15-get_price_by_chrome.py-[line]: 84-INFO-get_product_url.login.input.user_pwd
+2022-02-17 11:15-get_price_by_chrome.py-[line]: 100-INFO-login in click
+2022-02-17 11:15-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:15-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:15-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:15-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 11:15-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:15-get_price_by_chrome.py-[line]: 216-INFO-product_name:Easyface艺霏传明酸巴布贴膜56片sku_name: 56片/盒
+2022-02-17 11:15-get_price_by_chrome.py-[line]: 222-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.628e79c7BnwYYA&id=606744628264
+2022-02-17 11:15-get_price_by_chrome.py-[line]: 181-ERROR-获取价格异常 
+Traceback (most recent call last):
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/http/client.py", line 1245, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/http/client.py", line 1291, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/http/client.py", line 1240, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/http/client.py", line 1008, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/http/client.py", line 948, in send
+    self.connect()
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x119fe0a30>: Failed to establish a new connection: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wyy/Desktop/codes/mytest/testNC/浏览器模拟获取价格/get_price_by_chrome.py", line 139, in get_price
+    self.browser.get(url=url)
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 436, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 422, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 421, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 443, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/urllib3/poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=59491): Max retries exceeded with url: /session/a9dd66da26d4a4804dda0e92c40002ed/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x119fe0a30>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2022-02-17 11:21-get_price_by_chrome.py-[line]: 48-INFO-Tmall init 
+2022-02-17 11:21-get_price_by_chrome.py-[line]: 82-INFO-get_product_url.login.input.user_name
+2022-02-17 11:21-get_price_by_chrome.py-[line]: 84-INFO-get_product_url.login.input.user_pwd
+2022-02-17 11:22-get_price_by_chrome.py-[line]: 100-INFO-login in click
+2022-02-17 11:22-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:22-get_price_by_chrome.py-[line]: 200-INFO-product_name:Easyface艺霏传明酸巴布贴膜56片sku_name: 56片/盒
+2022-02-17 11:22-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.628e79c7BnwYYA&id=606744628264
+2022-02-17 11:23-get_price_by_chrome.py-[line]: 48-INFO-Tmall init 
+2022-02-17 11:23-get_price_by_chrome.py-[line]: 82-INFO-get_product_url.login.input.user_name
+2022-02-17 11:23-get_price_by_chrome.py-[line]: 84-INFO-get_product_url.login.input.user_pwd
+2022-02-17 11:23-get_price_by_chrome.py-[line]: 100-INFO-login in click
+2022-02-17 11:23-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 48-INFO-Tmall init 
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 82-INFO-get_product_url.login.input.user_name
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 84-INFO-get_product_url.login.input.user_pwd
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 100-INFO-login in click
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 200-INFO-product_name:Easyface艺霏传明酸巴布贴膜56片sku_name: 56片/盒
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.628e79c7BnwYYA&id=606744628264&skuId=4430618975202
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 160-INFO-get_price:398.00
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.628e79c7BnwYYA&id=606744628264&skuId=4430618975202
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 200-INFO-product_name:Easyface艺霏传明酸精华液sku_name: 30ml
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.444379c7IPMDYD&id=649768921950&skuId=4859442415879
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.444379c7IPMDYD&id=649768921950&skuId=4859442415879
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 200-INFO-product_name:Easyface艺霏虾青素莹润修护精华液sku_name: 30ml
+2022-02-17 11:24-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.47.40df79c7zy7drP&id=606740156728&skuId=4438549425106
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 160-INFO-get_price:298.00
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.47.40df79c7zy7drP&id=606740156728&skuId=4438549425106
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 200-INFO-product_name:百植萃氨基酸舒润洁面乳sku_name: 150g
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.40.6fe74aaeTRuW3S&id=602470595595&skuId=4212671000612
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 160-INFO-get_price:158.00
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.40.6fe74aaeTRuW3S&id=602470595595&skuId=4212671000612
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 200-INFO-product_name:百植萃玻色因塑颜紧致面部精华液sku_name: 
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 200-INFO-product_name:百植萃复合果酸精华水sku_name: 果酸精华水 补水保湿 调节痘肌200ml
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.38.68db4aaeN5R8D5&id=613619288368&skuId=4496064455875
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 160-INFO-get_price:188.00
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.38.68db4aaeN5R8D5&id=613619288368&skuId=4496064455875
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 200-INFO-product_name:百植萃舒缓清透防晒乳sku_name: 40g
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.38.5b994aaeBnjlZk&id=638596607382&skuId=4750921755750
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://login.tmall.com/?redirectURL=https%3A%2F%2Fdetail.tmall.com%2Fitem.htm%3Fspm%3Da1z10.3-b-s.w4011-21502388637.38.5b994aaeBnjlZk%26id%3D638596607382%26skuId%3D4750921755750
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 200-INFO-product_name:百植萃舒缓修红亮颜面膜sku_name: 50ml
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.43.7bcb4aaeBizH0P&id=645400462713&skuId=4919810542792
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 160-INFO-get_price:248.00
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.43.7bcb4aaeBizH0P&id=645400462713&skuId=4919810542792
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 200-INFO-product_name:百植萃舒缓修护保湿喷雾sku_name: 150ml
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.40.d29c4aaerTexGw&id=589726457718&skuId=4033987392180
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 160-INFO-get_price:168.00
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.40.d29c4aaerTexGw&id=589726457718&skuId=4033987392180
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 200-INFO-product_name:百植萃水嫩粉底液sku_name: 自然色30g
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.37.32134aaeBoNpU3&id=598724561255&skuId=4368316659998
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.37.32134aaeBoNpU3&id=598724561255&skuId=4368316659998
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 200-INFO-product_name:百植萃水嫩粉底液sku_name: 象牙白30g
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.37.32134aaeBoNpU3&id=598724561255&skuId=4524857271084
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.37.32134aaeBoNpU3&id=598724561255&skuId=4524857271084
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 200-INFO-product_name:百植萃维B5烟酰胺保湿修护身体乳sku_name: 其他/other190g
+2022-02-17 11:25-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.41.75644aaeqWhjv6&id=628985420585&skuId=4644605562007
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.41.75644aaeqWhjv6&id=628985420585&skuId=4644605562007
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 200-INFO-product_name:百植萃维B5烟酰胺护手霜sku_name: 40g
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.44.43534aaeIGrwQp&id=629322805063&skuId=4644613666708
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.44.43534aaeIGrwQp&id=629322805063&skuId=4644613666708
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 200-INFO-product_name:百植萃维生素B5富勒烯保湿面霜sku_name: 富勒烯面膜 提亮肤色 补水保湿 所有肤质50g
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.40.475c4aaeeMcFD6&id=610298426180&skuId=4462577855874
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.40.475c4aaeeMcFD6&id=610298426180&skuId=4462577855874
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 200-INFO-product_name:百植萃油橄榄舒缓精华水sku_name: 油橄榄舒缓精华水 补水保湿 舒缓肌肤
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.39.10234aaeSvNOK5&id=632461753506&skuId=4516573737216
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.39.10234aaeSvNOK5&id=632461753506&skuId=4516573737216
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 200-INFO-product_name:百植萃鱼子精华紧致眼霜sku_name: 14g
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.37.44da4aaeb8LVWe&id=622247786852&skuId=4566743450146
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.37.44da4aaeb8LVWe&id=622247786852&skuId=4566743450146
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 200-INFO-product_name:博乐达氨基酸焕颜洁面慕斯sku_name: 150ml
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.45.43e9241cgeG2ke&id=600759989300&skuId=4202411697779
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.45.43e9241cgeG2ke&id=600759989300&skuId=4202411697779
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 215-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.57.43e9241cgeG2ke&id=611021396773&skuId=4750664254253
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 217-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.57.43e9241cgeG2ke&id=611021396773&skuId=4750664254253
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 200-INFO-product_name:博乐达去屑控油护发露sku_name: 120g
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.46.3bf9241cRVKYyd&id=594741984083&skuId=4296385807879
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 160-INFO-get_price:268.00
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.46.3bf9241cRVKYyd&id=594741984083&skuId=4296385807879
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 215-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.50.3bf9241cRVKYyd&id=629301686226&skuId=4683840961017
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 217-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.50.3bf9241cRVKYyd&id=629301686226&skuId=4683840961017
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 200-INFO-product_name:博乐达水杨酸祛痘调理凝露sku_name: 所有肤质30g
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.46.8585241cOMjh8M&id=562755784080&skuId=4642931145678
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.46.8585241cOMjh8M&id=562755784080&skuId=4642931145678
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 200-INFO-product_name:博乐达透明质酸敷料sku_name: 1盒
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.35.7f34241cZ87iBT&id=656438177779&skuId=4913087495953
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 160-INFO-get_price:179.00
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.35.7f34241cZ87iBT&id=656438177779&skuId=4913087495953
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 200-INFO-product_name:博乐达小奶瓶焕颜亮肤精华sku_name: 烟酰胺精华 净透肌底 35ml
+2022-02-17 11:26-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.49.3a34241ccgNFFx&id=603975365553&skuId=4399987474356
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.49.3a34241ccgNFFx&id=603975365553&skuId=4399987474356
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 215-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.61.3a34241ccgNFFx&id=619623625660&skuId=4376307180673
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 217-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.61.3a34241ccgNFFx&id=619623625660&skuId=4376307180673
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 200-INFO-product_name:博乐达滋养保湿护理霜30gsku_name: 所有肤质30g
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.41.24db241cn99fYD&id=574207881774&skuId=3924110819912
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 160-INFO-get_price:188.00
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.41.24db241cn99fYD&id=574207881774&skuId=3924110819912
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 215-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.45.24db241cn99fYD&id=640937265426&skuId=4603925292541
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 217-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.45.24db241cn99fYD&id=640937265426&skuId=4603925292541
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 200-INFO-product_name:博乐达滋养调理面膜100gsku_name: 面膜100g
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.49.5a78241cwllVjI&id=562745560200&skuId=3706973311989
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 160-INFO-get_price:398.00
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.49.5a78241cwllVjI&id=562745560200&skuId=3706973311989
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 215-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.73.5a78241cwllVjI&id=643255095235&skuId=4813658407940
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 217-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.73.5a78241cwllVjI&id=643255095235&skuId=4813658407940
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 200-INFO-product_name:博乐达滋养调理面膜35gsku_name: 面膜35g
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a220o.1000855.0.da321h.13755e218YP47d&id=623918494721&skuId=4582551822363
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 160-INFO-get_price:169.00
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a220o.1000855.0.da321h.13755e218YP47d&id=623918494721&skuId=4582551822363
+2022-02-17 11:27-get_price_by_chrome.py-[line]: 215-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.57.5a78241cwllVjI&id=629767026335&skuId=4645846014720
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 217-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.57.5a78241cwllVjI&id=629767026335&skuId=4645846014720
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 200-INFO-product_name:博乐达滋养修护精华（377传明酸精华液）sku_name: 博乐达超分子滋养修护精华 控油提亮肤色 30ml
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.40.3730241c6G2GrP&id=584464306427&skuId=4112476538255
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.40.3730241c6G2GrP&id=584464306427&skuId=4112476538255
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 215-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.44.3730241c6G2GrP&id=631050742042&skuId=4489920144665
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 217-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.44.3730241c6G2GrP&id=631050742042&skuId=4489920144665
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 200-INFO-product_name:创福康胶原贴医用敷料（II类）sku_name: 医用II类痤疮治疗敷料（5片装/盒）
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21203582980.39.53863474eDTpwh&id=617592057125&skuId=4651609065154
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.44.3730241c6G2GrP&id=631050742042&skuId=4489920144665
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 200-INFO-product_name:痤疮抑菌消毒控油防痘护理套装sku_name: 
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 200-INFO-product_name:痤疮抑菌消毒控油防痘护理套装sku_name: 
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 200-INFO-product_name:痤疮抑菌消毒控油防痘护理套装sku_name: 
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 200-INFO-product_name:痤疮抑菌消毒控油防痘护理套装sku_name: 
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 200-INFO-product_name:痤疮抑菌消毒控油防痘护理套装sku_name: 
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 200-INFO-product_name:敷尔佳灯泡膜虾青素传明酸修护贴sku_name: 1盒(共5片)
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.40.54a01c8ejORv6g&id=597951128070&skuId=4571813604665
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.40.54a01c8ejORv6g&id=597951128070&skuId=4571813604665
+2022-02-17 11:28-get_price_by_chrome.py-[line]: 200-INFO-product_name:敷尔佳灯泡膜虾青素传明酸修护贴sku_name: 2盒装(共10片)
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.40.54a01c8ejORv6g&id=597951128070&skuId=4571813604666
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.40.54a01c8ejORv6g&id=597951128070&skuId=4571813604666
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 200-INFO-product_name:敷尔佳灯泡膜虾青素传明酸修护贴sku_name: 4盒(共20片)
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.40.54a01c8ejORv6g&id=597951128070&skuId=4571813604664
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.40.54a01c8ejORv6g&id=597951128070&skuId=4571813604664
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 200-INFO-product_name:敷尔佳水杨酸果酸焕肤面膜sku_name: 1支
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.22.34921c8eqUvmfJ&id=622431289460&skuId=4576415745627
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.22.34921c8eqUvmfJ&id=622431289460&skuId=4576415745627
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 200-INFO-product_name:敷尔佳虾青素传明酸精华液sku_name: 1瓶
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.27.64711c8eZi3ZFD&id=600809081354&skuId=4540528184480
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.27.64711c8eZi3ZFD&id=600809081354&skuId=4540528184480
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 200-INFO-product_name:芙清保湿抑菌凉茶敷料（6周年款纪念款）sku_name: 六周年祛痘凉茶敷料1盒/5片
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.61.4e70c614I9PeY9&id=598095899322
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.61.4e70c614I9PeY9&id=598095899322
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 200-INFO-product_name:芙清膏剂敷料护理Ⅱ型（面霜）sku_name: 医用修护面霜（50g）
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.37.288ac614ZWTkvo&id=610982260060&skuId=4473753710201
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.37.288ac614ZWTkvo&id=610982260060&skuId=4473753710201
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 200-INFO-product_name:芙清膏剂敷料护理I型（乳液）sku_name: 医用修护乳液（50g）
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.34.13e7c6148p4JQl&id=611729179876&skuId=4650914867774
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.34.13e7c6148p4JQl&id=611729179876&skuId=4650914867774
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 200-INFO-product_name:芙清卡波姆湿性修复功能性敷料sku_name: 
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 200-INFO-product_name:芙清密钥舒妍清肌卸妆水sku_name: 500ml
+2022-02-17 11:29-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://chaoshi.detail.tmall.com/item.htm?spm=a220m.1000858.1000725.1.35933990sWuLf8&id=655572199693&skuId=4723274136061
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://chaoshi.detail.tmall.com/item.htm?spm=a220m.1000858.1000725.1.35933990sWuLf8&id=655572199693&skuId=4723274136061
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 200-INFO-product_name:芙清密钥丝揉控油持装粉底液sku_name: 
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 200-INFO-product_name:芙清液体敷料LD修护I型sku_name: 医用修护爽肤水（120ml）
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.79.7372c614dcKhlk&id=611728283471&skuId=4477005043646
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.79.7372c614dcKhlk&id=611728283471&skuId=4477005043646
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 200-INFO-product_name:芙清医用促愈功能性敷料sku_name: 经典祛痘面膜1盒（5片装）【每2盒1疗程】
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.92.66b0c614ixJW8z&id=587051744204
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.92.66b0c614ixJW8z&id=587051744204
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 200-INFO-product_name:芙清医用促愈功能性敷料sku_name: 经典祛痘面膜4盒
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.112.66b0c614ixJW8z&id=589127536439&skuId=4869607331488
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.112.66b0c614ixJW8z&id=589127536439&skuId=4869607331488
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 200-INFO-product_name:芙清医用促愈功能性敷料综合治疗凝胶sku_name: 芙清凝胶（30g装）
+2022-02-17 11:30-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.34.5d48c614XDl9Vg&id=587053192746&skuId=4576468477975
+2022-02-17 11:31-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:31-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:31-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:31-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:31-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.34.5d48c614XDl9Vg&id=587053192746&skuId=4576468477975
+2022-02-17 11:31-get_price_by_chrome.py-[line]: 200-INFO-product_name:芙清医用皮肤液体敷料 清洁护理Ⅰ型（洁面）sku_name: 新升级医用洁面乳75g
+2022-02-17 11:31-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.61.4b9dc614jfBYw9&id=597655781410
+2022-02-17 11:31-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:31-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:31-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:31-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:31-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.61.4b9dc614jfBYw9&id=597655781410
+2022-02-17 11:31-get_price_by_chrome.py-[line]: 200-INFO-product_name:广御抑菌水爽肤水弱碱盐水零添加无刺激敏感肌可用sku_name: 50ml
+2022-02-17 11:31-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://item.taobao.com/item.htm?id=626648472514
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 160-INFO-get_price:138.00
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://item.taobao.com/item.htm?id=626648472514
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:广御抑菌水爽肤水弱碱盐水零添加无刺激敏感肌可用sku_name: 80ml
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://item.taobao.com/item.htm?id=660707799094
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://item.taobao.com/item.htm?id=660707799094
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:过敏性皮炎补水消炎舒缓套装sku_name: 
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:过敏性皮炎补水消炎舒缓套装sku_name: 
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:过敏性皮炎补水消炎舒缓套装sku_name: 
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:过敏性皮炎补水消炎舒缓套装sku_name: 
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:黄褐斑改善皮肤屏障抗炎修护套装sku_name: 
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:黄褐斑改善皮肤屏障抗炎修护套装sku_name: 
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:黄褐斑改善皮肤屏障抗炎修护套装sku_name: 
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:黄褐斑改善皮肤屏障抗炎修护套装sku_name: 
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:黄褐斑改善皮肤屏障抗炎修护套装sku_name: 
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:黄褐斑改善皮肤屏障抗炎修护套装sku_name: 
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:激素依赖性皮炎屏障修复护理套装sku_name: 
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:激素依赖性皮炎屏障修复护理套装sku_name: 
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:激素依赖性皮炎屏障修复护理套装sku_name: 
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:激素依赖性皮炎屏障修复护理套装sku_name: 
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:激素依赖性皮炎屏障修复护理套装sku_name: 
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:可复美焕能凝时冰激凌面膜sku_name: 240g/盒
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.162.99086d4e1c2sSn&id=636878472603&skuId=4568636348279
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 160-INFO-get_price:298.00
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.162.99086d4e1c2sSn&id=636878472603&skuId=4568636348279
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:可复美焕能涂抹式紧致睡眠面膜sku_name: 80g/支装
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.27.18a76d4eoR8dgV&id=641072955049&skuId=4597910028491
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.27.18a76d4eoR8dgV&id=641072955049&skuId=4597910028491
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:可复美类人胶原蛋白敷料（粉色5片）sku_name: 类人胶原蛋白敷料粉5片
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.103.46f06d4enIjak8&id=637765452182&skuId=4579618121913
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.103.46f06d4enIjak8&id=637765452182&skuId=4579618121913
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 200-INFO-product_name:可复美类人胶原蛋白敷料（蓝色非面膜5片）sku_name: 类人胶原蛋白敷料5片/盒【每2盒1疗程】
+2022-02-17 11:32-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.43.27f86d4ekl5JIe&id=544502344102&skuId=3445745355707
+2022-02-17 11:37-get_price_by_chrome.py-[line]: 140-INFO-停止加载
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 160-INFO-get_price:198.00
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.43.27f86d4ekl5JIe&id=544502344102&skuId=3445745355707
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 200-INFO-product_name:可复美小黑管清肌修护清洁面膜sku_name: 165g
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.34.16b96d4evrGI7b&id=644815647431&skuId=4808934402877
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.34.16b96d4evrGI7b&id=644815647431&skuId=4808934402877
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 200-INFO-product_name:可复美小金管淡纹抗纹眼霜sku_name: 20g
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.27.3f256d4e8OpwtP&id=628454350125&skuId=4630286766304
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.27.3f256d4e8OpwtP&id=628454350125&skuId=4630286766304
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 200-INFO-product_name:可复美小水库术后修护医用敷料sku_name: 液体敷料1盒
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.34.59f56d4eWMDtiy&id=629822037455&skuId=4803656062379
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.34.59f56d4eWMDtiy&id=629822037455&skuId=4803656062379
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 200-INFO-product_name:可预类人胶原蛋白修复敷料sku_name: 【院线同款】R型敷料50g
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.5-b-s.w4011-22524724066.35.1921268bXnton3&id=644528932599&skuId=4642209628432
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.5-b-s.w4011-22524724066.35.1921268bXnton3&id=644528932599&skuId=4642209628432
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 200-INFO-product_name:皮肤干燥补水保湿防晒润肤护理套装sku_name: 
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 200-INFO-product_name:皮肤干燥补水保湿防晒润肤护理套装sku_name: 
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 200-INFO-product_name:皮肤干燥补水保湿防晒润肤护理套装sku_name: 
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 200-INFO-product_name:皮肤干燥补水保湿防晒润肤护理套装sku_name: 
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 200-INFO-product_name:皮肤干燥补水保湿防晒润肤护理套装sku_name: 
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 200-INFO-product_name:皮肤干燥补水保湿防晒润肤护理套装sku_name: 
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 200-INFO-product_name:皮肤干燥补水保湿防晒润肤护理套装sku_name: 
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 200-INFO-product_name:浅草川水光防晒喷雾sku_name: 
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 200-INFO-product_name:森花泉古方草本护肤系列 天门冬面膜45分钟直达真皮银耳深度补水sku_name: 5片/盒
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://item.taobao.com/item.htm?id=664084414729
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 160-INFO-get_price:268.00
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://item.taobao.com/item.htm?id=664084414729
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 200-INFO-product_name:薇诺娜清透防晒乳50g SPF48 PA+++ sku_name: 50g
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14573268338.43.78735fbfmJiZSX&id=2453766859
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14573268338.43.78735fbfmJiZSX&id=2453766859
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 200-INFO-product_name:薇诺娜舒缓控油爽肤水sku_name: 舒缓控油水120ml
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14573268338.44.67195fbfDEEFVD&id=17921178484&skuId=31984738084
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 160-INFO-get_price:188.00
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14573268338.44.67195fbfDEEFVD&id=17921178484&skuId=31984738084
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 200-INFO-product_name:薇诺娜舒敏保湿润肤水sku_name: 舒敏水120ml
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a220o.1000855.0.da321h.5598392eMptwUO&id=19445947936&skuId=32176921785
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 160-INFO-get_price:188.00
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a220o.1000855.0.da321h.5598392eMptwUO&id=19445947936&skuId=32176921785
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 200-INFO-product_name:薇诺娜舒敏保湿特护霜sku_name: 必入超值大容量 敏感性肤质 50g
+2022-02-17 11:38-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a220o.1000855.0.da321h.74fa6601jNK4jJ&id=17289238843&skuId=37155583560
+2022-02-17 11:43-get_price_by_chrome.py-[line]: 140-INFO-停止加载
+2022-02-17 11:43-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:43-get_price_by_chrome.py-[line]: 160-INFO-get_price:268.00
+2022-02-17 11:43-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a220o.1000855.0.da321h.74fa6601jNK4jJ&id=17289238843&skuId=37155583560
+2022-02-17 11:43-get_price_by_chrome.py-[line]: 200-INFO-product_name:小银罐修复膏·肌肤治愈专家 植物配方中药制作去痒消红抑制炎症sku_name: 
+2022-02-17 11:43-get_price_by_chrome.py-[line]: 200-INFO-product_name:优斐斯传明酸修护精华液sku_name: 传明酸精华液30ml
+2022-02-17 11:43-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21237708009.42.112765bdpybNkG&id=584586428998&skuId=3952510540102
+2022-02-17 11:48-get_price_by_chrome.py-[line]: 140-INFO-停止加载
+2022-02-17 11:48-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:48-get_price_by_chrome.py-[line]: 160-INFO-get_price:580.00
+2022-02-17 11:48-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21237708009.42.112765bdpybNkG&id=584586428998&skuId=3952510540102
+2022-02-17 11:48-get_price_by_chrome.py-[line]: 200-INFO-product_name:绽妍传明酸虾青素驻颜精华液sku_name: 30ml
+2022-02-17 11:48-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.43.5766442em2epfh&id=592747173083
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 160-INFO-get_price:228.00
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.43.5766442em2epfh&id=592747173083
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 200-INFO-product_name:绽妍控油平衡爽肤水120mlsku_name: 控油爽肤水120ml
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.41.75eb442eHf9xtz&id=596685827445&skuId=4144009064118
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.41.75eb442eHf9xtz&id=596685827445&skuId=4144009064118
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 200-INFO-product_name:绽妍控油平衡调理乳（升级版）sku_name: 50ml
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.37.6cfd442ejtOu6V&id=603975490101
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.37.6cfd442ejtOu6V&id=603975490101
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 200-INFO-product_name:绽妍清透防晒霜SPF35sku_name: 50g
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.48.6fe5442eNZHhfI&id=580742791889
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.48.6fe5442eNZHhfI&id=580742791889
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 200-INFO-product_name:绽妍维A醇多重修护眼霜sku_name: 15g
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.37.7e13442eBWoawO&id=650202488401&skuId=4867962043872
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.37.7e13442eBWoawO&id=650202488401&skuId=4867962043872
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 200-INFO-product_name:绽妍液体敷料喷雾剂sku_name: 喷雾剂50ml
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.26.70d6442epywIwL&id=627902316525&skuId=4463169765249
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 156-ERROR-获取价格失败、未找到价格控件
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.26.70d6442epywIwL&id=627902316525&skuId=4463169765249
+2022-02-17 11:51-get_price_by_chrome.py-[line]: 200-INFO-product_name:绽妍液体敷料修护水120mlsku_name: 
+2022-02-17 15:00-get_price_by_chrome.py-[line]: 47-INFO-Tmall init 
+2022-02-17 15:00-get_price_by_chrome.py-[line]: 62-INFO-is_element_exist //*[@id="fm-login-id"]
+2022-02-17 15:00-get_price_by_chrome.py-[line]: 108-INFO-登录页未打开
+2022-02-17 15:00-get_price_by_chrome.py-[line]: 222-INFO-登录失败
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 47-INFO-Tmall init 
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 81-INFO-get_product_url.login.input.user_name
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 83-INFO-get_product_url.login.input.user_pwd
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 99-INFO-login in click
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 62-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 62-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 62-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 103-INFO-等待手机端确认
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 62-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 195-INFO-product_name:Easyface艺霏传明酸巴布贴膜56片sku_name: 56片/盒
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 201-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.628e79c7BnwYYA&id=606744628264&skuId=4430618975202
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 62-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 155-INFO-get_price:398.00
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 203-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.628e79c7BnwYYA&id=606744628264&skuId=4430618975202
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 195-INFO-product_name:Easyface艺霏传明酸精华液sku_name: 30ml
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 201-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.444379c7IPMDYD&id=649768921950&skuId=4859442415879
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 155-INFO-get_price:198.00
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 203-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.444379c7IPMDYD&id=649768921950&skuId=4859442415879
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 195-INFO-product_name:Easyface艺霏虾青素莹润修护精华液sku_name: 30ml
+2022-02-17 15:01-get_price_by_chrome.py-[line]: 201-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.47.40df79c7zy7drP&id=606740156728&skuId=4438549425106
+2022-02-17 15:02-get_price_by_chrome.py-[line]: 62-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:02-get_price_by_chrome.py-[line]: 155-INFO-get_price:298.00
+2022-02-17 15:02-get_price_by_chrome.py-[line]: 203-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.47.40df79c7zy7drP&id=606740156728&skuId=4438549425106
+2022-02-17 15:02-get_price_by_chrome.py-[line]: 195-INFO-product_name:百植萃氨基酸舒润洁面乳sku_name: 150g
+2022-02-17 15:02-get_price_by_chrome.py-[line]: 201-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.40.6fe74aaeTRuW3S&id=602470595595&skuId=4212671000612
+2022-02-17 15:02-get_price_by_chrome.py-[line]: 155-INFO-get_price:158.00
+2022-02-17 15:02-get_price_by_chrome.py-[line]: 203-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.40.6fe74aaeTRuW3S&id=602470595595&skuId=4212671000612
+2022-02-17 15:02-get_price_by_chrome.py-[line]: 195-INFO-product_name:百植萃玻色因塑颜紧致面部精华液sku_name: 
+2022-02-17 15:02-get_price_by_chrome.py-[line]: 195-INFO-product_name:百植萃复合果酸精华水sku_name: 果酸精华水 补水保湿 调节痘肌200ml
+2022-02-17 15:02-get_price_by_chrome.py-[line]: 201-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.38.68db4aaeN5R8D5&id=613619288368&skuId=4496064455875
+2022-02-17 15:02-get_price_by_chrome.py-[line]: 62-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:02-get_price_by_chrome.py-[line]: 62-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 15:02-get_price_by_chrome.py-[line]: 62-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 15:02-get_price_by_chrome.py-[line]: 151-ERROR-获取价格失败、未找到价格控件
+2022-02-17 15:02-get_price_by_chrome.py-[line]: 160-ERROR-获取价格异常 
+Traceback (most recent call last):
+  File "/Users/wyy/Desktop/codes/mytest/testNC/浏览器模拟获取价格/get_price_by_chrome.py", line 152, in get_price
+    return self.browser.current_url, -3
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 914, in current_url
+    return self.execute(Command.GET_CURRENT_URL)['value']
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/Users/wyy/Desktop/codes/mytest/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=98.0.4758.102)
+Stacktrace:
+0   chromedriver                        0x000000010e688e69 chromedriver + 5160553
+1   chromedriver                        0x000000010e613593 chromedriver + 4679059
+2   chromedriver                        0x000000010e1c72c8 chromedriver + 172744
+3   chromedriver                        0x000000010e1a80be chromedriver + 45246
+4   chromedriver                        0x000000010e21dc3c chromedriver + 527420
+5   chromedriver                        0x000000010e22c70f chromedriver + 587535
+6   chromedriver                        0x000000010e21a623 chromedriver + 513571
+7   chromedriver                        0x000000010e1efdce chromedriver + 339406
+8   chromedriver                        0x000000010e1f1105 chromedriver + 344325
+9   chromedriver                        0x000000010e64423e chromedriver + 4878910
+10  chromedriver                        0x000000010e65bd17 chromedriver + 4975895
+11  chromedriver                        0x000000010e661a3f chromedriver + 4999743
+12  chromedriver                        0x000000010e65c61a chromedriver + 4978202
+13  chromedriver                        0x000000010e638bb1 chromedriver + 4832177
+14  chromedriver                        0x000000010e678fd8 chromedriver + 5095384
+15  chromedriver                        0x000000010e679161 chromedriver + 5095777
+16  chromedriver                        0x000000010e6902a8 chromedriver + 5190312
+17  libsystem_pthread.dylib             0x00007fff68ef2109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff68eedb8b thread_start + 15
+
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 48-INFO-Tmall init 
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 82-INFO-get_product_url.login.input.user_name
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 84-INFO-get_product_url.login.input.user_pwd
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 100-INFO-login in click
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 196-INFO-product_name:Easyface艺霏传明酸巴布贴膜56片sku_name: 56片/盒
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.628e79c7BnwYYA&id=606744628264&skuId=4430618975202
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 156-INFO-get_price:398.00
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.628e79c7BnwYYA&id=606744628264&skuId=4430618975202
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 196-INFO-product_name:Easyface艺霏传明酸精华液sku_name: 30ml
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.444379c7IPMDYD&id=649768921950&skuId=4859442415879
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 156-INFO-get_price:198.00
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.444379c7IPMDYD&id=649768921950&skuId=4859442415879
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 196-INFO-product_name:Easyface艺霏虾青素莹润修护精华液sku_name: 30ml
+2022-02-17 15:20-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.47.40df79c7zy7drP&id=606740156728&skuId=4438549425106
+2022-02-17 15:21-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:21-get_price_by_chrome.py-[line]: 156-INFO-get_price:298.00
+2022-02-17 15:21-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.47.40df79c7zy7drP&id=606740156728&skuId=4438549425106
+2022-02-17 15:21-get_price_by_chrome.py-[line]: 196-INFO-product_name:百植萃氨基酸舒润洁面乳sku_name: 150g
+2022-02-17 15:21-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.40.6fe74aaeTRuW3S&id=602470595595&skuId=4212671000612
+2022-02-17 15:21-get_price_by_chrome.py-[line]: 156-INFO-get_price:158.00
+2022-02-17 15:21-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.40.6fe74aaeTRuW3S&id=602470595595&skuId=4212671000612
+2022-02-17 15:21-get_price_by_chrome.py-[line]: 196-INFO-product_name:百植萃玻色因塑颜紧致面部精华液sku_name: 
+2022-02-17 15:21-get_price_by_chrome.py-[line]: 196-INFO-product_name:百植萃复合果酸精华水sku_name: 果酸精华水 补水保湿 调节痘肌200ml
+2022-02-17 15:21-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.38.68db4aaeN5R8D5&id=613619288368&skuId=4496064455875
+2022-02-17 15:21-get_price_by_chrome.py-[line]: 156-INFO-get_price:188.00
+2022-02-17 15:21-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.38.68db4aaeN5R8D5&id=613619288368&skuId=4496064455875
+2022-02-17 15:21-get_price_by_chrome.py-[line]: 196-INFO-product_name:百植萃舒缓清透防晒乳sku_name: 40g
+2022-02-17 15:21-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.38.5b994aaeBnjlZk&id=638596607382&skuId=4750921755750
+2022-02-17 15:22-get_price_by_chrome.py-[line]: 156-INFO-get_price:158.00
+2022-02-17 15:22-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.38.5b994aaeBnjlZk&id=638596607382&skuId=4750921755750
+2022-02-17 15:22-get_price_by_chrome.py-[line]: 196-INFO-product_name:百植萃舒缓修红亮颜面膜sku_name: 50ml
+2022-02-17 15:22-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.43.7bcb4aaeBizH0P&id=645400462713&skuId=4919810542792
+2022-02-17 15:22-get_price_by_chrome.py-[line]: 156-INFO-get_price:248.00
+2022-02-17 15:22-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.43.7bcb4aaeBizH0P&id=645400462713&skuId=4919810542792
+2022-02-17 15:22-get_price_by_chrome.py-[line]: 196-INFO-product_name:百植萃舒缓修护保湿喷雾sku_name: 150ml
+2022-02-17 15:22-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.40.d29c4aaerTexGw&id=589726457718&skuId=4033987392180
+2022-02-17 15:22-get_price_by_chrome.py-[line]: 156-INFO-get_price:168.00
+2022-02-17 15:22-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.40.d29c4aaerTexGw&id=589726457718&skuId=4033987392180
+2022-02-17 15:23-get_price_by_chrome.py-[line]: 196-INFO-product_name:百植萃水嫩粉底液sku_name: 自然色30g
+2022-02-17 15:23-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.37.32134aaeBoNpU3&id=598724561255&skuId=4368316659998
+2022-02-17 15:23-get_price_by_chrome.py-[line]: 156-INFO-get_price:178.00
+2022-02-17 15:23-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.37.32134aaeBoNpU3&id=598724561255&skuId=4368316659998
+2022-02-17 15:23-get_price_by_chrome.py-[line]: 196-INFO-product_name:百植萃水嫩粉底液sku_name: 象牙白30g
+2022-02-17 15:23-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.37.32134aaeBoNpU3&id=598724561255&skuId=4524857271084
+2022-02-17 15:24-get_price_by_chrome.py-[line]: 156-INFO-get_price:178.00
+2022-02-17 15:24-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.37.32134aaeBoNpU3&id=598724561255&skuId=4524857271084
+2022-02-17 15:24-get_price_by_chrome.py-[line]: 196-INFO-product_name:百植萃维B5烟酰胺保湿修护身体乳sku_name: 其他/other190g
+2022-02-17 15:24-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.41.75644aaeqWhjv6&id=628985420585&skuId=4644605562007
+2022-02-17 15:24-get_price_by_chrome.py-[line]: 156-INFO-get_price:188.00
+2022-02-17 15:24-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.41.75644aaeqWhjv6&id=628985420585&skuId=4644605562007
+2022-02-17 15:24-get_price_by_chrome.py-[line]: 196-INFO-product_name:百植萃维B5烟酰胺护手霜sku_name: 40g
+2022-02-17 15:24-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.44.43534aaeIGrwQp&id=629322805063&skuId=4644613666708
+2022-02-17 15:25-get_price_by_chrome.py-[line]: 156-INFO-get_price:68.00
+2022-02-17 15:25-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.44.43534aaeIGrwQp&id=629322805063&skuId=4644613666708
+2022-02-17 15:25-get_price_by_chrome.py-[line]: 196-INFO-product_name:百植萃维生素B5富勒烯保湿面霜sku_name: 富勒烯面膜 提亮肤色 补水保湿 所有肤质50g
+2022-02-17 15:25-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.40.475c4aaeeMcFD6&id=610298426180&skuId=4462577855874
+2022-02-17 15:26-get_price_by_chrome.py-[line]: 156-INFO-get_price:398.00
+2022-02-17 15:26-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.40.475c4aaeeMcFD6&id=610298426180&skuId=4462577855874
+2022-02-17 15:26-get_price_by_chrome.py-[line]: 196-INFO-product_name:百植萃油橄榄舒缓精华水sku_name: 油橄榄舒缓精华水 补水保湿 舒缓肌肤
+2022-02-17 15:26-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.39.10234aaeSvNOK5&id=632461753506&skuId=4516573737216
+2022-02-17 15:26-get_price_by_chrome.py-[line]: 156-INFO-get_price:188.00
+2022-02-17 15:26-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.39.10234aaeSvNOK5&id=632461753506&skuId=4516573737216
+2022-02-17 15:26-get_price_by_chrome.py-[line]: 196-INFO-product_name:百植萃鱼子精华紧致眼霜sku_name: 14g
+2022-02-17 15:26-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.37.44da4aaeb8LVWe&id=622247786852&skuId=4566743450146
+2022-02-17 15:26-get_price_by_chrome.py-[line]: 156-INFO-get_price:328.00
+2022-02-17 15:26-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.37.44da4aaeb8LVWe&id=622247786852&skuId=4566743450146
+2022-02-17 15:26-get_price_by_chrome.py-[line]: 196-INFO-product_name:博乐达氨基酸焕颜洁面慕斯sku_name: 150ml
+2022-02-17 15:26-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.45.43e9241cgeG2ke&id=600759989300&skuId=4202411697779
+2022-02-17 15:27-get_price_by_chrome.py-[line]: 156-INFO-get_price:179.00
+2022-02-17 15:27-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.45.43e9241cgeG2ke&id=600759989300&skuId=4202411697779
+2022-02-17 15:27-get_price_by_chrome.py-[line]: 211-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.57.43e9241cgeG2ke&id=611021396773&skuId=4750664254253
+2022-02-17 15:27-get_price_by_chrome.py-[line]: 156-INFO-get_price:179.00
+2022-02-17 15:27-get_price_by_chrome.py-[line]: 213-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.57.43e9241cgeG2ke&id=611021396773&skuId=4750664254253
+2022-02-17 15:27-get_price_by_chrome.py-[line]: 196-INFO-product_name:博乐达去屑控油护发露sku_name: 120g
+2022-02-17 15:27-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.46.3bf9241cRVKYyd&id=594741984083&skuId=4296385807879
+2022-02-17 15:27-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:27-get_price_by_chrome.py-[line]: 156-INFO-get_price:268.00
+2022-02-17 15:27-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.46.3bf9241cRVKYyd&id=594741984083&skuId=4296385807879
+2022-02-17 15:27-get_price_by_chrome.py-[line]: 211-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.50.3bf9241cRVKYyd&id=629301686226&skuId=4683840961017
+2022-02-17 15:27-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:28-get_price_by_chrome.py-[line]: 156-INFO-get_price:268.00
+2022-02-17 15:28-get_price_by_chrome.py-[line]: 213-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.50.3bf9241cRVKYyd&id=629301686226&skuId=4683840961017
+2022-02-17 15:28-get_price_by_chrome.py-[line]: 196-INFO-product_name:博乐达水杨酸祛痘调理凝露sku_name: 所有肤质30g
+2022-02-17 15:28-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.46.8585241cOMjh8M&id=562755784080&skuId=4642931145678
+2022-02-17 15:29-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:29-get_price_by_chrome.py-[line]: 156-INFO-get_price:260.00
+2022-02-17 15:29-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.46.8585241cOMjh8M&id=562755784080&skuId=4642931145678
+2022-02-17 15:29-get_price_by_chrome.py-[line]: 196-INFO-product_name:博乐达透明质酸敷料sku_name: 1盒
+2022-02-17 15:29-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.35.7f34241cZ87iBT&id=656438177779&skuId=4913087495953
+2022-02-17 15:30-get_price_by_chrome.py-[line]: 156-INFO-get_price:179.00
+2022-02-17 15:30-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.35.7f34241cZ87iBT&id=656438177779&skuId=4913087495953
+2022-02-17 15:30-get_price_by_chrome.py-[line]: 196-INFO-product_name:博乐达小奶瓶焕颜亮肤精华sku_name: 烟酰胺精华 净透肌底 35ml
+2022-02-17 15:30-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.49.3a34241ccgNFFx&id=603975365553&skuId=4399987474356
+2022-02-17 15:31-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:32-get_price_by_chrome.py-[line]: 156-INFO-get_price:499.00
+2022-02-17 15:32-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.49.3a34241ccgNFFx&id=603975365553&skuId=4399987474356
+2022-02-17 15:32-get_price_by_chrome.py-[line]: 211-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.61.3a34241ccgNFFx&id=619623625660&skuId=4376307180673
+2022-02-17 15:32-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:32-get_price_by_chrome.py-[line]: 156-INFO-get_price:499.00
+2022-02-17 15:32-get_price_by_chrome.py-[line]: 213-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.61.3a34241ccgNFFx&id=619623625660&skuId=4376307180673
+2022-02-17 15:32-get_price_by_chrome.py-[line]: 196-INFO-product_name:博乐达滋养保湿护理霜30gsku_name: 所有肤质30g
+2022-02-17 15:32-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.41.24db241cn99fYD&id=574207881774&skuId=3924110819912
+2022-02-17 15:32-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:32-get_price_by_chrome.py-[line]: 156-INFO-get_price:188.00
+2022-02-17 15:32-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.41.24db241cn99fYD&id=574207881774&skuId=3924110819912
+2022-02-17 15:32-get_price_by_chrome.py-[line]: 211-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.45.24db241cn99fYD&id=640937265426&skuId=4603925292541
+2022-02-17 15:32-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:32-get_price_by_chrome.py-[line]: 156-INFO-get_price:188.00
+2022-02-17 15:32-get_price_by_chrome.py-[line]: 213-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.45.24db241cn99fYD&id=640937265426&skuId=4603925292541
+2022-02-17 15:32-get_price_by_chrome.py-[line]: 196-INFO-product_name:博乐达滋养调理面膜100gsku_name: 面膜100g
+2022-02-17 15:32-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.49.5a78241cwllVjI&id=562745560200&skuId=3706973311989
+2022-02-17 15:33-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:34-get_price_by_chrome.py-[line]: 156-INFO-get_price:398.00
+2022-02-17 15:34-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.49.5a78241cwllVjI&id=562745560200&skuId=3706973311989
+2022-02-17 15:34-get_price_by_chrome.py-[line]: 211-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.73.5a78241cwllVjI&id=643255095235&skuId=4813658407940
+2022-02-17 15:35-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:35-get_price_by_chrome.py-[line]: 156-INFO-get_price:398.00
+2022-02-17 15:35-get_price_by_chrome.py-[line]: 213-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.73.5a78241cwllVjI&id=643255095235&skuId=4813658407940
+2022-02-17 15:35-get_price_by_chrome.py-[line]: 196-INFO-product_name:博乐达滋养调理面膜35gsku_name: 面膜35g
+2022-02-17 15:35-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a220o.1000855.0.da321h.13755e218YP47d&id=623918494721&skuId=4582551822363
+2022-02-17 15:35-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:35-get_price_by_chrome.py-[line]: 156-INFO-get_price:169.00
+2022-02-17 15:35-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a220o.1000855.0.da321h.13755e218YP47d&id=623918494721&skuId=4582551822363
+2022-02-17 15:35-get_price_by_chrome.py-[line]: 211-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.57.5a78241cwllVjI&id=629767026335&skuId=4645846014720
+2022-02-17 15:35-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:35-get_price_by_chrome.py-[line]: 156-INFO-get_price:169.00
+2022-02-17 15:35-get_price_by_chrome.py-[line]: 213-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.57.5a78241cwllVjI&id=629767026335&skuId=4645846014720
+2022-02-17 15:35-get_price_by_chrome.py-[line]: 196-INFO-product_name:博乐达滋养修护精华（377传明酸精华液）sku_name: 博乐达超分子滋养修护精华 控油提亮肤色 30ml
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.40.3730241c6G2GrP&id=584464306427&skuId=4112476538255
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 156-INFO-get_price:398.00
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.40.3730241c6G2GrP&id=584464306427&skuId=4112476538255
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 211-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.44.3730241c6G2GrP&id=631050742042&skuId=4489920144665
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 156-INFO-get_price:398.00
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 213-INFO-new_url_2:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17530103369.44.3730241c6G2GrP&id=631050742042&skuId=4489920144665
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 196-INFO-product_name:创福康胶原贴医用敷料（II类）sku_name: 医用II类痤疮治疗敷料（5片装/盒）
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21203582980.39.53863474eDTpwh&id=617592057125&skuId=4651609065154
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 156-INFO-get_price:163.00
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21203582980.39.53863474eDTpwh&id=617592057125&skuId=4651609065154
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 196-INFO-product_name:痤疮抑菌消毒控油防痘护理套装sku_name: 
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 196-INFO-product_name:痤疮抑菌消毒控油防痘护理套装sku_name: 
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 196-INFO-product_name:痤疮抑菌消毒控油防痘护理套装sku_name: 
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 196-INFO-product_name:痤疮抑菌消毒控油防痘护理套装sku_name: 
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 196-INFO-product_name:痤疮抑菌消毒控油防痘护理套装sku_name: 
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 196-INFO-product_name:敷尔佳灯泡膜虾青素传明酸修护贴sku_name: 1盒(共5片)
+2022-02-17 15:36-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.40.54a01c8ejORv6g&id=597951128070&skuId=4571813604665
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 156-INFO-get_price:148.00
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.40.54a01c8ejORv6g&id=597951128070&skuId=4571813604665
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 196-INFO-product_name:敷尔佳灯泡膜虾青素传明酸修护贴sku_name: 2盒装(共10片)
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.40.54a01c8ejORv6g&id=597951128070&skuId=4571813604666
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 156-INFO-get_price:286.00
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.40.54a01c8ejORv6g&id=597951128070&skuId=4571813604666
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 196-INFO-product_name:敷尔佳灯泡膜虾青素传明酸修护贴sku_name: 4盒(共20片)
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.40.54a01c8ejORv6g&id=597951128070&skuId=4571813604664
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 156-INFO-get_price:552.00
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.40.54a01c8ejORv6g&id=597951128070&skuId=4571813604664
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 196-INFO-product_name:敷尔佳水杨酸果酸焕肤面膜sku_name: 1支
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.22.34921c8eqUvmfJ&id=622431289460&skuId=4576415745627
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 156-INFO-get_price:148.00
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.22.34921c8eqUvmfJ&id=622431289460&skuId=4576415745627
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 196-INFO-product_name:敷尔佳虾青素传明酸精华液sku_name: 1瓶
+2022-02-17 15:38-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.27.64711c8eZi3ZFD&id=600809081354&skuId=4540528184480
+2022-02-17 15:39-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:39-get_price_by_chrome.py-[line]: 156-INFO-get_price:159.00
+2022-02-17 15:39-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22385189054.27.64711c8eZi3ZFD&id=600809081354&skuId=4540528184480
+2022-02-17 15:39-get_price_by_chrome.py-[line]: 196-INFO-product_name:芙清保湿抑菌凉茶敷料（6周年款纪念款）sku_name: 六周年祛痘凉茶敷料1盒/5片
+2022-02-17 15:39-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.61.4e70c614I9PeY9&id=598095899322
+2022-02-17 15:39-get_price_by_chrome.py-[line]: 156-INFO-get_price:198.00
+2022-02-17 15:39-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.61.4e70c614I9PeY9&id=598095899322
+2022-02-17 15:39-get_price_by_chrome.py-[line]: 196-INFO-product_name:芙清膏剂敷料护理Ⅱ型（面霜）sku_name: 医用修护面霜（50g）
+2022-02-17 15:39-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.37.288ac614ZWTkvo&id=610982260060&skuId=4473753710201
+2022-02-17 15:40-get_price_by_chrome.py-[line]: 156-INFO-get_price:168.00
+2022-02-17 15:40-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.37.288ac614ZWTkvo&id=610982260060&skuId=4473753710201
+2022-02-17 15:40-get_price_by_chrome.py-[line]: 196-INFO-product_name:芙清膏剂敷料护理I型（乳液）sku_name: 医用修护乳液（50g）
+2022-02-17 15:40-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.34.13e7c6148p4JQl&id=611729179876&skuId=4650914867774
+2022-02-17 15:40-get_price_by_chrome.py-[line]: 156-INFO-get_price:168.00
+2022-02-17 15:40-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.34.13e7c6148p4JQl&id=611729179876&skuId=4650914867774
+2022-02-17 15:40-get_price_by_chrome.py-[line]: 196-INFO-product_name:芙清卡波姆湿性修复功能性敷料sku_name: 
+2022-02-17 15:40-get_price_by_chrome.py-[line]: 196-INFO-product_name:芙清密钥舒妍清肌卸妆水sku_name: 500ml
+2022-02-17 15:40-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://chaoshi.detail.tmall.com/item.htm?spm=a220m.1000858.1000725.1.35933990sWuLf8&id=655572199693&skuId=4723274136061
+2022-02-17 15:40-get_price_by_chrome.py-[line]: 156-INFO-get_price:99.00
+2022-02-17 15:40-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://chaoshi.detail.tmall.com/item.htm?spm=a220m.1000858.1000725.1.35933990sWuLf8&id=655572199693&skuId=4723274136061
+2022-02-17 15:40-get_price_by_chrome.py-[line]: 196-INFO-product_name:芙清密钥丝揉控油持装粉底液sku_name: 
+2022-02-17 15:40-get_price_by_chrome.py-[line]: 196-INFO-product_name:芙清液体敷料LD修护I型sku_name: 医用修护爽肤水（120ml）
+2022-02-17 15:40-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.79.7372c614dcKhlk&id=611728283471&skuId=4477005043646
+2022-02-17 15:41-get_price_by_chrome.py-[line]: 156-INFO-get_price:148.00
+2022-02-17 15:41-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.79.7372c614dcKhlk&id=611728283471&skuId=4477005043646
+2022-02-17 15:41-get_price_by_chrome.py-[line]: 196-INFO-product_name:芙清医用促愈功能性敷料sku_name: 经典祛痘面膜1盒（5片装）【每2盒1疗程】
+2022-02-17 15:41-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.92.66b0c614ixJW8z&id=587051744204
+2022-02-17 15:41-get_price_by_chrome.py-[line]: 156-INFO-get_price:198.00
+2022-02-17 15:41-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.92.66b0c614ixJW8z&id=587051744204
+2022-02-17 15:41-get_price_by_chrome.py-[line]: 196-INFO-product_name:芙清医用促愈功能性敷料sku_name: 经典祛痘面膜4盒
+2022-02-17 15:41-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.112.66b0c614ixJW8z&id=589127536439&skuId=4869607331488
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 156-INFO-get_price:792.00
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.112.66b0c614ixJW8z&id=589127536439&skuId=4869607331488
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 196-INFO-product_name:芙清医用促愈功能性敷料综合治疗凝胶sku_name: 芙清凝胶（30g装）
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.34.5d48c614XDl9Vg&id=587053192746&skuId=4576468477975
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 156-INFO-get_price:258.00
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.34.5d48c614XDl9Vg&id=587053192746&skuId=4576468477975
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 196-INFO-product_name:芙清医用皮肤液体敷料 清洁护理Ⅰ型（洁面）sku_name: 新升级医用洁面乳75g
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.61.4b9dc614jfBYw9&id=597655781410
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 156-INFO-get_price:118.00
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21576939866.61.4b9dc614jfBYw9&id=597655781410
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 196-INFO-product_name:广御抑菌水爽肤水弱碱盐水零添加无刺激敏感肌可用sku_name: 50ml
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://item.taobao.com/item.htm?id=626648472514
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 156-INFO-get_price:138.00
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://item.taobao.com/item.htm?id=626648472514
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 196-INFO-product_name:广御抑菌水爽肤水弱碱盐水零添加无刺激敏感肌可用sku_name: 80ml
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://item.taobao.com/item.htm?id=660707799094
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 156-INFO-get_price:198.00
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://item.taobao.com/item.htm?id=660707799094
+2022-02-17 15:42-get_price_by_chrome.py-[line]: 196-INFO-product_name:过敏性皮炎补水消炎舒缓套装sku_name: 
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 196-INFO-product_name:过敏性皮炎补水消炎舒缓套装sku_name: 
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 196-INFO-product_name:过敏性皮炎补水消炎舒缓套装sku_name: 
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 196-INFO-product_name:过敏性皮炎补水消炎舒缓套装sku_name: 
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 196-INFO-product_name:黄褐斑改善皮肤屏障抗炎修护套装sku_name: 
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 196-INFO-product_name:黄褐斑改善皮肤屏障抗炎修护套装sku_name: 
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 196-INFO-product_name:黄褐斑改善皮肤屏障抗炎修护套装sku_name: 
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 196-INFO-product_name:黄褐斑改善皮肤屏障抗炎修护套装sku_name: 
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 196-INFO-product_name:黄褐斑改善皮肤屏障抗炎修护套装sku_name: 
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 196-INFO-product_name:黄褐斑改善皮肤屏障抗炎修护套装sku_name: 
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 196-INFO-product_name:激素依赖性皮炎屏障修复护理套装sku_name: 
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 196-INFO-product_name:激素依赖性皮炎屏障修复护理套装sku_name: 
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 196-INFO-product_name:激素依赖性皮炎屏障修复护理套装sku_name: 
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 196-INFO-product_name:激素依赖性皮炎屏障修复护理套装sku_name: 
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 196-INFO-product_name:激素依赖性皮炎屏障修复护理套装sku_name: 
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 196-INFO-product_name:可复美焕能凝时冰激凌面膜sku_name: 240g/盒
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.162.99086d4e1c2sSn&id=636878472603&skuId=4568636348279
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 156-INFO-get_price:298.00
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.162.99086d4e1c2sSn&id=636878472603&skuId=4568636348279
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 196-INFO-product_name:可复美焕能涂抹式紧致睡眠面膜sku_name: 80g/支装
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.27.18a76d4eoR8dgV&id=641072955049&skuId=4597910028491
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 156-INFO-get_price:268.00
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.27.18a76d4eoR8dgV&id=641072955049&skuId=4597910028491
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 196-INFO-product_name:可复美类人胶原蛋白敷料（粉色5片）sku_name: 类人胶原蛋白敷料粉5片
+2022-02-17 15:43-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.103.46f06d4enIjak8&id=637765452182&skuId=4579618121913
+2022-02-17 15:44-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:44-get_price_by_chrome.py-[line]: 156-INFO-get_price:198.00
+2022-02-17 15:44-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.103.46f06d4enIjak8&id=637765452182&skuId=4579618121913
+2022-02-17 15:44-get_price_by_chrome.py-[line]: 196-INFO-product_name:可复美类人胶原蛋白敷料（蓝色非面膜5片）sku_name: 类人胶原蛋白敷料5片/盒【每2盒1疗程】
+2022-02-17 15:44-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.43.27f86d4ekl5JIe&id=544502344102&skuId=3445745355707
+2022-02-17 15:44-get_price_by_chrome.py-[line]: 156-INFO-get_price:198.00
+2022-02-17 15:44-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.43.27f86d4ekl5JIe&id=544502344102&skuId=3445745355707
+2022-02-17 15:44-get_price_by_chrome.py-[line]: 196-INFO-product_name:可复美小黑管清肌修护清洁面膜sku_name: 165g
+2022-02-17 15:44-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.34.16b96d4evrGI7b&id=644815647431&skuId=4808934402877
+2022-02-17 15:44-get_price_by_chrome.py-[line]: 156-INFO-get_price:178.00
+2022-02-17 15:44-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.34.16b96d4evrGI7b&id=644815647431&skuId=4808934402877
+2022-02-17 15:44-get_price_by_chrome.py-[line]: 196-INFO-product_name:可复美小金管淡纹抗纹眼霜sku_name: 20g
+2022-02-17 15:44-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.27.3f256d4e8OpwtP&id=628454350125&skuId=4630286766304
+2022-02-17 15:44-get_price_by_chrome.py-[line]: 156-INFO-get_price:198.00
+2022-02-17 15:44-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.27.3f256d4e8OpwtP&id=628454350125&skuId=4630286766304
+2022-02-17 15:44-get_price_by_chrome.py-[line]: 196-INFO-product_name:可复美小水库术后修护医用敷料sku_name: 液体敷料1盒
+2022-02-17 15:44-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-18877614629.34.59f56d4eWMDtiy&id=629822037455&skuId=4803656062379
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 152-ERROR-获取价格失败、未找到价格控件
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/auction/noitem.htm?type=1
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 196-INFO-product_name:可预类人胶原蛋白修复敷料sku_name: 【院线同款】R型敷料50g
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.5-b-s.w4011-22524724066.35.1921268bXnton3&id=644528932599&skuId=4642209628432
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 156-INFO-get_price:268.00
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.5-b-s.w4011-22524724066.35.1921268bXnton3&id=644528932599&skuId=4642209628432
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 196-INFO-product_name:皮肤干燥补水保湿防晒润肤护理套装sku_name: 
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 196-INFO-product_name:皮肤干燥补水保湿防晒润肤护理套装sku_name: 
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 196-INFO-product_name:皮肤干燥补水保湿防晒润肤护理套装sku_name: 
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 196-INFO-product_name:皮肤干燥补水保湿防晒润肤护理套装sku_name: 
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 196-INFO-product_name:皮肤干燥补水保湿防晒润肤护理套装sku_name: 
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 196-INFO-product_name:皮肤干燥补水保湿防晒润肤护理套装sku_name: 
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 196-INFO-product_name:皮肤干燥补水保湿防晒润肤护理套装sku_name: 
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 196-INFO-product_name:浅草川水光防晒喷雾sku_name: 
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 196-INFO-product_name:森花泉古方草本护肤系列 天门冬面膜45分钟直达真皮银耳深度补水sku_name: 5片/盒
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://item.taobao.com/item.htm?id=664084414729
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 156-INFO-get_price:268.00
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://item.taobao.com/item.htm?id=664084414729
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 196-INFO-product_name:薇诺娜清透防晒乳50g SPF48 PA+++ sku_name: 50g
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14573268338.43.78735fbfmJiZSX&id=2453766859
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 152-ERROR-获取价格失败、未找到价格控件
+2022-02-17 15:45-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14573268338.43.78735fbfmJiZSX&id=2453766859
+2022-02-17 15:46-get_price_by_chrome.py-[line]: 196-INFO-product_name:薇诺娜舒缓控油爽肤水sku_name: 舒缓控油水120ml
+2022-02-17 15:46-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14573268338.44.67195fbfDEEFVD&id=17921178484&skuId=31984738084
+2022-02-17 15:46-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:46-get_price_by_chrome.py-[line]: 156-INFO-get_price:188.00
+2022-02-17 15:46-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-14573268338.44.67195fbfDEEFVD&id=17921178484&skuId=31984738084
+2022-02-17 15:46-get_price_by_chrome.py-[line]: 196-INFO-product_name:薇诺娜舒敏保湿润肤水sku_name: 舒敏水120ml
+2022-02-17 15:46-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a220o.1000855.0.da321h.5598392eMptwUO&id=19445947936&skuId=32176921785
+2022-02-17 15:46-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:46-get_price_by_chrome.py-[line]: 156-INFO-get_price:188.00
+2022-02-17 15:46-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a220o.1000855.0.da321h.5598392eMptwUO&id=19445947936&skuId=32176921785
+2022-02-17 15:46-get_price_by_chrome.py-[line]: 196-INFO-product_name:薇诺娜舒敏保湿特护霜sku_name: 必入超值大容量 敏感性肤质 50g
+2022-02-17 15:46-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a220o.1000855.0.da321h.74fa6601jNK4jJ&id=17289238843&skuId=37155583560
+2022-02-17 15:51-get_price_by_chrome.py-[line]: 140-INFO-停止加载
+2022-02-17 15:51-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:51-get_price_by_chrome.py-[line]: 156-INFO-get_price:268.00
+2022-02-17 15:51-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a220o.1000855.0.da321h.74fa6601jNK4jJ&id=17289238843&skuId=37155583560
+2022-02-17 15:51-get_price_by_chrome.py-[line]: 196-INFO-product_name:小银罐修复膏·肌肤治愈专家 植物配方中药制作去痒消红抑制炎症sku_name: 
+2022-02-17 15:51-get_price_by_chrome.py-[line]: 196-INFO-product_name:优斐斯传明酸修护精华液sku_name: 传明酸精华液30ml
+2022-02-17 15:51-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21237708009.42.112765bdpybNkG&id=584586428998&skuId=3952510540102
+2022-02-17 15:56-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 15:56-get_price_by_chrome.py-[line]: 156-INFO-get_price:580.00
+2022-02-17 15:56-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21237708009.42.112765bdpybNkG&id=584586428998&skuId=3952510540102
+2022-02-17 15:56-get_price_by_chrome.py-[line]: 196-INFO-product_name:绽妍传明酸虾青素驻颜精华液sku_name: 30ml
+2022-02-17 15:56-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.43.5766442em2epfh&id=592747173083
+2022-02-17 15:57-get_price_by_chrome.py-[line]: 156-INFO-get_price:228.00
+2022-02-17 15:57-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.43.5766442em2epfh&id=592747173083
+2022-02-17 15:57-get_price_by_chrome.py-[line]: 196-INFO-product_name:绽妍控油平衡爽肤水120mlsku_name: 控油爽肤水120ml
+2022-02-17 15:57-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.41.75eb442eHf9xtz&id=596685827445&skuId=4144009064118
+2022-02-17 15:57-get_price_by_chrome.py-[line]: 156-INFO-get_price:178.00
+2022-02-17 15:57-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.41.75eb442eHf9xtz&id=596685827445&skuId=4144009064118
+2022-02-17 15:57-get_price_by_chrome.py-[line]: 196-INFO-product_name:绽妍控油平衡调理乳（升级版）sku_name: 50ml
+2022-02-17 15:58-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.37.6cfd442ejtOu6V&id=603975490101
+2022-02-17 15:58-get_price_by_chrome.py-[line]: 156-INFO-get_price:198.00
+2022-02-17 15:58-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.37.6cfd442ejtOu6V&id=603975490101
+2022-02-17 15:58-get_price_by_chrome.py-[line]: 196-INFO-product_name:绽妍清透防晒霜SPF35sku_name: 50g
+2022-02-17 15:58-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.48.6fe5442eNZHhfI&id=580742791889
+2022-02-17 15:58-get_price_by_chrome.py-[line]: 156-INFO-get_price:138.00
+2022-02-17 15:58-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.48.6fe5442eNZHhfI&id=580742791889
+2022-02-17 15:58-get_price_by_chrome.py-[line]: 196-INFO-product_name:绽妍维A醇多重修护眼霜sku_name: 15g
+2022-02-17 15:58-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.37.7e13442eBWoawO&id=650202488401&skuId=4867962043872
+2022-02-17 15:58-get_price_by_chrome.py-[line]: 156-INFO-get_price:378.00
+2022-02-17 15:58-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.37.7e13442eBWoawO&id=650202488401&skuId=4867962043872
+2022-02-17 15:58-get_price_by_chrome.py-[line]: 196-INFO-product_name:绽妍液体敷料喷雾剂sku_name: 喷雾剂50ml
+2022-02-17 15:58-get_price_by_chrome.py-[line]: 202-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.26.70d6442epywIwL&id=627902316525&skuId=4463169765249
+2022-02-17 15:59-get_price_by_chrome.py-[line]: 156-INFO-get_price:59.90
+2022-02-17 15:59-get_price_by_chrome.py-[line]: 204-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-23305177154.26.70d6442epywIwL&id=627902316525&skuId=4463169765249
+2022-02-17 15:59-get_price_by_chrome.py-[line]: 196-INFO-product_name:绽妍液体敷料修护水120mlsku_name: 
+2022-02-17 16:05-get_price_by_chrome.py-[line]: 48-INFO-Tmall init 
+2022-02-17 16:05-get_price_by_chrome.py-[line]: 82-INFO-get_product_url.login.input.user_name
+2022-02-17 16:05-get_price_by_chrome.py-[line]: 84-INFO-get_product_url.login.input.user_pwd
+2022-02-17 16:05-get_price_by_chrome.py-[line]: 100-INFO-login in click
+2022-02-17 16:05-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 16:05-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 16:05-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 16:05-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 16:05-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 16:05-get_price_by_chrome.py-[line]: 200-INFO-product_name:Easyface艺霏传明酸巴布贴膜56片sku_name: 56片/盒
+2022-02-17 16:05-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.628e79c7BnwYYA&id=606744628264&skuId=4430618975202
+2022-02-17 16:05-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 160-INFO-get_price:398.00
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.628e79c7BnwYYA&id=606744628264&skuId=4430618975202
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 200-INFO-product_name:Easyface艺霏传明酸精华液sku_name: 30ml
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.444379c7IPMDYD&id=649768921950&skuId=4859442415879
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 165-ERROR-获取价格异常 
+Traceback (most recent call last):
+  File "/Users/wyy/Desktop/codes/mytest/testNC/浏览器模拟获取价格/get_price_by_chrome.py", line 148, in get_price
+    with open(path+url, 'w') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './htmls/https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.444379c7IPMDYD&id=649768921950&skuId=4859442415879'
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 176-INFO-main: cookies = [{'domain': '.tmall.com', 'expiry': 1660637167, 'httpOnly': False, 'name': 'tfstk', 'path': '/', 'secure': False, 'value': 'cnjNB0mY1nfIEG-byht41ZohU3TOZ8BGnDJWSNBQ5MaLJQLGi3GvK9QHLKMEiFf..'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'uc1', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'pas=0&cookie15=WqG3DMC9VAQiUQ%3D%3D&cookie14=UoewBVzY666WRA%3D%3D&cookie16=V32FPkk%2FxXMk5UvIbNtImtMfJQ%3D%3D&cookie21=VFC%2FuZ9aiKCaj7AzMHh1&existShop=false'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'cancelledSubSites', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'empty'}, {'domain': '.tmall.com', 'httpOnly': True, 'name': 'uc4', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'nk4=0%402kK%2Bx8kybn4%2FugsNtmgDRVk40Q%3D%3D&id4=0%40U2gp9xpJ1a%2F8n149nGepSqFbZ7yK'}, {'domain': '.tmall.com', 'httpOnly': True, 'name': 'sgcookie', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'E100q%2B1JpSPDUD3hiEwmC8N%2BvmFzbIuSkDq03y0pon7rPGBxI5sWe0RKLcKcKZgRCbt%2BS%2FWhWvSIPUqR%2B1zL5US5Y5d%2B0LmkiblN4U4VBHf7JrmdUnAeXo8pDpQxxBsAZmRX'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'tracknick', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%5Cu5316%5Cu7FBD%5Cu800C%5Cu8499'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': '_nk_', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%5Cu5316%5Cu7FBD%5Cu800C%5Cu8499'}, {'domain': '.tmall.com', 'expiry': 2275805152, 'httpOnly': False, 'name': 'cna', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '2e+UGuy1UkQCAbcw82U2bqMb'}, {'domain': '.tmall.com', 'httpOnly': True, 'name': 'cookie1', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'VAKIlZrEy18GfYt%2FFIpBMbAelaizc9qmpOIshC4OiUU%3D'}, {'domain': '.tmall.com', 'expiry': 1660637167, 'httpOnly': False, 'name': 'l', 'path': '/', 'secure': False, 'value': 'eBOQbLGILL2GOAGBKOfwhurza77tdIRAguPzaNbMiOCPOo1p5QuAW6cEty89CnGVh6qXR3PM_zWTBeYBcSxMhrD1a6Fy_HHmn'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'lgc', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%5Cu5316%5Cu7FBD%5Cu800C%5Cu8499'}, {'domain': '.tmall.com', 'httpOnly': True, 'name': 'cookie17', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'UUpjN48kKb7fmg%3D%3D'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': '_l_g_', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'Ug%3D%3D'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'csg', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '6ccfd794'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': '_tb_token_', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '5e349effede53'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'sg', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%E8%92%9918'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 't', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '4b5442d45d1ed05c08fdd22e5cdc181a'}, {'domain': '.tmall.com', 'expiry': 1676649950, 'httpOnly': False, 'name': 'lid', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%E5%8C%96%E7%BE%BD%E8%80%8C%E8%92%99'}, {'domain': '.tmall.com', 'expiry': 1645171552, 'httpOnly': False, 'name': 'xlly_s', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '1'}, {'domain': '.tmall.com', 'httpOnly': True, 'name': 'uc3', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'id2=UUpjN48kKb7fmg%3D%3D&nk2=2HdzFy1m64E%3D&lg2=U%2BGCWk%2F75gdr5Q%3D%3D&vt3=F8dCvU%2Bwqfu8HD4lQMI%3D'}, {'domain': '.tmall.com', 'expiry': 1660637167, 'httpOnly': False, 'name': 'isg', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'BEJCOnaKlBMpdIhPvRQ6jdnTk06kE0YtzpZfJoxbSLVh3-JZdKPNPcidi9ujj77F'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'unb', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '2221680851'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'login', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'true'}, {'domain': 'detail.tmall.com', 'expiry': 1647677167, 'httpOnly': False, 'name': 'pnm_cku822', 'path': '/', 'secure': False, 'value': '098%23E1hvw9vUvbpvUvCkvvvvvjiWR25vgjtPRFShsj1VPmPyAjr2n2zhgjnHPLsW0jiR29hvCvvvMMGUvpCWhRpbvva4GExrt8gcbhet5aV35t3AoK2yTRo4e5X40f0DyBvOJ1kHsX7veC3TmEcBlwyzhmx%2Fgjc6D46XwATQD7zUdigFJWL9afmAdO9CvvOUvvVCJhAIvpvUvvmvS6f1RimgvpvIvvvvDyCvvH9vvUHmphvhD9vv96CvpC29vvm2phCv2WwvvUHmphvh6QvCvvOvCvvvphvgvpvhvvvvv8OCvvpvvUmm'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'dnk', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%5Cu5316%5Cu7FBD%5Cu800C%5Cu8499'}, {'domain': '.tmall.com', 'httpOnly': True, 'name': 'cookie2', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '12a915f1dec38b16a997981565356121'}]
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.444379c7IPMDYD&id=649768921950&skuId=4859442415879
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 200-INFO-product_name:Easyface艺霏虾青素莹润修护精华液sku_name: 30ml
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.47.40df79c7zy7drP&id=606740156728&skuId=4438549425106
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 160-INFO-get_price:298.00
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.47.40df79c7zy7drP&id=606740156728&skuId=4438549425106
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 200-INFO-product_name:百植萃氨基酸舒润洁面乳sku_name: 150g
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.40.6fe74aaeTRuW3S&id=602470595595&skuId=4212671000612
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 165-ERROR-获取价格异常 
+Traceback (most recent call last):
+  File "/Users/wyy/Desktop/codes/mytest/testNC/浏览器模拟获取价格/get_price_by_chrome.py", line 148, in get_price
+    with open(path+url, 'w') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './htmls/https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.40.6fe74aaeTRuW3S&id=602470595595&skuId=4212671000612'
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 176-INFO-main: cookies = [{'domain': '.tmall.com', 'expiry': 1660637203, 'httpOnly': False, 'name': 'tfstk', 'path': '/', 'secure': False, 'value': 'cZDFBu6JR801-qeWMJwyRbWcaRNdZXnnqOrbtXn6g69pdrFhiZ_8jchgbusNrWf..'}, {'domain': 'detail.tmall.com', 'expiry': 1647677202, 'httpOnly': False, 'name': 'pnm_cku822', 'path': '/', 'secure': False, 'value': '098%23E1hvppvUvbpvUvCkvvvvvjiWR25vgjtWP2qO6jthPmPZgjt8PsLOsjnhnLLvljDnKvhv8vvvpCpvvUjfvvC21Qvv9nUvvhNjvvvmjvvvBGwvvUjgvvC21Qvv9juIvpvUvvCCP3Fk2RKUvpvVvpCmpJ2pmvhvLUh61%2BOaIfvtIfwyp4mxdBuKDVQEfwoK5d8rwoA%2BD404d3OiHWLUV1uwHFXXiXhpVE01Ux8x9EIaRfU6pwethb8rejpiYE7reCuK46yvvpvVvUCvpvvv29hvCvvvMMGgvpvhvvCvp8OCvvpvvhHh'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'uc1', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'pas=0&cookie15=WqG3DMC9VAQiUQ%3D%3D&cookie14=UoewBVzY666WRA%3D%3D&cookie16=V32FPkk%2FxXMk5UvIbNtImtMfJQ%3D%3D&cookie21=VFC%2FuZ9aiKCaj7AzMHh1&existShop=false'}, {'domain': '.tmall.com', 'expiry': 1960473988, 'httpOnly': True, 'name': 'enc', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '79mXCooNI2VyZ223JBF%2BmmHOl7Gs%2FbAju6bCYAIgzSsnRqf%2F%2FVaaJRca069e%2FAWVlq1mxH7pSw9t5Ol3bHNj%2Bw%3D%3D'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'cancelledSubSites', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'empty'}, {'domain': '.tmall.com', 'httpOnly': True, 'name': 'uc4', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'nk4=0%402kK%2Bx8kybn4%2FugsNtmgDRVk40Q%3D%3D&id4=0%40U2gp9xpJ1a%2F8n149nGepSqFbZ7yK'}, {'domain': '.tmall.com', 'httpOnly': True, 'name': 'sgcookie', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'E100q%2B1JpSPDUD3hiEwmC8N%2BvmFzbIuSkDq03y0pon7rPGBxI5sWe0RKLcKcKZgRCbt%2BS%2FWhWvSIPUqR%2B1zL5US5Y5d%2B0LmkiblN4U4VBHf7JrmdUnAeXo8pDpQxxBsAZmRX'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'tracknick', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%5Cu5316%5Cu7FBD%5Cu800C%5Cu8499'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': '_nk_', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%5Cu5316%5Cu7FBD%5Cu800C%5Cu8499'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'sg', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%E8%92%9918'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': '_tb_token_', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '5e349effede53'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'csg', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '6ccfd794'}, {'domain': '.tmall.com', 'httpOnly': True, 'name': 'cookie2', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '12a915f1dec38b16a997981565356121'}, {'domain': '.tmall.com', 'expiry': 2275805188, 'httpOnly': False, 'name': 'cna', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '2e+UGuy1UkQCAbcw82U2bqMb'}, {'domain': '.tmall.com', 'httpOnly': True, 'name': 'cookie1', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'VAKIlZrEy18GfYt%2FFIpBMbAelaizc9qmpOIshC4OiUU%3D'}, {'domain': '.tmall.com', 'expiry': 1660637203, 'httpOnly': False, 'name': 'l', 'path': '/', 'secure': False, 'value': 'eBOQbLGILL2GOCASKOfwnurza77OIIRAguPzaNbMiOCPOU5p5VVRW6cE9OY9CnGVh6qBR3PM_zWTBeYBcS475O95a6Fy_QHmn'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'lgc', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%5Cu5316%5Cu7FBD%5Cu800C%5Cu8499'}, {'domain': '.tmall.com', 'httpOnly': True, 'name': 'cookie17', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'UUpjN48kKb7fmg%3D%3D'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': '_l_g_', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'Ug%3D%3D'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'login', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'true'}, {'domain': '.tmall.com', 'expiry': 1645171589, 'httpOnly': False, 'name': 'xlly_s', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '1'}, {'domain': '.tmall.com', 'httpOnly': True, 'name': 'uc3', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'id2=UUpjN48kKb7fmg%3D%3D&nk2=2HdzFy1m64E%3D&lg2=U%2BGCWk%2F75gdr5Q%3D%3D&vt3=F8dCvU%2Bwqfu8HD4lQMI%3D'}, {'domain': '.tmall.com', 'expiry': 1660637202, 'httpOnly': False, 'name': 'isg', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'BOvrui-xDTxrUlHoTEcT8jiwegnVAP-CT5WmQV1o1yqA_Ate5dCj0_neUjySXFd6'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'unb', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '2221680851'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 't', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '4b5442d45d1ed05c08fdd22e5cdc181a'}, {'domain': '.tmall.com', 'expiry': 1676649988, 'httpOnly': False, 'name': 'lid', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%E5%8C%96%E7%BE%BD%E8%80%8C%E8%92%99'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'dnk', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%5Cu5316%5Cu7FBD%5Cu800C%5Cu8499'}]
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.40.6fe74aaeTRuW3S&id=602470595595&skuId=4212671000612
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 200-INFO-product_name:百植萃玻色因塑颜紧致面部精华液sku_name: 
+2022-02-17 16:06-get_price_by_chrome.py-[line]: 200-INFO-product_name:百植萃复合果酸精华水sku_name: 果酸精华水 补水保湿 调节痘肌200ml
+2022-02-17 16:07-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-21502388637.38.68db4aaeN5R8D5&id=613619288368&skuId=4496064455875
+2022-02-17 16:07-get_price_by_chrome.py-[line]: 48-INFO-Tmall init 
+2022-02-17 16:07-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="fm-login-id"]
+2022-02-17 16:07-get_price_by_chrome.py-[line]: 109-INFO-登录页未打开
+2022-02-17 16:07-get_price_by_chrome.py-[line]: 228-INFO-登录失败
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 48-INFO-Tmall init 
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 82-INFO-get_product_url.login.input.user_name
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 84-INFO-get_product_url.login.input.user_pwd
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 100-INFO-login in click
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPriceModBox"]/dd/span
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_StrPrice"]/em[2]
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 104-INFO-等待手机端确认
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 200-INFO-product_name:Easyface艺霏传明酸巴布贴膜56片sku_name: 56片/盒
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.628e79c7BnwYYA&id=606744628264&skuId=4430618975202
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 160-INFO-get_price:398.00
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.628e79c7BnwYYA&id=606744628264&skuId=4430618975202
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 200-INFO-product_name:Easyface艺霏传明酸精华液sku_name: 30ml
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.444379c7IPMDYD&id=649768921950&skuId=4859442415879
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 165-ERROR-获取价格异常 
+Traceback (most recent call last):
+  File "/Users/wyy/Desktop/codes/mytest/testNC/浏览器模拟获取价格/get_price_by_chrome.py", line 148, in get_price
+    with open(path+url, 'w') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './htmlshttps://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.444379c7IPMDYD&id=649768921950&skuId=4859442415879'
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 176-INFO-main: cookies = [{'domain': '.tmall.com', 'expiry': 1660637316, 'httpOnly': False, 'name': 'tfstk', 'path': '/', 'secure': False, 'value': 'cg25B9_TXyeq0zfeUusVUGWtbuMFZBtsA_guVWJam_wH40E5iY9Z5nX_teHEvm1..'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'uc1', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'cookie15=URm48syIIVrSKA%3D%3D&cookie21=UIHiLt3xThH8t7YQoFNq&cookie16=VFC%2FuZ9az08KUQ56dCrZDlbNdA%3D%3D&cookie14=UoewBVzY66wBuA%3D%3D&pas=0&existShop=false'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'cancelledSubSites', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'empty'}, {'domain': '.tmall.com', 'httpOnly': True, 'name': 'uc4', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'nk4=0%402kK%2Bx8kybn4%2FugsNtmgDRVs5RQ%3D%3D&id4=0%40U2gp9xpJ1a%2F8n149nGepSqFbZZWL'}, {'domain': '.tmall.com', 'httpOnly': True, 'name': 'sgcookie', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'E100ZWhenw2NgSj9HZnsIIoXG2PG3h4%2BEH%2B01Q8%2FyPKdx%2BuVw6ZC2i2rC5Y%2FjjCBeuMM6lJ1bQQRFvCNXQu%2Fy0SxJrly4p5uzJguUujp9RI5kdJ4381Rbcm9eAGkqcc96Ii4'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'tracknick', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%5Cu5316%5Cu7FBD%5Cu800C%5Cu8499'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': '_nk_', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%5Cu5316%5Cu7FBD%5Cu800C%5Cu8499'}, {'domain': '.tmall.com', 'expiry': 2275805302, 'httpOnly': False, 'name': 'cna', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'cPCUGkuLbnkCAbcw82WVVhcY'}, {'domain': '.tmall.com', 'httpOnly': True, 'name': 'cookie1', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'VAKIlZrEy18GfYt%2FFIpBMbAelaizc9qmpOIshC4OiUU%3D'}, {'domain': '.tmall.com', 'expiry': 1660637316, 'httpOnly': False, 'name': 'l', 'path': '/', 'secure': False, 'value': 'eBgcfDfRLL2ezQESKOfwourza77OSIRAguPzaNbMiOCPOfCp5ZFNW6cE9f89C3GVh6VHR3PM_zWTBeYBcSxMhrD1a6Fy_Ckmn'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'lgc', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%5Cu5316%5Cu7FBD%5Cu800C%5Cu8499'}, {'domain': '.tmall.com', 'httpOnly': True, 'name': 'cookie17', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'UUpjN48kKb7fmg%3D%3D'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': '_l_g_', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'Ug%3D%3D'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'csg', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '7eff4ecf'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': '_tb_token_', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'f558e57eea987'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'sg', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%E8%92%9918'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 't', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '417ef9ac8337c6df869914aaf17d5890'}, {'domain': '.tmall.com', 'expiry': 1676650101, 'httpOnly': False, 'name': 'lid', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%E5%8C%96%E7%BE%BD%E8%80%8C%E8%92%99'}, {'domain': '.tmall.com', 'expiry': 1645171702, 'httpOnly': False, 'name': 'xlly_s', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '1'}, {'domain': '.tmall.com', 'httpOnly': True, 'name': 'uc3', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'nk2=2HdzFy1m64E%3D&id2=UUpjN48kKb7fmg%3D%3D&vt3=F8dCvU%2Bwqfu%2BcWoCbX8%3D&lg2=VT5L2FSpMGV7TQ%3D%3D'}, {'domain': '.tmall.com', 'expiry': 1660637316, 'httpOnly': False, 'name': 'isg', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'BJmZt48nHwblTcOSKYhxQ8xYqINzJo3YQZvUG7tOFUA-wrlUA3adqAdQwIa0-iUQ'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'unb', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '2221680851'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'login', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'true'}, {'domain': 'detail.tmall.com', 'expiry': 1647677316, 'httpOnly': False, 'name': 'pnm_cku822', 'path': '/', 'secure': False, 'value': '098%23E1hvZvvUvbpvUvCkvvvvvjiWR25vgjtnPL5yQjthPmPOsjYRn25Usj3vn2FwgjYbRvhvCvvvphvRvpvhvv2MMQvCvvOv9hCvvvvUvpCWvfrGNC0n%2BbeAhjnEAXZTKFyzOv56D40fd3gDN%2BBlHs4AnAaLINQf5CuOJyzwACQ7RqwiLO2v5fVQKoZH6R9t%2BFuTWDAvD46wditQcb9Cvm9vvhCrvvvvmQvvpGwvvU2ovvCj1Qvvv3QvvhNjvvmC%2FvvvpGwvvUCTkvhvC9hvpyj9689Cvv9vvhh%2FVRfiUuOCvvpvvhHh'}, {'domain': '.tmall.com', 'httpOnly': False, 'name': 'dnk', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%5Cu5316%5Cu7FBD%5Cu800C%5Cu8499'}, {'domain': '.tmall.com', 'httpOnly': True, 'name': 'cookie2', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '14730fa35fdab01462b99189300750eb'}]
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 208-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.444379c7IPMDYD&id=649768921950&skuId=4859442415879
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 200-INFO-product_name:Easyface艺霏虾青素莹润修护精华液sku_name: 30ml
+2022-02-17 16:08-get_price_by_chrome.py-[line]: 206-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.47.40df79c7zy7drP&id=606740156728&skuId=4438549425106
+2022-02-17 16:10-get_price_by_chrome.py-[line]: 48-INFO-Tmall init 
+2022-02-17 16:10-get_price_by_chrome.py-[line]: 82-INFO-get_product_url.login.input.user_name
+2022-02-17 16:10-get_price_by_chrome.py-[line]: 84-INFO-get_product_url.login.input.user_pwd
+2022-02-17 16:10-get_price_by_chrome.py-[line]: 100-INFO-login in click
+2022-02-17 16:10-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 16:10-get_price_by_chrome.py-[line]: 199-INFO-product_name:Easyface艺霏传明酸巴布贴膜56片sku_name: 56片/盒
+2022-02-17 16:10-get_price_by_chrome.py-[line]: 205-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.628e79c7BnwYYA&id=606744628264&skuId=4430618975202
+2022-02-17 16:11-get_price_by_chrome.py-[line]: 63-INFO-is_element_exist //*[@id="J_PromoPrice"]/dd/div/span
+2022-02-17 16:11-get_price_by_chrome.py-[line]: 159-INFO-get_price:398.00
+2022-02-17 16:11-get_price_by_chrome.py-[line]: 207-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.628e79c7BnwYYA&id=606744628264&skuId=4430618975202
+2022-02-17 16:11-get_price_by_chrome.py-[line]: 199-INFO-product_name:Easyface艺霏传明酸精华液sku_name: 30ml
+2022-02-18 13:57-pyppeteer_test.py-[line]: 52-INFO-product_name:Easyface艺霏传明酸巴布贴膜56片sku_name: 56片/盒
+2022-02-18 13:57-pyppeteer_test.py-[line]: 58-INFO-new_url_1:https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.628e79c7BnwYYA&id=606744628264&skuId=4430618975202
