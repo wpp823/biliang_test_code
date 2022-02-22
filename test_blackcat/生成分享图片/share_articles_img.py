@@ -21,7 +21,7 @@ def header_img_author(header_img_url, width, height):
     else:
         x = y = r = int(width / 2)
     mask = np.zeros(img.shape[:2], dtype=np.uint8)
-    mask = cv2.circle(mask, (x, y), r, (255, 255, 255, 0), -1)
+    # mask = cv2.circle(mask, (x, y), r, (255, 255, 255, 0), -1)
     image_array = cv2.add(img, np.zeros(np.shape(img), dtype=np.uint8), mask=mask)
     # 转化颜色
     image_array = cv2.cvtColor(image_array, cv2.COLOR_BGR2RGB)
@@ -79,7 +79,8 @@ if __name__ == "__main__":
     article_font_size = 20  # 文章字体大小
     article_x = 4  # 文章内容坐标x
     article_y = 336 - 59  # 文章内容坐标y
-    article_font_type = '/System/Library/Fonts/PingFang.ttc'  # 字体类型
+    # article_font_type = '/System/Library/Fonts/PingFang.ttc'  # 字体类型
+    article_font_type = r'C:\Windows\Fonts\Arial.ttf'  # 字体类型
     article_line = 23  # 行间距
     article_font_color = "#333333"
     # 计算文本最大行数
@@ -115,7 +116,8 @@ if __name__ == "__main__":
     doctor_name_y = 15
 
     doctor_name = "张大海"
-    doctor_font_type = '/System/Library/Fonts/PingFang.ttc'
+    # doctor_font_type = '/System/Library/Fonts/PingFang.ttc'
+    doctor_font_type = r'C:\Windows\Fonts\Arial.ttf'
     doctor_name_font_color = "#333333"
     doctor_name_font_size = 17  # 医生姓名字体大小
     doctor_font = ImageFont.truetype(doctor_font_type, doctor_name_font_size)
