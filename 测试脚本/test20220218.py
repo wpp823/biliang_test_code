@@ -2,7 +2,8 @@ from urllib.parse import urlparse
 
 from furl import furl
 
-url = 'https://allmark.puzhizhuhai.com/msws/wiki.html#/wiki?article_id=art_tP4NP7jSiz6A&author_id=d_SoBpMN5kUF&beast_session_id=bea_xsUUrW9yXUZkRe-KgFD-uZUeN4cnmFbDaG8.'
+# url = 'https://allmark.puzhizhuhai.com/msws/wiki.html#/wiki?article_id=art_tP4NP7jSiz6A&author_id=d_SoBpMN5kUF&beast_session_id=bea_xsUUrW9yXUZkRe-KgFD-uZUeN4cnmFbDaG8.'
+url = 'https://item.taobao.com/item.htm?id=618914678607'
 url_data = furl(url)
 # url_path = url_data.path
 # print(url_path)

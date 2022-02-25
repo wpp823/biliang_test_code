@@ -89,10 +89,10 @@ async def login_taobao(page=None):
     """
     await asyncio.sleep(2)
     try:
-        await page.type('#fm-login-id', '化羽而蒙', {'delay': 120})  # 账号
-        # await page.type('#fm-login-id', '比量1234', {'delay': 120})  # 账号
-        # await page.type('#fm-login-password', 'pzzh123456', {'delay': 120})  # 密码
-        await page.type('#fm-login-password', 'w836289789', {'delay': 120})  # 密码
+        # await page.type('#fm-login-id', '化羽而蒙', {'delay': 120})  # 账号
+        await page.type('#fm-login-id', '比量1234', {'delay': 120})  # 账号
+        await page.type('#fm-login-password', 'pzzh123456', {'delay': 120})  # 密码
+        # await page.type('#fm-login-password', 'w836289789', {'delay': 120})  # 密码
         await page.click('#login-form > div.fm-btn > button')
         await asyncio.sleep(random.randint(1, 5))
     except:
@@ -142,8 +142,8 @@ async def mouse_slide(page=None):
 
 
 if __name__ == "__main__":
-    # MONGO_HOST_PART = "mongodb://root:Pzzh4Adminin@192.168.1.230"  # 230
-    MONGO_HOST_PART = "mongodb://root:Pzzh4Admin@dds-wz9db3743e6de5041152-pub.mongodb.rds.aliyuncs.com:3717"  # 测试服
+    MONGO_HOST_PART = "mongodb://root:Pzzh4Adminin@192.168.1.230"  # 230
+    # MONGO_HOST_PART = "mongodb://root:Pzzh4Admin@dds-wz9db3743e6de5041152-pub.mongodb.rds.aliyuncs.com:3717"  # 测试服
     # MONGO_HOST_PART  = "mongodb://root:pzzh123456@dds-wz982bab2e6c05b41845-pub.mongodb.rds.aliyuncs.com:3717" # 正式服
     MONGO_HOST_AUTH_DB = "admin"
     MONGO_HOST_REPLICA_SET = None
@@ -153,14 +153,14 @@ if __name__ == "__main__":
 
     register_connection(db=MONGO_DB_NAME, host=MONGO_HOST_PART, authentication_source=MONGO_HOST_AUTH_DB,
                         replicaset=None, alias=connection.DEFAULT_CONNECTION_NAME)
-    # log = get_logger(name='PriceToolsPyppeteer.log', log_path='./')
-    log = get_logger()
-    # console_handler = logging.StreamHandler()
-    # console_handler.setLevel(level=logging.INFO)
-    # console_handler.setFormatter(logging.Formatter(formatter, datefmt='%Y-%m-%d %H:%M'))
-
-    # logger.addHandler(time_rotate_file)
-    # log.addHandler(console_handler)
+    log = get_logger(name='PriceToolsPyppeteer.log', log_path='./')
+    # log = get_logger()
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(level=logging.INFO)
+    console_handler.setFormatter(logging.Formatter(formatter, datefmt='%Y-%m-%d %H:%M'))
+    #
+    logger.addHandler(time_rotate_file)
+    log.addHandler(console_handler)
     # log = log
 
     # log = get_logger(name="PriceToolsPyppeteer.log", log_path="./")

@@ -1,0 +1,38 @@
+2022-02-21 17:34-price_tools.py-[line]: 47-INFO-[PriceToolsPyppeteer.get_page_ok][url:https://item.taobao.com/item.htm?id=619300880358,price_list:['98.00']]
+2022-02-21 17:34-price_tools.py-[line]: 126-ERROR-[sync_third_party_product_price_error][ext_url:https://item.taobao.com/item.htm?id=619300880358]
+Traceback (most recent call last):
+  File "/Users/wyy/Desktop/codes/mytest/testNC/浏览器模拟获取价格/price_tools.py", line 120, in <module>
+    price = min([int(item) for item in ext_page_info])
+  File "/Users/wyy/Desktop/codes/mytest/testNC/浏览器模拟获取价格/price_tools.py", line 120, in <listcomp>
+    price = min([int(item) for item in ext_page_info])
+ValueError: invalid literal for int() with base 10: '98.00'
+2022-02-21 18:11-price_tools.py-[line]: 47-INFO-[PriceToolsPyppeteer.get_page_ok][url:https://item.taobao.com/item.htm?id=619300880358,price_list:['98.00']]
+2022-02-21 18:11-price_tools.py-[line]: 119-INFO-ext_url:https://item.taobao.com/item.htm?id=619300880358  price_list:['98.00']
+2022-02-21 18:11-price_tools.py-[line]: 127-ERROR-[sync_third_party_product_price_error][ext_url:https://item.taobao.com/item.htm?id=619300880358]
+Traceback (most recent call last):
+  File "/Users/wyy/Desktop/codes/mytest/testNC/浏览器模拟获取价格/price_tools.py", line 120, in <module>
+    if price_list:
+  File "/Users/wyy/Desktop/codes/mytest/testNC/浏览器模拟获取价格/price_tools.py", line 121, in <listcomp>
+    price = min([int(item) for item in price_list])
+ValueError: invalid literal for int() with base 10: '98.00'
+2022-02-21 18:13-price_tools.py-[line]: 47-INFO-[PriceToolsPyppeteer.get_page_ok][url:https://item.taobao.com/item.htm?id=619300880358,price_list:['98.00']]
+2022-02-21 18:13-price_tools.py-[line]: 119-INFO-ext_url:https://item.taobao.com/item.htm?id=619300880358  price_list:['98.00']
+2022-02-21 18:14-price_tools.py-[line]: 127-ERROR-[sync_third_party_product_price_error][ext_url:https://item.taobao.com/item.htm?id=619300880358]
+Traceback (most recent call last):
+  File "/Users/wyy/Desktop/codes/mytest/testNC/浏览器模拟获取价格/price_tools.py", line 120, in <module>
+    if price_list:
+  File "/Users/wyy/Desktop/codes/mytest/testNC/浏览器模拟获取价格/price_tools.py", line 121, in <listcomp>
+    price = min(['%.2f' % item for item in price_list])
+TypeError: must be real number, not str
+2022-02-21 18:15-price_tools.py-[line]: 47-INFO-[PriceToolsPyppeteer.get_page_ok][url:https://item.taobao.com/item.htm?id=619300880358,price_list:['98.00']]
+2022-02-21 18:15-price_tools.py-[line]: 119-INFO-ext_url:https://item.taobao.com/item.htm?id=619300880358  price_list:['98.00']
+2022-02-21 18:15-price_tools.py-[line]: 122-INFO-ext_url:https://item.taobao.com/item.htm?id=619300880358  price:98.00
+2022-02-21 18:33-price_tools.py-[line]: 32-INFO-[PriceToolsPyppeteer.get_page_ok][url:https://item.taobao.com/item.htm?id=619300880358,price_list:['98.00']]
+2022-02-21 18:33-price_tools.py-[line]: 74-INFO-ext_url:https://item.taobao.com/item.htm?id=619300880358  price_list:['98.00']
+2022-02-21 18:33-price_tools.py-[line]: 82-ERROR-[sync_third_party_product_price_error][ext_url:https://item.taobao.com/item.htm?id=619300880358]
+Traceback (most recent call last):
+  File "/Users/wyy/Desktop/codes/mytest/testNC/浏览器模拟获取价格/price_tools.py", line 76, in <module>
+    price = min([int(item) for item in price_list])
+  File "/Users/wyy/Desktop/codes/mytest/testNC/浏览器模拟获取价格/price_tools.py", line 76, in <listcomp>
+    price = min([int(item) for item in price_list])
+ValueError: invalid literal for int() with base 10: '98.00'
