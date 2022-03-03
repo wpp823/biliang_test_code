@@ -4,9 +4,10 @@ from mongoengine import register_connection, connection
 from mongo_db.dao.doctor_incomes_orders import DoctorIncomesOrdersDao
 from my_log import get_logger
 
-# MONGO_HOST_PART = "mongodb://root:Pzzh4Admin@192.168.1.230"  # 230
-MONGO_HOST_PART = "mongodb://root:Pzzh4Admin@dds-wz9db3743e6de5041152-pub.mongodb.rds.aliyuncs.com:3717" # 测试服
+MONGO_HOST_PART = "mongodb://root:Pzzh4Admin@192.168.1.230"  # 230
+# MONGO_HOST_PART = "mongodb://root:Pzzh4Admin@dds-wz9db3743e6de5041152-pub.mongodb.rds.aliyuncs.com:3717" # 测试服
 # MONGO_HOST_PART  = "mongodb://root:pzzh123456@dds-wz982bab2e6c05b41845-pub.mongodb.rds.aliyuncs.com:3717" # 正式服
+# MONGO_HOST_PART = "mongodb://root:Pzzh123456@dds-wz917a54a98fe3742782-pub.mongodb.rds.aliyuncs.com:3717" # 正式服v4
 MONGO_HOST_AUTH_DB = "admin"
 MONGO_HOST_REPLICA_SET = None
 
@@ -44,7 +45,6 @@ if __name__ == "__main__":
     doc_income_dao = DoctorIncomesOrdersDao(log=log)
     # 获取所有订单
     order_data = doc_income_dao.get_product_order()
-    # brands = product_dao.aggregate_type(field_name="brand")
 
     for order in order_data:
         order_id = order.product_data.order_id
