@@ -1,15 +1,13 @@
-import collections
 import urllib
 
 import xmltodict
-
-from daredevil.mongodb.dao.wx_message import WxMessageDao
-from daredevil.mongodb.model.wx_message import WxMessageForwardObj, WxMsgForwardContentObj
-
 from mongoengine import connect
 
+from daredevil.mongodb.dao.wx_message import WxMessageDao
+from daredevil.mongodb.model.wx_message import WxMsgForwardContentObj
 
-def format_49_data(content,msg_id):
+
+def format_49_data(content, msg_id):
     """
     解析content内容，从type判断类型
     :return:
@@ -24,7 +22,7 @@ def format_49_data(content,msg_id):
 
     # data_content = xml_dict['msg']['appmsg']['recordinfo']
     forward_content_dict = xmltodict.parse(xml_dict['msg']['appmsg']['recorditem'])
-    forward_msg_data_list = forward_content_dict['recordinfo']['datalist'].get('dataitem',[])
+    forward_msg_data_list = forward_content_dict['recordinfo']['datalist'].get('dataitem', [])
     if (type(forward_msg_data_list)) is not list:
         forward_msg_data_list = [forward_msg_data_list]
     #
@@ -32,8 +30,7 @@ def format_49_data(content,msg_id):
     # print(type(forward_msg_data_list))
     # print(forward_msg_data_list)
 
-
-    forward_msg_content_list = [analysis_forward_msg_data(data_item,msg_id) for data_item in forward_msg_data_list]
+    forward_msg_content_list = [analysis_forward_msg_data(data_item, msg_id) for data_item in forward_msg_data_list]
     # forward_msg_content_list = analysis_forward_msg_data(forward_msg_data_list)
     # for data_item in forward_msg_data_list:
     #     print(data_item)
@@ -50,7 +47,7 @@ def format_49_data(content,msg_id):
     return _msg_content
 
 
-def analysis_forward_msg_data(forward_msg_data_item,msg_id):
+def analysis_forward_msg_data(forward_msg_data_item, msg_id):
     # 转发消息解析
     # print("forward_msg_data_item")
     # print(forward_msg_data_item)
@@ -60,10 +57,9 @@ def analysis_forward_msg_data(forward_msg_data_item,msg_id):
                    'msg_source_time': forward_msg_data_item['sourcetime'],
                    'msg_source_name': forward_msg_data_item['sourcename']}
 
+    talker = forward_msg_data_item['dataitemsource'].get('fromusr', None)
 
-    talker = forward_msg_data_item['dataitemsource'].get('fromusr',None)
-
-    msg_forward['talker'] = talker if talker else forward_msg_data_item['dataitemsource'].get('realchatname',None)
+    msg_forward['talker'] = talker if talker else forward_msg_data_item['dataitemsource'].get('realchatname', None)
     # print(msg_forward['talker'])
 
     # if msg_forward['type'] == 1:
@@ -256,10 +252,13 @@ if __name__ == "__main__":
         content = item.get('content')
         # print("msg_id")
         # print(msg_id)
-        msg_data = format_49_data(content,msg_id)
+        msg_data = format_49_data(content, msg_id)
 
         msg_obj = WxMessageDao()
         res = msg_obj.update_msg_content(msg_id=msg_id, msg_content=msg_data)
         result += int(res)
 
     print(result)
+
+    test = {'type': 1, 'msg_source_time': '2021-11-4 10:38', 'msg_source_name': '黄龙', 'talker': 'wxid_8ws1b2octolm21', 'msg_desc': '[图片]', 'msg_type': 'text',
+            'msg_content_lite': {'desc': '[图片]'}}

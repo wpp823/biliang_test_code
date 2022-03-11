@@ -1,7 +1,7 @@
 import pandas as pd
 import pypinyin
 
-file_path = '正式服数据0303.xls'
+file_path = './正式服数据0303.xls'
 
 
 def yinjie(word):
