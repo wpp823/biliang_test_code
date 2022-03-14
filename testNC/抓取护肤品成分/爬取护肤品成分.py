@@ -31,6 +31,7 @@ def export_product_component():
                     row_data = {
                         "product_id": item.get("product_id", ""),
                         "sku_id": item.get("sku_id", ""),
+                        "title": item.get("title", ""),
                         "cosmedna_url": cosmedna_url,
                         "filing_no": filing_no,
                         "component_name_cn": "",
@@ -59,7 +60,7 @@ def export_product_component():
                         elif index == 4:
                             img = td_item.find_all("img")
                             if img:
-                                row_data["safety"] = img[0].get("src")[5:-4]
+                                row_data["activity"] = img[0].get("src")[5:-4]
                         else:
                             pass
                     log.info(f"new_row_data ： {row_data}")
@@ -68,6 +69,7 @@ def export_product_component():
             row_data = {
                 "product_id": item.get("product_id", ""),
                 "sku_id": item.get("sku_id", ""),
+                "title": item.get("title", ""),
                 "cosmedna_url": cosmedna_url,
                 "filing_no": '',
                 "component_name_cn": "",
