@@ -66,8 +66,8 @@ class KingdeejdyAuth:
                         'code': f"{result.get('description')}"
                     })
                 data = UtilClient.assert_as_map(result.get('data'))
-                # access_token = UtilClient.assert_as_string(data.get('access_token'))
-                access_token = "1645428126aa1b3fbdaeeba9d2e1ddca"
+                access_token = UtilClient.assert_as_string(data.get('access_token'))
+                # access_token = "1645428126aa1b3fbdaeeba9d2e1ddca"
                 account_group_request = sdkauth_models.AccountGroupRequest(
                     access_token=access_token
                 )
@@ -177,6 +177,7 @@ class KingdeejdyAuth:
                 _request.query = UtilClient.stringify_map_value(UtilClient.to_map(query))
                 _last_request = _request
                 _response = TeaCore.do_action(_request, _runtime)
+                print(_response.body.decode())
                 if not UtilClient.equal_number(_response.status_code, 200):
                     raise TeaException({
                         'message': f'Reqeust Failed!',

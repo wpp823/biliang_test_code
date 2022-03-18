@@ -76,8 +76,8 @@ def main():
     token_request_query = TokenRequestQuery(
         client_id='205022',
         client_secret='1b16d77089b1e60b3f7c907aa3cc612e',
-        username='18926073493',
-        password=' a1234567'
+        username='17220202021',
+        password='Jdy202101'
     )
     # 获取token
     access_token_object = auth.get_token(token_request_query)
@@ -87,7 +87,9 @@ def main():
     # 账套可能有多条，这里示例默认取第一条。
     account_service = UtilClient.assert_as_map(account_groups[0])
     groups = UtilClient.assert_as_array(account_service.get('accountGroups'))
+
     group = UtilClient.stringify_map_value(UtilClient.assert_as_map(groups[0]))
+    print(group)
     account_id = group.get('accountId')
     group_name = group.get('groupName')
 
