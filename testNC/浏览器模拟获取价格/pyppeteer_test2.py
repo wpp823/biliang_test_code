@@ -28,7 +28,7 @@ class PriceToolsPyppeteer():
         await browser.close()
         return page_text
 
-    async def login_taobao(self):
+    async def login(self):
         browser = await launch(headless=False, dumpio=True, autoClose=False, userDataDir='./userdata',
                                args=['--no-sandbox', '--window-size=1920,1080', '--disable-infobars'])  # 进入有头模式
         page = await browser.newPage()
@@ -49,7 +49,8 @@ class PriceToolsPyppeteer():
         await page.close()
         await browser.close()
         return True
-    def parse_product_price(self,html):
+
+    def parse_product_price(self, html):
         """
         解析价格
 
@@ -63,10 +64,12 @@ class PriceToolsPyppeteer():
             price_list.append(int(price.string) for price in price_tags)
 
         return price_list
-# if __name__ == "__main__":
-#     tool = PriceToolsPyppeteer()
-#     product_url = "https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.444379c7IPMDYD&id=649768921950&skuId=4859442415879"
-#     # html_page = asyncio.get_event_loop().run_until_complete(tool.login())  # 调用
-#     html_page = asyncio.get_event_loop().run_until_complete(tool.get_page(product_url))  # 调用
-#
+
+
+if __name__ == "__main__":
+    tool = PriceToolsPyppeteer()
+    product_url = "https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-22228839995.44.444379c7IPMDYD&id=649768921950&skuId=4859442415879"
+    html_page = asyncio.get_event_loop().run_until_complete(tool.login())  # 调用
+    # html_page = asyncio.get_event_loop().run_until_complete(tool.get_page(product_url))  # 调用
+
 #
