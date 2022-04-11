@@ -58,7 +58,7 @@ def export_product_component():
                                 row_data["component_name_cn"] = names_div[0].get_text()
                                 row_data["component_name_en"] = names_div[1].get_text() if len(names_div) == 2 else ''
                         elif index == 4:
-                            img = td_item.find_all("img")
+                            img = td_item.find_all("imgs")
                             if img:
                                 row_data["activity"] = img[0].get("src")[5:-4]
                         else:

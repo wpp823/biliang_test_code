@@ -9,7 +9,7 @@ img = cv2.imread(imgName)
 
 # 展示原图
 
-# cv2.imshow("img", img)
+# cv2.imshow("imgs", imgs)
 
 # 创建掩膜
 

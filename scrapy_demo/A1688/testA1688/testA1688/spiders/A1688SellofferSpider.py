@@ -25,7 +25,7 @@ class A1688sellofferspiderSpider(scrapy.Spider):
                 # 从response中利用css选择器提取出来的标签是文本形式，需要利用 BeautifulSoup 转换成BeautifulSoup.Tag 对象进行进一步提取。
                 soup = BeautifulSoup(tag, 'lxml')
 
-                item['title'] = soup.select(".sw-dpl-offer-photo img")[0].attrs['alt']
+                item['title'] = soup.select(".sw-dpl-offer-photo imgs")[0].attrs['alt']
                 item['company'] = soup.select(".sw-dpl-offer-companyName")[0].attrs['title']
                 item['price'] = soup.select(".sw-dpl-offer-priceNum")[0].attrs['title']
                 item['sell'] = soup.select(".sm-offer-tradeBt")[0].attrs['title']

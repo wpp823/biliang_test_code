@@ -14,7 +14,7 @@ def header_img_author(header_img_url, width, height):
 
     img = cv2.imread(header_img_url)
     # 创建掩膜
-    # image = Image.open(img)
+    # image = Image.open(imgs)
     # width, height = image.size
     if width > height:
         x = y = r = int(height / 2)

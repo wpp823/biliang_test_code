@@ -37,7 +37,7 @@ if __name__ == "__main__":
             # log.info(source_str)
             soup = BeautifulSoup(source_str, "html.parser")
             # log.info(soup.prettify())
-            xlkk_img_tag = soup.find_all("img", attrs={'xlkk': True})
+            xlkk_img_tag = soup.find_all("imgs", attrs={'xlkk': True})
             for i in xlkk_img_tag:
                 replacement = '<p class="shop_link"><span class="shop_link_icon"></span></p><a href="a_link">{text}</a>'
                 log.info(i)

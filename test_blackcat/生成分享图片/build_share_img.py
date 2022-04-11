@@ -275,7 +275,7 @@ if __name__ == "__main__":
     img = build_tool.build_content_img(doc_avatar_url=doc_avatar_url_s, doc_name=doc_name_s, article_text=article_text_s)
     # 封面图内容分享图片
 
-    # img = build_tool.build_cover_content_img(doc_avatar_url=doc_avatar_url_s, doc_name=doc_name_s, cover_url=cover_url_s)
+    # imgs = build_tool.build_cover_content_img(doc_avatar_url=doc_avatar_url_s, doc_name=doc_name_s, cover_url=cover_url_s)
 
     img_obj = Image.open(BytesIO(img))
     img_obj.show("ddd")

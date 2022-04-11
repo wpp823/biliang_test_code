@@ -109,7 +109,7 @@ class FieldItemObj(DynamicEmbeddedDocument):
     FIELD_TYPE_URL = 'url'  # 网址
     FIELD_TYPE_TEL = 'tel'  # 手机
     FIELD_TYPE_EMAIL = 'email'  # 邮箱
-    FIELD_TYPE_IMG = 'img'  # 图片
+    FIELD_TYPE_IMG = 'imgs'  # 图片
     FIELD_TYPE_ATT = 'att'  # 附件
     FIELD_TYPE_AUDIO = 'audio'  # 音频
     FIELD_TYPE_VIDEO = 'video'  # 视频

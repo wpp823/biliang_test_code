@@ -74,7 +74,7 @@ def img_applicationcode(fpath):
 #     hight = 327
 #     save_name = str(aid) + '.jpg'
 #     if os.path.exists(os.path.join(wx_share_path, save_name)):
-#         return {'img': wx_share_url + save_name}
+#         return {'imgs': wx_share_url + save_name}
 #     try:
 #         target = Image.new('RGBA', (width, hight + 504), (255, 255, 255))
 #         img_h = img_header(os.path.join(tasktheme_img_path, task_img))
@@ -114,7 +114,7 @@ def img_applicationcode(fpath):
 #         # print help(draw)
 #         target = target.convert("RGB")
 #         target.save(os.path.join(wx_share_path, save_name))
-#         return {'img': wx_share_url + save_name}
+#         return {'imgs': wx_share_url + save_name}
 #     except Exception as e:
 #         traceback.print_exc()
 #         return {}
