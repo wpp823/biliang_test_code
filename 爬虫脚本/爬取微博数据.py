@@ -89,22 +89,19 @@ def main():
     df_list = pd.read_excel("./护肤账号整理.xlsx", engine='openpyxl').fillna("")
 
     df_weibo_targets = df_list[df_list.来源.str.endswith("微博")].to_dict(orient="records")
-    result = './weibo_result.xlsx'
+    result = './weibo_result.xls'
     # count = 100
     # 生成dataframe
     # 分别写入不同sheet
     with pd.ExcelWriter(result) as writer:
-        weibo_result_cards = []
         for item in df_weibo_targets:
-
+            weibo_result_cards = []
             count = 100
             since_id = None
             url = item.get("链接")
             user_name = item.get("护肤账号")
             user_id = furl.furl(url).path.segments[1]
             # user_id = "5650696147"  # 测试
-
-
             while True:
                 since_id, results = get_results(user_id=user_id, since_id=since_id)
                 weibo_result_cards.extend(results)
@@ -114,9 +111,9 @@ def main():
                     break
 
         df_result = pd.DataFrame(data=weibo_result_cards)
-        df_result.to_excel(writer, sheet_name=user_name, index=False, header=True)
+        df_result.to_excel(writer, sheet_name=user_name, index=False, header=False)
         writer.save()
-        log.info('end')
+        print('end')
 
 
 if __name__ == "__main__":
