@@ -92,7 +92,7 @@ if __name__ == "__main__":
     print(end_update_time)
     for order_status in STATUS_LIST:
         start_update_time = "2022-03-01 10:00:00"
-        end_update_time = "2022-04-02 00:00:00"
+        end_update_time = "2022-04-19 00:00:00"
         status = order_status
         page = 1
         page_size = "10"
