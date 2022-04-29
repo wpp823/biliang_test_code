@@ -1,0 +1,46 @@
+2022-04-21 14:35-金蝶出库物流同步.py-[line]: 13-INFO-[sync_sal_outbound_delivery_order][begin]
+2022-04-21 14:36-金蝶出库物流同步.py-[line]: 47-ERROR-[sync_sal_outbound_order]
+Traceback (most recent call last):
+  File "/Users/wyy/Desktop/codes/mytest/testNC/金蝶API/金蝶出库物流同步.py", line 22, in sync_sal_outbound_delivery_order
+    begin_at = arrow.now(tz="+08:00").shift(day=-10).timestamp  # 无数据默认十天之内的发货订单
+  File "/Users/wyy/Desktop/codes/mytest/venv36/lib/python3.6/site-packages/arrow/arrow.py", line 1031, in shift
+    f"Invalid shift time frame. Please select one of the following: {supported_attr}."
+ValueError: Invalid shift time frame. Please select one of the following: years, months, days, hours, minutes, seconds, microseconds, weeks, quarters, weekday.
+2022-04-21 14:37-金蝶出库物流同步.py-[line]: 13-INFO-[sync_sal_outbound_delivery_order][begin]
+2022-04-21 14:38-金蝶出库物流同步.py-[line]: 13-INFO-[sync_sal_outbound_delivery_order][begin]
+2022-04-21 14:38-金蝶出库物流同步.py-[line]: 47-ERROR-[sync_sal_outbound_order]
+Traceback (most recent call last):
+  File "/Users/wyy/Desktop/codes/mytest/testNC/金蝶API/金蝶出库物流同步.py", line 31, in sync_sal_outbound_delivery_order
+    url_1 = "http://127.0.0.1:18851/in/mnc/api/v1/jindie/sal/outbound/order/list"
+  File "/Users/wyy/Desktop/codes/mytest/testNC/金蝶API/金蝶出库物流同步.py", line 31, in sync_sal_outbound_delivery_order
+    url_1 = "http://127.0.0.1:18851/in/mnc/api/v1/jindie/sal/outbound/order/list"
+  File "_pydevd_bundle/pydevd_cython_darwin_36_64.pyx", line 1179, in _pydevd_bundle.pydevd_cython_darwin_36_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle/pydevd_cython_darwin_36_64.pyx", line 620, in _pydevd_bundle.pydevd_cython_darwin_36_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_36_64.pyx", line 1095, in _pydevd_bundle.pydevd_cython_darwin_36_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_36_64.pyx", line 1057, in _pydevd_bundle.pydevd_cython_darwin_36_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_36_64.pyx", line 317, in _pydevd_bundle.pydevd_cython_darwin_36_64.PyDBFrame.do_wait_suspend
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1147, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1162, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+2022-04-21 14:38-金蝶出库物流同步.py-[line]: 49-INFO-[sync_sal_outbound_order][end]
+2022-04-21 14:41-金蝶出库物流同步.py-[line]: 13-INFO-[sync_sal_outbound_delivery_order][begin]
+2022-04-21 14:43-金蝶出库物流同步.py-[line]: 47-ERROR-[sync_sal_outbound_order]
+Traceback (most recent call last):
+  File "/Users/wyy/Desktop/codes/mytest/testNC/金蝶API/金蝶出库物流同步.py", line 39, in sync_sal_outbound_delivery_order
+    sync_sal_order_result = requests.post(url=sync_order_url, data=data)
+  File "/Users/wyy/Desktop/codes/mytest/testNC/金蝶API/金蝶出库物流同步.py", line 39, in sync_sal_outbound_delivery_order
+    sync_sal_order_result = requests.post(url=sync_order_url, data=data)
+  File "_pydevd_bundle/pydevd_cython_darwin_36_64.pyx", line 1179, in _pydevd_bundle.pydevd_cython_darwin_36_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle/pydevd_cython_darwin_36_64.pyx", line 620, in _pydevd_bundle.pydevd_cython_darwin_36_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_36_64.pyx", line 1095, in _pydevd_bundle.pydevd_cython_darwin_36_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_36_64.pyx", line 1057, in _pydevd_bundle.pydevd_cython_darwin_36_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_36_64.pyx", line 317, in _pydevd_bundle.pydevd_cython_darwin_36_64.PyDBFrame.do_wait_suspend
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1147, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1162, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+2022-04-21 14:43-金蝶出库物流同步.py-[line]: 49-INFO-[sync_sal_outbound_order][end]
+2022-04-21 14:44-金蝶出库物流同步.py-[line]: 13-INFO-[sync_sal_outbound_delivery_order][begin]
