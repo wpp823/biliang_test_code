@@ -19,3 +19,6 @@ class ProductItem(scrapy.Item):
     express_fee = scrapy.Field()  # 快递费用
     spu_id = scrapy.Field()  # 商品id
     sku_id = scrapy.Field()  # 规格属性id
+
+
+

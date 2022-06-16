@@ -62,8 +62,82 @@ class Testhandler(tornado.web.RequestHandler):
         self.render("nightcrawler_product_price.html", data_items=data_items)  # 将上述定义的list传给模板
 
 
+class Demo2handler(tornado.web.RequestHandler):
+    def get(self):
+        data_items = [{
+            "order_id": 3203261565093544192,
+            "create_time": "2022-05-12 00:00:01",
+            "start_time": "2022-05-12 00:00:01",
+            "end_time": "2022-05-12 00:00:01",
+            "products": [
+                {
+                    "product_name": "森花泉古方草本护肤系列 天门冬面膜45分钟直达真皮银耳深度补水",
+                    "sku_name": "润泽补水面膜5片",
+                    "sku_num": 1,
+                }
+            ],
+            "order_price": float(16800 / 100)
+        },
+            {
+                "order_id": 3203261884760589568,
+                "create_time": "2022-05-12 00:00:01",
+                "start_time": "2022-05-12 00:00:01",
+                "end_time": "2022-05-12 00:00:01",
+                "products": [
+                    {
+                        "product_name": "可预类人胶原蛋白修复敷料",
+                        "sku_name": "50g【院线正品】",
+                        "sku_num": 1,
+                    },
+                    {
+                        "product_name": "可复美类人胶原蛋白敷料（蓝色非面膜5片）",
+                        "sku_name": "类人胶原蛋白敷料1盒（5片装)【院线正品】",
+                        "sku_num": 2,
+                    },
+                ],
+
+                "order_price": float(48400 / 100)
+            },
+
+            {
+                "order_id": 3203262659680010752,
+                "create_time": "2022-05-12 00:00:01",
+                "start_time": "2022-05-12 00:00:01",
+                "end_time": "2022-05-12 00:00:01",
+                "products": [
+                    {
+                        "product_name": "雅清芙姿金胚去屑止痒洗发液",
+                        "sku_name": "200ml【院线正品】",
+                        "sku_num": 1,
+                    }
+                ],
+
+                "order_price": float(5900 / 100)
+            },
+            {
+                "order_id": 3203263674119358464,
+                "create_time": "2022-05-12 00:00:01",
+                "start_time": "2022-05-12 00:00:01",
+                "end_time": "2022-05-12 00:00:01",
+                "products": [
+                    {
+                        "product_name": "优斐斯传明酸修护精华液",
+                        "sku_name": "30mL",
+                        "sku_num": 1,
+                    }
+                ],
+                "order_price": float(28900 / 100)
+            },
+        ]
+
+        self.render("nightcrawler_wx_order.html", data_items=data_items)  # 将上述定义的list传给模板
+
+
 handlers = [(r"/", IndexHandler),
-            (r"/test", Testhandler), ]
+            (r"/test", Testhandler),
+            (r"/demo2", Demo2handler),
+
+            ]
 
 # template_path = os.path.join(os.path.dirname(__file__), "temploop")  # 模板路径
 template_path = '/Users/wyy/Desktop/codes/mytest/testTornado/temploop'  # 模板路径

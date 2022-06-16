@@ -1,9 +1,0 @@
-setup.py
-kingdeejdy_auth/__init__.py
-kingdeejdy_auth/kingdeejdy_auth.py
-kingdeejdy_auth/models.py
-kingdeejdy_auth.egg-info/PKG-INFO
-kingdeejdy_auth.egg-info/SOURCES.txt
-kingdeejdy_auth.egg-info/dependency_links.txt
-kingdeejdy_auth.egg-info/requires.txt
-kingdeejdy_auth.egg-info/top_level.txt

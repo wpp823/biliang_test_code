@@ -18,8 +18,6 @@ class Tmall():
     def __init__(self, username, password):
 
         proxy = '47.101.44.122'
-
-
         logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
         self.log = get_logger()
         option = ChromeOptions()
@@ -179,8 +177,8 @@ class Tmall():
 if __name__ == '__main__':
     # 填入自己的用户名，密码,登录时若遇到需要手机淘宝确认的需要提前打开淘宝
 
-    username = '化羽而蒙'
-    password = 'w836289789'
+    # username = '化羽而蒙'
+    # password = 'w836289789'
 
     """
     price 为-1时，代表无链接

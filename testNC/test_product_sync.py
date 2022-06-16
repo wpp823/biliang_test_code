@@ -68,7 +68,7 @@ if __name__ == "__main__":
                     try:
                         print(product_id)
                         product_id = item.get("product_id", None)
-                        # product_id = "59292969"
+                        product_id = "97881693"
                         sync_product_spu_data(product_id=product_id)
                     except Exception as e:
                         print(str(e))

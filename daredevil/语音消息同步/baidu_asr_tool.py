@@ -2,9 +2,14 @@ import os
 
 from aip import AipSpeech
 
-BAIDU_APP_ID = '25157501'
-BAIDU_API_KEY = "WBiInMMaEWWlLGWhgMNkMWG4"
-BAIDU_SECRET_KEY = "dYGwjWqcW155TWzbF07S3tAkYrzNqtP8"
+# 26212878
+# mvFVL6pcxCneusarPTFSAmtY
+# nNdDGfkOt8rGMyZDWch7jwSKMwUxGdoq
+
+
+BAIDU_APP_ID = '26212878'
+BAIDU_API_KEY = "mvFVL6pcxCneusarPTFSAmtY"
+BAIDU_SECRET_KEY = "nNdDGfkOt8rGMyZDWch7jwSKMwUxGdoq"
 
 
 class BaiduAsrTool:
@@ -36,8 +41,9 @@ class BaiduAsrTool:
         return voice_text
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     tool = BaiduAsrTool()
     voice_file_path = os.path.abspath(r"./")
     voice_file_name = "silk_client/source.pcm"
-    tool.get_voice_text(voice_file_path,voice_file_name)
+    test_text = tool.get_voice_text(voice_file_path, voice_file_name)
+    print(test_text)

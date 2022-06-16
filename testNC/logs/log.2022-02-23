@@ -1,0 +1,296 @@
+2022-02-23 16:09-启动获取商品价格任务测试.py-[line]: 24-INFO-<Response [200]>
+2022-02-23 16:09-启动获取商品价格任务测试.py-[line]: 24-INFO-<Response [200]>
+2022-02-23 16:09-启动获取商品价格任务测试.py-[line]: 24-INFO-<Response [200]>
+2022-02-23 16:09-启动获取商品价格任务测试.py-[line]: 24-INFO-<Response [200]>
+2022-02-23 16:09-启动获取商品价格任务测试.py-[line]: 24-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:13800]'}}
+2022-02-23 16:09-启动获取商品价格任务测试.py-[line]: 24-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:13800]'}}
+2022-02-23 16:09-启动获取商品价格任务测试.py-[line]: 24-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:16800]'}}
+2022-02-23 16:09-启动获取商品价格任务测试.py-[line]: 24-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:19800]'}}
+2022-02-23 16:09-启动获取商品价格任务测试.py-[line]: 24-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:18800]'}}
+2022-02-23 16:10-启动获取商品价格任务测试.py-[line]: 24-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:10-启动获取商品价格任务测试.py-[line]: 24-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:10-启动获取商品价格任务测试.py-[line]: 24-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 56656287, 'sku_id': 118283873, 'ext_url': 'https://item.taobao.com/item.htm?id=626648472514'}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 25-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:13800]'}}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 56656287, 'sku_id': 118285823, 'ext_url': 'https://item.taobao.com/item.htm?id=626648472514'}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 25-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:13800]'}}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59218808, 'sku_id': 116888789, 'ext_url': 'https://detail.tmall.com/item.htm?id=644815647431'}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 25-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:16800]'}}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219224, 'sku_id': 116904415, 'ext_url': 'https://detail.tmall.com/item.htm?id=637765452182'}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 25-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:19800]'}}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219344, 'sku_id': 143919648, 'ext_url': 'https://detail.tmall.com/item.htm?id=544502344102'}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 25-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:18800]'}}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219504, 'sku_id': 116903032, 'ext_url': 'https://detail.tmall.com/item.htm?id=641072955049'}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 25-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:26800]'}}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219540, 'sku_id': 116899235, 'ext_url': 'https://detail.tmall.com/item.htm?id=636878472603'}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 25-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:29800]'}}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219583, 'sku_id': 116903071, 'ext_url': 'https://detail.tmall.com/item.htm?id=628454350125'}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 25-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:19800]'}}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219607, 'sku_id': 116908933, 'ext_url': None}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 56656287, 'sku_id': 118283873, 'ext_url': 'https://item.taobao.com/item.htm?id=626648472514'}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 25-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:13800]'}}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 56656287, 'sku_id': 118285823, 'ext_url': 'https://item.taobao.com/item.htm?id=626648472514'}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 25-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:13800]'}}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59218808, 'sku_id': 116888789, 'ext_url': 'https://detail.tmall.com/item.htm?id=644815647431'}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 25-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:16800]'}}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219224, 'sku_id': 116904415, 'ext_url': 'https://detail.tmall.com/item.htm?id=637765452182'}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 25-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:19800]'}}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219344, 'sku_id': 143919648, 'ext_url': 'https://detail.tmall.com/item.htm?id=544502344102'}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 25-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:18800]'}}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219504, 'sku_id': 116903032, 'ext_url': 'https://detail.tmall.com/item.htm?id=641072955049'}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 25-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:26800]'}}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219540, 'sku_id': 116899235, 'ext_url': 'https://detail.tmall.com/item.htm?id=636878472603'}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 25-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:29800]'}}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219583, 'sku_id': 116903071, 'ext_url': 'https://detail.tmall.com/item.htm?id=628454350125'}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 25-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:19800]'}}
+2022-02-23 16:11-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219607, 'sku_id': 116908933, 'ext_url': None}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 56656287, 'sku_id': 118283873, 'ext_url': 'https://item.taobao.com/item.htm?id=626648472514'}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:13800]'}}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 56656287, 'sku_id': 118285823, 'ext_url': 'https://item.taobao.com/item.htm?id=626648472514'}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:13800]'}}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59218808, 'sku_id': 116888789, 'ext_url': 'https://detail.tmall.com/item.htm?id=644815647431'}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:16800]'}}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219224, 'sku_id': 116904415, 'ext_url': 'https://detail.tmall.com/item.htm?id=637765452182'}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:19800]'}}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219344, 'sku_id': 143919648, 'ext_url': 'https://detail.tmall.com/item.htm?id=544502344102'}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:18800]'}}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219504, 'sku_id': 116903032, 'ext_url': 'https://detail.tmall.com/item.htm?id=641072955049'}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:26800]'}}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219540, 'sku_id': 116899235, 'ext_url': 'https://detail.tmall.com/item.htm?id=636878472603'}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:29800]'}}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219583, 'sku_id': 116903071, 'ext_url': 'https://detail.tmall.com/item.htm?id=628454350125'}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:19800]'}}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219607, 'sku_id': 116908933, 'ext_url': None}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1100, 'msg': 'ext_url地址中缺失淘宝商品id', 'data': None}
+2022-02-23 16:12-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219612, 'sku_id': 118282126, 'ext_url': 'https://detail.tmall.com/item.htm?id=587051744204'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219612, 'sku_id': 118263745, 'ext_url': 'https://detail.tmall.com/item.htm?id=587051744204'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219624, 'sku_id': 116895801, 'ext_url': 'https://detail.tmall.com/item.htm?id=587053192746'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59219642, 'sku_id': 119032046, 'ext_url': 'https://detail.tmall.com/item.htm?id=598095899322'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59256853, 'sku_id': 116942152, 'ext_url': 'https://chaoshi.detail.tmall.com/item.htm?id=655572199693'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59256864, 'sku_id': 143911822, 'ext_url': 'https://detail.tmall.com/item.htm?id=600759989300'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59256872, 'sku_id': 143909811, 'ext_url': 'https://detail.tmall.com/item.htm?id=562745560200'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59256874, 'sku_id': 143921374, 'ext_url': 'https://detail.tmall.com/item.htm?id=623918494721'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59256885, 'sku_id': 143929231, 'ext_url': 'https://detail.tmall.com/item.htm?id=562755784080'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59256890, 'sku_id': 143913969, 'ext_url': 'https://detail.tmall.com/item.htm?id=574207881774'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59256900, 'sku_id': 143915862, 'ext_url': 'https://detail.tmall.com/item.htm?id=594741984083'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59256908, 'sku_id': 143952293, 'ext_url': 'https://detail.tmall.com/item.htm?id=603975365553'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59256925, 'sku_id': 143933114, 'ext_url': 'https://detail.tmall.com/item.htm?id=584464306427'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59256966, 'sku_id': 116937120, 'ext_url': 'https://detail.tmall.com/item.htm?id=650202488401'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59256983, 'sku_id': 116925993, 'ext_url': 'https://detail.tmall.com/item.htm?id=603975490101'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59257002, 'sku_id': 116940979, 'ext_url': 'https://detail.tmall.com/item.htm?id=627902316525'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59257005, 'sku_id': 116933855, 'ext_url': 'https://detail.tmall.com/item.htm?id=584586428998'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292218, 'sku_id': 116975184, 'ext_url': 'https://detail.tmall.com/item.htm?id=597655781410'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292898, 'sku_id': 116987572, 'ext_url': 'https://detail.tmall.com/item.htm?id=606744628264'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292900, 'sku_id': 117000609, 'ext_url': 'https://detail.tmall.com/item.htm?id=606740156728'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292905, 'sku_id': 116996744, 'ext_url': 'https://detail.tmall.com/item.htm?id=645400462713'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292912, 'sku_id': 117004646, 'ext_url': 'https://detail.tmall.com/item.htm?id=632461753506'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292920, 'sku_id': 117006154, 'ext_url': 'https://detail.tmall.com/item.htm?id=638596607382'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292927, 'sku_id': 116989714, 'ext_url': 'https://detail.tmall.com/item.htm?id=598724561255'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292927, 'sku_id': 116993292, 'ext_url': 'https://detail.tmall.com/item.htm?id=598724561255'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292937, 'sku_id': 117004744, 'ext_url': 'https://detail.tmall.com/item.htm?id=589726457718'}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:13-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292941, 'sku_id': 116991471, 'ext_url': 'https://detail.tmall.com/item.htm?id=629322805063'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292948, 'sku_id': 116994932, 'ext_url': 'https://detail.tmall.com/item.htm?id=628985420585'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292954, 'sku_id': 116989818, 'ext_url': 'https://detail.tmall.com/item.htm?id=610298426180'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292960, 'sku_id': 116998993, 'ext_url': 'https://detail.tmall.com/item.htm?id=602470595595'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292962, 'sku_id': 117000881, 'ext_url': 'https://detail.tmall.com/item.htm?id=613619288368'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292965, 'sku_id': 116985964, 'ext_url': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1100, 'msg': 'ext_url地址中缺失淘宝商品id', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292971, 'sku_id': 116993439, 'ext_url': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1100, 'msg': 'ext_url地址中缺失淘宝商品id', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292972, 'sku_id': 116987919, 'ext_url': 'https://detail.tmall.com/item.htm?id=17289238843'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292975, 'sku_id': 116989931, 'ext_url': 'https://detail.tmall.com/item.htm?id=17921178484'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292976, 'sku_id': 116997029, 'ext_url': 'https://detail.tmall.com/item.htm?id=19445947936'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292979, 'sku_id': 117008053, 'ext_url': 'https://detail.tmall.com/item.htm?id=2453766859'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1102, 'msg': '优客api返回数据中,匹配价格数据失败', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59359667, 'sku_id': 117184170, 'ext_url': 'https://detail.tmall.com/item.htm?id=649768921950'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59474651, 'sku_id': 117263126, 'ext_url': 'https://detail.tmall.com/item.htm?id=611729179876'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59474675, 'sku_id': 117261311, 'ext_url': 'https://detail.tmall.com/item.htm?id=610982260060'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59475954, 'sku_id': 117330054, 'ext_url': 'https://detail.tmall.com/item.htm?id=580742791889'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59510291, 'sku_id': 117341126, 'ext_url': 'https://detail.tmall.com/item.htm?id=600809081354'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59683068, 'sku_id': 117658580, 'ext_url': 'https://detail.tmall.com/item.htm?id=617592057125'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59683171, 'sku_id': 117670421, 'ext_url': 'https://detail.tmall.com/item.htm?id=611728283471'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 60132880, 'sku_id': 118359960, 'ext_url': 'https://detail.tmall.com/item.htm?id=629822037455'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 60132914, 'sku_id': 118378365, 'ext_url': 'https://detail.tmall.com/item.htm?id=596685827445'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 60132941, 'sku_id': 118373121, 'ext_url': 'https://detail.tmall.com/item.htm?id=622431289460'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 60132980, 'sku_id': 118380494, 'ext_url': 'https://detail.tmall.com/item.htm?id=597951128070'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 60132980, 'sku_id': 118373267, 'ext_url': 'https://detail.tmall.com/item.htm?id=597951128070'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 60132980, 'sku_id': 118363635, 'ext_url': 'https://detail.tmall.com/item.htm?id=597951128070'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 60221076, 'sku_id': 118557725, 'ext_url': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1100, 'msg': 'ext_url地址中缺失淘宝商品id', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 59292969, 'sku_id': 116985976, 'ext_url': 'https://detail.tmall.com/item.htm?id=622247786852'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 60598764, 'sku_id': 119064795, 'ext_url': 'https://detail.tmall.com/item.htm?id=592747173083'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 60598872, 'sku_id': 119071240, 'ext_url': 'https://detail.tmall.com/item.htm?id=602910133060&skuId=4532608589712'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 61854019, 'sku_id': 143185369, 'ext_url': 'https://item.taobao.com/item.htm?id=664084414729'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 61854019, 'sku_id': 143169821, 'ext_url': 'https://item.taobao.com/item.htm?id=664084414729'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 65105392, 'sku_id': 136036781, 'ext_url': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1100, 'msg': 'ext_url地址中缺失淘宝商品id', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67184471, 'sku_id': 143942874, 'ext_url': 'https://detail.tmall.com/item.htm?id=644528932599'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67278488, 'sku_id': 140200654, 'ext_url': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1100, 'msg': 'ext_url地址中缺失淘宝商品id', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67278488, 'sku_id': 140165468, 'ext_url': 'https://detail.tmall.com/item.htm?id=544502344102'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67278488, 'sku_id': 140206568, 'ext_url': 'https://detail.tmall.com/item.htm?id=17289238843'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67278488, 'sku_id': 140206567, 'ext_url': 'https://detail.tmall.com/item.htm?id=589726457718'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67278488, 'sku_id': 140173210, 'ext_url': 'https://detail.tmall.com/item.htm?id=602470595595'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67286871, 'sku_id': 140145054, 'ext_url': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1100, 'msg': 'ext_url地址中缺失淘宝商品id', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67286871, 'sku_id': 140154995, 'ext_url': 'https://detail.tmall.com/item.htm?id=544502344102'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67286871, 'sku_id': 140158944, 'ext_url': 'https://detail.tmall.com/item.htm?id=589726457718'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67286871, 'sku_id': 140152940, 'ext_url': 'https://detail.tmall.com/item.htm?id=17289238843'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67306785, 'sku_id': 140197454, 'ext_url': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1100, 'msg': 'ext_url地址中缺失淘宝商品id', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67306785, 'sku_id': 140177853, 'ext_url': 'https://detail.tmall.com/item.htm?id=584586428998'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67306785, 'sku_id': 140181904, 'ext_url': 'https://detail.tmall.com/item.htm?id=638596607382'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67306785, 'sku_id': 140205312, 'ext_url': 'https://detail.tmall.com/item.htm?id=610298426180'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67306785, 'sku_id': 140179915, 'ext_url': 'https://detail.tmall.com/item.htm?id=602910133060&skuId=4532608589712'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67306785, 'sku_id': 140219061, 'ext_url': 'https://item.taobao.com/item.htm?id=664084414729'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67331584, 'sku_id': 140133938, 'ext_url': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1100, 'msg': 'ext_url地址中缺失淘宝商品id', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67331584, 'sku_id': 140143485, 'ext_url': 'https://item.taobao.com/item.htm?id=664084414729'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67331584, 'sku_id': 140137613, 'ext_url': 'https://detail.tmall.com/item.htm?id=632461753506'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67331584, 'sku_id': 140139539, 'ext_url': 'https://detail.tmall.com/item.htm?id=610298426180'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67331584, 'sku_id': 140133939, 'ext_url': 'https://detail.tmall.com/item.htm?id=584464306427'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67331584, 'sku_id': 140164341, 'ext_url': 'https://detail.tmall.com/item.htm?id=602470595595'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67331584, 'sku_id': 140172038, 'ext_url': 'https://detail.tmall.com/item.htm?id=580742791889'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67365336, 'sku_id': 140167014, 'ext_url': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1100, 'msg': 'ext_url地址中缺失淘宝商品id', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67365336, 'sku_id': 140168858, 'ext_url': 'https://item.taobao.com/item.htm?id=626648472514'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67365336, 'sku_id': 140159966, 'ext_url': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1100, 'msg': 'ext_url地址中缺失淘宝商品id', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67365336, 'sku_id': 140153972, 'ext_url': 'https://detail.tmall.com/item.htm?id=597655781410'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67365336, 'sku_id': 140198083, 'ext_url': 'https://detail.tmall.com/item.htm?id=544502344102'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67771658, 'sku_id': 143923439, 'ext_url': 'https://detail.tmall.com/item.htm?id=656438177779'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67991881, 'sku_id': 143919934, 'ext_url': 'https://item.taobao.com/item.htm?id=615260138376'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67995818, 'sku_id': 143944878, 'ext_url': 'https://item.taobao.com/item.htm?id=614728788196'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68009720, 'sku_id': 143946834, 'ext_url': 'https://item.taobao.com/item.htm?id=616160927992'}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:14-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 67989858, 'sku_id': 143927435, 'ext_url': 'https://item.taobao.com/item.htm?id=615013593051'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68047584, 'sku_id': 143917954, 'ext_url': 'https://item.taobao.com/item.htm?id=615512195637'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68053499, 'sku_id': 143919982, 'ext_url': 'https://item.taobao.com/item.htm?id=615365176869'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68059464, 'sku_id': 143954263, 'ext_url': 'https://item.taobao.com/item.htm?id=615511679838'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68035603, 'sku_id': 143921612, 'ext_url': 'https://item.taobao.com/item.htm?id=616156523296'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68045601, 'sku_id': 143952457, 'ext_url': 'https://item.taobao.com/item.htm?id=615670154582'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68029687, 'sku_id': 143954273, 'ext_url': 'https://item.taobao.com/item.htm?id=615670154582'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68047687, 'sku_id': 143929490, 'ext_url': 'https://item.taobao.com/item.htm?id=651583729514'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68045664, 'sku_id': 143956319, 'ext_url': 'https://item.taobao.com/item.htm?id=651583729514'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68025835, 'sku_id': 143946914, 'ext_url': 'https://item.taobao.com/item.htm?id=618914678607'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': {'code': 1103, 'msg': 'product_price_change,[diff_price:12990]'}}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68031841, 'sku_id': 143925582, 'ext_url': 'https://item.taobao.com/item.htm?id=618914678607'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68057582, 'sku_id': 143935317, 'ext_url': 'https://item.taobao.com/item.htm?id=617075527557'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68033757, 'sku_id': 143956364, 'ext_url': 'https://item.taobao.com/item.htm?id=615811993308'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68031912, 'sku_id': 143923584, 'ext_url': 'https://item.taobao.com/item.htm?id=615913554858'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68061597, 'sku_id': 143954346, 'ext_url': 'https://item.taobao.com/item.htm?id=615911914538'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68023994, 'sku_id': 143948684, 'ext_url': 'https://item.taobao.com/item.htm?id=615910810977'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68064153, 'sku_id': 143943012, 'ext_url': 'https://item.taobao.com/item.htm?id=619300880358'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68027990, 'sku_id': 143952588, 'ext_url': 'https://item.taobao.com/item.htm?id=615367012560'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68051811, 'sku_id': 143968092, 'ext_url': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1100, 'msg': 'ext_url地址中缺失淘宝商品id', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68051832, 'sku_id': 143935422, 'ext_url': 'https://item.taobao.com/item.htm?id=616162111591'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68068157, 'sku_id': 143931556, 'ext_url': 'https://item.taobao.com/item.htm?id=618930238538'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68074100, 'sku_id': 143958258, 'ext_url': 'https://item.taobao.com/item.htm?id=643227669170'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68057837, 'sku_id': 143956478, 'ext_url': 'https://item.taobao.com/item.htm?id=655229903738'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68043972, 'sku_id': 143923712, 'ext_url': 'https://item.taobao.com/item.htm?id=656648027936'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': True, 'code': 200, 'msg': '正常', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68051929, 'sku_id': 143941326, 'ext_url': 'https://item.taobao.com/item.htm?id=628363528239'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68064745, 'sku_id': 143948807, 'ext_url': 'https://item.taobao.com/item.htm?id=628363528239'}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1101, 'msg': 'ext_url地址中缺失淘宝商品skuid', 'data': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 23-INFO-{'product_id': 68070696, 'sku_id': 143939403, 'ext_url': None}
+2022-02-23 16:15-启动获取商品价格任务测试.py-[line]: 26-INFO-{'result': False, 'code': 1100, 'msg': 'ext_url地址中缺失淘宝商品id', 'data': None}
