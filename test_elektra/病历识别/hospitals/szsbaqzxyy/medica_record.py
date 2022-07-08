@@ -1,5 +1,5 @@
-from app.util.hospitals.modal import MedicalRecord
-from app.util.hospitals.parse_base import DefaultMedicaRecordParse
+from modal import MedicalRecord
+from parse_base import DefaultMedicaRecordParse
 
 
 class SzsbaqzxyyMedicaRecord(MedicalRecord):

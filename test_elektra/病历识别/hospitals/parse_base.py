@@ -382,10 +382,10 @@ def get_hospital_schedular_class_name(log, recogn_result, ocr_hostpital_name=Non
         hostpital_class_name = hospital_map.get(hostpital_name, None)  # 先找到相应的医院解析类名。
 
         # 中文未匹配成功进行英文匹配
-        # if not hostpital_class_name and not ocr_hostpital_name:
-        #     search_method = "ParseBase.parse_hospital_english_name"
-        #     hostpital_name = base_parse.parse_hospital_english_name(recogn_result=recogn_result)
-        #     hostpital_class_name = hospital_map.get(hostpital_name, None)  # 先找到相应的医院解析类名。
+        if not hostpital_class_name and not ocr_hostpital_name:
+            search_method = "ParseBase.parse_hospital_english_name"
+            hostpital_name = base_parse.parse_hospital_english_name(recogn_result=recogn_result)
+            hostpital_class_name = hospital_map.get(hostpital_name, None)  # 先找到相应的医院解析类名。
 
         if not hostpital_class_name:  # 如果别名也没有猜到，就用全局名称匹配了。
 

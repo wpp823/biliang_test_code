@@ -2,8 +2,8 @@ import re
 
 import arrow
 
-from app.util.hospitals.modal import MedicalRecord
-from app.util.hospitals.parse_base import ParseBase
+from modal import MedicalRecord
+from parse_base import ParseBase
 
 
 class GzzyydxszyyMedicaRecord(MedicalRecord):

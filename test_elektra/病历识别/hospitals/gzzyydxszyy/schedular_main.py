@@ -1,5 +1,5 @@
-from app.util.hospitals.gzzyydxszyy.medica_record import FirstMedicaRecordParse, SecondMedicaRecordParse, MixMedicalRecordParse
-from app.util.hospitals.parse_base import SchedularBase
+from gzzyydxszyy.medica_record import FirstMedicaRecordParse, SecondMedicaRecordParse, MixMedicalRecordParse
+from parse_base import SchedularBase
 
 
 class GzzyydxszyySchedular(SchedularBase):
