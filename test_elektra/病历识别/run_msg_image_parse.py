@@ -1,14 +1,15 @@
 import requests
 
 from my_log import get_logger
-from 病历识别.image.form_ocr import FormMedicalRecordOcr
+from image.form_ocr import FormMedicalRecordOcr
+from setting import OCR_SERVER, OCR_PATH, OCR_PORT
 
 log = get_logger()
-
-OCR_SERVER = 'ce.puzhizhuhai.com'
-OCR_PORT = "443"
-# OCR_PATH = "/predict/ocr_system"
-OCR_PATH = "/mpadds/predict/ocr_system"
+# DEFAULT_HOSPITAL_NAME = "默认病历医院"
+# OCR_SERVER = 'ce.puzhizhuhai.com'
+# OCR_PORT = "443"
+# # OCR_PATH = "/predict/ocr_system"
+# OCR_PATH = "/mpadds/predict/ocr_system"
 
 
 def run_msg_image_parse(img_url):

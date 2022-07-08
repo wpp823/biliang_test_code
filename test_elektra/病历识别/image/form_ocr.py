@@ -210,6 +210,8 @@ class FormMedicalRecordOcr:
         # hostpital_name = base_parse.parse_hospital_name(recogn_result=recogn_result)
         # hostpital_class_name = hospital_map.get(hostpital_name,DEFAULT_HOSTPITAL_CLASS_NAME)      # 先找到相应的医院解析类名。
         hostpital_class_name = get_hospital_schedular_class_name(log=self._log, recogn_result=recogn_result, ocr_hostpital_name=ocr_hostpital_name)
+
+        # 识别是否
         med_obj = None
         if hostpital_class_name:
 

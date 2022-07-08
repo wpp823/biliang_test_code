@@ -7,6 +7,7 @@ from pydantic.fields import ModelField
 
 from hospital_map import hospital_map, DEFAULT_HOSTPITAL_CLASS_NAME
 from modal import MedicalRecord
+from setting import DEFAULT_HOSPITAL_NAME
 
 
 class ReZoo:
@@ -104,6 +105,7 @@ class ParseBase:
                             med_dict[k] = ocr_result
                         except:
                             self._log.error("[{}.{}][fields:{}]".format(medica_record_class.__name__, func_name, k))
+                break # 结束循环,提升速度
 
         # 修正姓名错误 张三性别男 李四性别:女 @202107151018
         if med_dict.get('name') and med_dict['name'].find("性别") > -1:
@@ -182,6 +184,34 @@ class ParseBase:
         self._log.warning("[parse_simple_failed][template:{}]".format(regex_template))
 
         return None
+
+    def _parse_simple_regex_v2(self, recogn_result, regex_template, group=0, match=True):
+        '''
+        从识别结果中提取正则表达式的匹配中的结果,整个识别组的全部信息
+        :param recogn_result:       [dict]从paddleOCR中返回的值。
+        :param regex_template:      [str]正则表达式
+        :param group:               [int]0代表匹配到全部，>0 代表取指定的组。
+        :param match:               [bool]true,代表使用match函数，false代表使用search函数
+        :return:
+        '''
+        re_obj = re.compile(regex_template)
+        for rec_item in recogn_result:
+            item_text = rec_item["text"]
+
+            match_result = None
+            if match:
+                match_result = re_obj.match(item_text)
+            else:
+                match_result = re_obj.search(item_text)
+            if match_result:
+                result_txt = match_result.group(group)
+                self._log.info(
+                    "[parse_simple_ok][template:{}, result:{}, src:{}]".format(regex_template, result_txt, item_text))
+                return item_text, result_txt
+
+        self._log.warning("[parse_simple_failed][template:{}]".format(regex_template))
+
+        return None, None
 
     def _parse_complex_middle(self, recogn_result, begin_reg_templ, end_reg_templ, include_end: bool = False) -> typing.List[str]:
         '''
@@ -355,6 +385,16 @@ class ParseBase:
     def parse_hospital_english_name(self, recogn_result):
         return self._parse_simple_regex(recogn_result=recogn_result, regex_template=".+HOSPITAL.*")
 
+    def parse_medial_rec_key(self, recogn_result):
+        """
+        获取到识别结果是否包含有病历相关的关键字,结合关键字出现的位置进行综合判断
+
+        :param recogn_result:
+        :return:
+        """
+
+        return self._parse_simple_regex_v2(recogn_result=recogn_result, regex_template=".+HOSPITAL.*")
+
 
 def get_hospital_schedular_class_name(log, recogn_result, ocr_hostpital_name=None) -> str:
     '''
@@ -381,19 +421,16 @@ def get_hospital_schedular_class_name(log, recogn_result, ocr_hostpital_name=Non
         hostpital_name = base_parse.parse_hospital_alisa_name(recogn_result=recogn_result)
         hostpital_class_name = hospital_map.get(hostpital_name, None)  # 先找到相应的医院解析类名。
 
-        # 中文未匹配成功进行英文匹配
-        if not hostpital_class_name and not ocr_hostpital_name:
-            search_method = "ParseBase.parse_hospital_english_name"
-            hostpital_name = base_parse.parse_hospital_english_name(recogn_result=recogn_result)
-            hostpital_class_name = hospital_map.get(hostpital_name, None)  # 先找到相应的医院解析类名。
+        # # 中文未匹配成功进行英文匹配
+        # if not hostpital_class_name and not ocr_hostpital_name:
+        #     search_method = "ParseBase.parse_hospital_english_name"
+        #     hostpital_name = base_parse.parse_hospital_english_name(recogn_result=recogn_result)
+        #     hostpital_class_name = hospital_map.get(hostpital_name, None)  # 先找到相应的医院解析类名。
 
         if not hostpital_class_name:  # 如果别名也没有猜到，就用全局名称匹配了。
-
             search_method = "all_text_search.flashtext"
-
             # 对医院与解析类的映射表进行键值反转。转在flashtext所需要的结构
             temp_hospital_dict = {}
-
             for k, v in hospital_map.items():
                 tmp_hosp_name_list = temp_hospital_dict.get(v, [])
                 tmp_hosp_name_list.append(k)
@@ -403,7 +440,6 @@ def get_hospital_schedular_class_name(log, recogn_result, ocr_hostpital_name=Non
 
             keyword_processor = KeywordProcessor(case_sensitive=False)
             keyword_processor.set_non_word_boundaries([])
-
             keyword_processor.add_keywords_from_dict(temp_hospital_dict)
 
             # 提取对应的关键字所对应的值。
@@ -425,6 +461,16 @@ class DefaultMedicaRecordParse(ParseBase):
     '''
     默认病历解析器
     '''
+
+
+    def parse_hospital_name(self, recogn_result):
+        '''
+        默认模板提供一个医院名称,在判断是否是病历又判断依据
+
+        :param recogn_result:
+        :return:
+        '''
+        return DEFAULT_HOSPITAL_NAME
 
     def get_medica_record_obj(self) -> MedicalRecord:
         '''
