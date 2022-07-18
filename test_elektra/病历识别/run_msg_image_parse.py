@@ -49,5 +49,5 @@ def run_msg_image_parse(img_url):
 
 
 if __name__ == '__main__':
-    target_img_url = "https://allmark.oss-cn-shenzhen.aliyuncs.com/scarlet/limit/deeppupil/2022-07-05/wxid_n51dz3t9zqtg22_3300523927608307280_tF9atAKM.jpg"
+    target_img_url = "https://allmark.oss-cn-shenzhen.aliyuncs.com/scarlet/limit/deeppupil/2022-06-30/wxid_x357z4yvur3722_620537556762954415_NdbnDoNr.jpg"
     run_msg_image_parse(target_img_url)
