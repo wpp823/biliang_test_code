@@ -34,11 +34,11 @@ engine = create_engine(f'mysql+pymysql://{MYSQL_USER_NAME}:{MYSQL_PASSWORD}@{MYS
 def mysql_conn_session(func):
 
     @wraps(func)
-    def wrapper(self, *args, **kwargs):
+    def wrapper(*args, **kwargs):
         conn_pool = sessionmaker(bind=engine)
-        self.conn = conn_pool()
-        response = func(self, *args, **kwargs)
-        self.conn.close()
+        conn = conn_pool()
+        response = func(conn, *args, **kwargs)
+        conn.close()
         return response
 
     return wrapper
