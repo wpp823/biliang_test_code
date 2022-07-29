@@ -21,7 +21,8 @@ def add_order_product_exts_data():
     db_beast = pro_client["beast"]
     table_user_beast = db_beast["users"]
 
-    db_nig = dev_client["nightcrawler"]
+    db_nig = pro_client["nightcrawler"]
+    # db_nig = dev_client["nightcrawler"]
     table_orders = db_nig["orders"]
 
     order_infos = table_orders.find({
@@ -58,12 +59,21 @@ def add_order_product_exts_data():
                     if not user_info:
                         log.error(f"user_error,order_id:{order_id}user_info:{user_info}")
                         continue
-                    user_role = user_info.get("user_role", "")
 
-                    ext_info["beneficiary_role"] = user_role
-                    ext_info["referrer_role"] = user_role
-                    ext_info["referrer_user_id"] = referrer_doctor_id
-                    ext_info["share_id"] = None
+                    user_role = user_info.get("user_role", "")
+                    beneficiary_role = ext_info.get("beneficiary_role")
+
+                    if user_role == "nurse" and beneficiary_role == "nurse":
+                        ext_info["referrer_doctor_id"] = "_sys_superior_"
+                        ext_info["beneficiary_role"] = "_sys_superior_"
+
+                    # else:
+                    #     ext_info["referrer_user_id"] = referrer_doctor_id
+                    #     ext_info["beneficiary_role"] = user_role
+                    #
+                    # ext_info["referrer_role"] = user_role
+                    # ext_info["referrer_user_id"] = referrer_doctor_id
+                    # ext_info["share_id"] = None
 
                     new_products_ext.append(ext_info)
 
@@ -99,11 +109,21 @@ def add_order_product_exts_data():
                         log.error(f"user_error,order_id:{order_id}user_info:{user_info}")
                         continue
                     user_role = user_info.get("user_role", "")
+                    beneficiary_role = real_product_info.get("beneficiary_role")
 
-                    real_product_info["beneficiary_role"] = user_role
-                    real_product_info["referrer_role"] = user_role
-                    real_product_info["referrer_user_id"] = referrer_doctor_id
-                    real_product_info["share_id"] = None
+                    if user_role == "nurse" and beneficiary_role == "nurse":
+                        real_product_info["referrer_doctor_id"] = "_sys_superior_"
+                        real_product_info["beneficiary_role"] = "_sys_superior_"
+
+                    # else:
+                    #     real_product_info["referrer_user_id"] = referrer_doctor_id
+                    #     real_product_info["beneficiary_role"] = user_role
+
+                    # real_product_info["beneficiary_role"] = user_role
+                    # real_product_info["referrer_user_id"] = referrer_doctor_id
+                    #
+                    # real_product_info["referrer_role"] = user_role
+                    # real_product_info["share_id"] = None
 
                     new_real_product_infos.append(real_product_info)
 
