@@ -2,11 +2,11 @@ import imaplib
 import email
 from email.parser import BytesParser
 from email.utils import parseaddr
-auth_code = 'SOBQPXPHHQKCLXSL'
-user_name = 'wpp_work_mail@163.com'
-user_pwd = "Wy836289789"
+auth_code = ''
+user_name = ''
+user_pwd = ""
 
-qq_mail_auth_code = 'rlsvlozatxacbbgj'
+qq_mail_auth_code = ''
 
 qq_user_name = '836289789@qq.com'
 qq_imap_server = "imap.qq.com"

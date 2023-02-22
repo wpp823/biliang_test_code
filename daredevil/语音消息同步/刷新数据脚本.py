@@ -1,11 +1,11 @@
 import pymongo
 
 # 本地
-# MONGO_HOST_PART = "mongodb://root:Pzzh4Admin@192.168.1.230"
+# MONGO_HOST_PART = "mongodb://root:@192.168.1.230"
 # 测试服
-MONGO_HOST_PART = "mongodb://root:Pzzh4Admin@dds-wz9db3743e6de5041152-pub.mongodb.rds.aliyuncs.com:3717"
+MONGO_HOST_PART = "mongodb://root:@dds-wz9db3743e6de5041152-pub.mongodb.rds.aliyuncs.com:3717"
 # 正式服
-# MONGO_HOST_PART = "mongodb://root:pzzh123456@dds-wz982bab2e6c05b41845-pub.mongodb.rds.aliyuncs.com:3717"
+# MONGO_HOST_PART = "mongodb://root:@dds-wz982bab2e6c05b41845-pub.mongodb.rds.aliyuncs.com:3717"
 MONGO_HOST_AUTH_DB = "admin"
 MONGO_HOST_REPLICA_SET = None
 

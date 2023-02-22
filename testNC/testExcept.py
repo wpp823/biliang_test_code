@@ -2,7 +2,7 @@
 # from pzutil.tornado.base_app import get_mongo
 import pandas as pd
 
-# MONGO_HOST_PART = "mongodb://root:pzzh123456@dds-wz982bab2e6c05b41845-pub.mongodb.rds.aliyuncs.com:3717,dds-wz982bab2e6c05b42390-pub.mongodb.rds.aliyuncs.com:3717"
+# MONGO_HOST_PART = "mongodb://root:@dds-wz982bab2e6c05b41845-pub.mongodb.rds.aliyuncs.com:3717,dds-wz982bab2e6c05b42390-pub.mongodb.rds.aliyuncs.com:3717"
 # MONGO_HOST_REPLICA_SET = "mgset-2388361"
 #
 # MONGO_HOST_AUTH_DB = "admin"
@@ -11,7 +11,7 @@ import pandas as pd
 # from utils.logger import get_logger
 import pymongo
 
-MONGO_HOST_PART = "mongodb://root:Pzzh4Admin@192.168.1.230"
+MONGO_HOST_PART = "mongodb://root:@192.168.1.230"
 MONGO_HOST_AUTH_DB = "admin"
 MONGO_HOST_REPLICA_SET = None
 

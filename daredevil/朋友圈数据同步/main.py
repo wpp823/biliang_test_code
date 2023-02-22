@@ -15,7 +15,7 @@ from daredevil.朋友圈数据同步.mongo_db.wx_sns_imgs import WxChatSnsImgDao
 from daredevil.朋友圈数据同步.mongo_db.wx_snses import WxChatSnsDao
 
 MONGO_DB_NAME = 'daredevil'
-MONGO_HOST_PART = "mongodb://root:Pzzh4Admin@192.168.1.230"
+MONGO_HOST_PART = "mongodb://root:@192.168.1.230"
 MONGO_HOST_AUTH_DB = "admin"
 MONGO_HOST_REPLICA_SET = None
 

@@ -231,7 +231,7 @@ def analysis_forward_msg_data(forward_msg_data_item, msg_id):
 
 if __name__ == "__main__":
 
-    MONGO_HOST_PART = "mongodb://root:Pzzh4Admin@192.168.1.230"
+    MONGO_HOST_PART = "mongodb://root@192.168.1.230"
     MONGO_HOST_AUTH_DB = "admin"
     MONGO_HOST_REPLICA_SET = None
     database = 'daredevil'

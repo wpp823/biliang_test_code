@@ -34,8 +34,8 @@ class taobao():
         self.action_chains = ActionChains(self.browser)
 
     def get_product_url(self, url):
-        username = "化羽而蒙"
-        password = "w836289789"
+        username = ""
+        password = ""
         self.browser.get(url)
 
         # self.browser.find_element_by_xpath('//*[@id="J_SiteNavLogin"]/div[1]/div[1]/a[1]').click()

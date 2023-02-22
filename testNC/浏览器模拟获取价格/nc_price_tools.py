@@ -92,7 +92,7 @@ async def login_taobao(page=None):
         # await page.type('#fm-login-id', '化羽而蒙', {'delay': 120})  # 账号
         await page.type('#fm-login-id', '比量1234', {'delay': 120})  # 账号
         await page.type('#fm-login-password', 'pzzh123456', {'delay': 120})  # 密码
-        # await page.type('#fm-login-password', 'w836289789', {'delay': 120})  # 密码
+        # await page.type('#fm-login-password', '', {'delay': 120})  # 密码
         await page.click('#login-form > div.fm-btn > button')
         await asyncio.sleep(random.randint(1, 5))
     except:
@@ -142,9 +142,9 @@ async def mouse_slide(page=None):
 
 
 if __name__ == "__main__":
-    MONGO_HOST_PART = "mongodb://root:Pzzh4Adminin@192.168.1.230"  # 230
-    # MONGO_HOST_PART = "mongodb://root:Pzzh4Admin@dds-wz9db3743e6de5041152-pub.mongodb.rds.aliyuncs.com:3717"  # 测试服
-    # MONGO_HOST_PART  = "mongodb://root:pzzh123456@dds-wz982bab2e6c05b41845-pub.mongodb.rds.aliyuncs.com:3717" # 正式服
+    MONGO_HOST_PART = "mongodb://root:@192.168.1.230"  # 230
+    # MONGO_HOST_PART = "mongodb://root:@dds-wz9db3743e6de5041152-pub.mongodb.rds.aliyuncs.com:3717"  # 测试服
+    # MONGO_HOST_PART  = "mongodb://root:@dds-wz982bab2e6c05b41845-pub.mongodb.rds.aliyuncs.com:3717" # 正式服
     MONGO_HOST_AUTH_DB = "admin"
     MONGO_HOST_REPLICA_SET = None
 
