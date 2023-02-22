@@ -12,20 +12,6 @@ from app.util.shop.order import OrderItem
 
 
 class ShopXoOrder:
-    # MONGO_HOST_PART = "mongodb://root:@192.168.1.230"
-    # #
-    # # MONGO_HOST_PART = "mongodb://root:@dds-wz9db3743e6de5041152-pub.mongodb.rds.aliyuncs.com:3717"  # 测试服
-    # # MONGO_HOST_PART = "mongodb://root:@dds-wz982bab2e6c05b42390-pub.mongodb.rds.aliyuncs.com:3717"  # 正式服
-    #
-    # MONGO_HOST_AUTH_DB = "admin"
-    # MONGO_HOST_REPLICA_SET = None
-    #
-    # MONGO_HOST = MONGO_HOST_PART + "/" + MONGO_HOST_AUTH_DB
-    # MONGO_DB_NAME = 'nightcrawler'
-    #
-    # DEP_NC_SERVER_NAME = 'nightcrawler'
-    # DEP_NC_SERVER_PORT = 18851
-    # DEP_NC_HOSTNAME = None
 
     def __init__(self, log):
         self.log = log

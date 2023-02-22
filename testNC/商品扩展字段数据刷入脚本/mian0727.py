@@ -9,8 +9,8 @@ log = get_logger()
 def add_order_product_exts_data():
     """更新订单商品扩展字段数据"""
 
-    pro_host = "mongodb://root:@blmonogdbv4.mongodb.rds.aliyuncs.com:3717"  # 正式服v4
-    dev_host = "mongodb://root:@192.168.1.233"
+    pro_host = "mon7"  # 正式服v4
+    dev_host = ""
     pro_client = pymongo.MongoClient(host=pro_host, port=3717)
     dev_client = pymongo.MongoClient(host=dev_host, port=27017)
 

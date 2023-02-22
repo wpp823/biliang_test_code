@@ -6,8 +6,8 @@ import my_log
 
 def repair_source_time(log):
     """更新标签对应消息时间"""
-    dev_host = "mongodb://root:@--pub.mongodb.rds.aliyuncs.com"  # 测试服
-    pro_host = "mongodb://root:@blmonogdbv4.mongodb.rds.aliyuncs.com:3717"  # 正式服v4
+    dev_host = ""  # 测试服
+    pro_host = ""  # 正式服v4
     client = pymongo.MongoClient(host=dev_host, port=3717)
     db = client['daredevil']
 

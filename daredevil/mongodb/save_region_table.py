@@ -105,7 +105,7 @@ def conversion_region(region_code):
 
 if __name__ == '__main__':
 
-    MONGO_HOST_PART = "mongodb://root:@192.168.1.230"
+    MONGO_HOST_PART = ""
     MONGO_HOST_AUTH_DB = "admin"
     MONGO_HOST_REPLICA_SET = None
     database = 'daredevil'

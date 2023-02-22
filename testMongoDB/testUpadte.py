@@ -2,7 +2,7 @@ import pymongo
 from pymongo import collection
 from pymongo.collection import Collection
 
-my_client = pymongo.MongoClient("mongodb://localhost:27017/")
+my_client = pymongo.MongoClient("")
 mydb = my_client['mytest']
 ssl = mydb['test']
 print(ssl)

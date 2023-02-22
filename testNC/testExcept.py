@@ -11,7 +11,7 @@ import pandas as pd
 # from utils.logger import get_logger
 import pymongo
 
-MONGO_HOST_PART = "mongodb://root:@192.168.1.230"
+MONGO_HOST_PART = ""
 MONGO_HOST_AUTH_DB = "admin"
 MONGO_HOST_REPLICA_SET = None
 

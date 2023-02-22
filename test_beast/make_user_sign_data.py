@@ -58,7 +58,7 @@ def add_test_coin(user_id: str, coin_type: str, coin: int, from_at: str, now_dat
 
 if __name__ == "__main__":
     MONGO_DB_NAME = 'beast'
-    MONGO_HOST_PART = "mongodb://root:@192.168.1.230"
+    MONGO_HOST_PART = ""
     MONGO_HOST_AUTH_DB = "admin"
     MONGO_HOST_REPLICA_SET = None
 

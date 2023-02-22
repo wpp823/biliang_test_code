@@ -6,7 +6,7 @@ REDIS_DB = 0
 REDIS_PASSWORD = 'Pzzh4Admin'
 SESSION_REDIS_DB = 1    # session存储的redis_db位置。
 
-MONGO_HOST_PART = "mongodb://root:Pzzh4Admin@192.168.1.230"
+MONGO_HOST_PART = ""
 MONGO_HOST_AUTH_DB = "admin"
 MONGO_HOST_REPLICA_SET = None
 
